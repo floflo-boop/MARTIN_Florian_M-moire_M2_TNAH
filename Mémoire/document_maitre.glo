@@ -1,0 +1,885 @@
+\glossaryentry{vandalisme?\glossentry{vand}|setentrycounter[]{page}"\glsnumberformat}{xx}
+\glossaryentry{inaliéniable?\glossentry{ina}|setentrycounter[]{page}"\glsnumberformat}{xx}
+\glossaryentry{inviolable?\glossentry{inv}|setentrycounter[]{page}"\glsnumberformat}{xx}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xx}
+\glossaryentry{UNESCO?\glossentry{UNESCO}|setentrycounter[]{page}"\glsnumberformat}{xxi}
+\glossaryentry{IFLA?\glossentry{IFLA}|setentrycounter[]{page}"\glsnumberformat}{xxi}
+\glossaryentry{CIDOC?\glossentry{CIDOC}|setentrycounter[]{page}"\glsnumberformat}{xxi}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{BNF?\glossentry{BNF}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{BNF?\glossentry{BNF}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{big data?\glossentry{bgdt}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{machine learning?\glossentry{ML}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{xxii}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{HTR?\glossentry{HTR}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{BNF?\glossentry{BNF}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxiii}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{xxiv}
+\glossaryentry{interopérabilité des données?\glossentry{intero}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{collections?\glossentry{col}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{OCR?\glossentry{OCR}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{HTR?\glossentry{HTR}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{collections?\glossentry{col}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{champs?\glossentry{chps}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{token?\glossentry{tk}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{vectorisation?\glossentry{Vecsion}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{part of speech?\glossentry{POS}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{name entity recognition?\glossentry{NER}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{lemmatiser?\glossentry{LEM}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{part of speech?\glossentry{POS}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{name entity recognition?\glossentry{NER}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{lemmatiser?\glossentry{LEM}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{vectorisation?\glossentry{Vecsion}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{vectorisation?\glossentry{Vecsion}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{vectorisation?\glossentry{Vecsion}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{chunking?\glossentry{chck}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{token?\glossentry{tk}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{re-ranking?\glossentry{RR}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{chunking?\glossentry{chck}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{chunking?\glossentry{chck}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{pipeline d'agrégation?\glossentry{pipagreg}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{vectorisation?\glossentry{Vecsion}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{agent SQL?\glossentry{AGSQL}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{agent SQL?\glossentry{AGSQL}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{data definition language?\glossentry{DDL}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{data definition language?\glossentry{DDL}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{data definition language?\glossentry{DDL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{pipeline d'agrégation?\glossentry{pipagreg}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{data definition language?\glossentry{DDL}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{41}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{42}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{43}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{46}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{47}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{thésaurus?\glossentry{thesaurus}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{champs?\glossentry{chps}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{50}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{IFLA?\glossentry{IFLA}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{IFLA?\glossentry{IFLA}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{table?\glossentry{table}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{57}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{table?\glossentry{table}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{grille de recherche?\glossentry{grdr}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{variante?\glossentry{vrt}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{60}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{61}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{61}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{61}
+\glossaryentry{information retrieval system?\glossentry{SRI}|setentrycounter[]{page}"\glsnumberformat}{61}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{61}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{thésaurus?\glossentry{thesaurus}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{thésaurus?\glossentry{thesaurus}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{thésaurus?\glossentry{thesaurus}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{thésaurus?\glossentry{thesaurus}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{65}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{68}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{68}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{68}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{histogramme?\glossentry{hist}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{fine-tuning?\glossentry{ft}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{réseau de neuronnes convultifs?\glossentry{CNN}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{réseau de neuronnes convultifs?\glossentry{CNN}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{auto-attention?\glossentry{autat}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{processeur graphique?\glossentry{GPU}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{zero-shot?\glossentry{zsht}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{OCR?\glossentry{OCR}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{open-source?\glossentry{ops}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{réseau de neuronnes convultifs?\glossentry{CNN}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{séquence?\glossentry{sq}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{token?\glossentry{tk}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{token?\glossentry{tk}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{CLIP?\glossentry{CLIP}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{CLIP?\glossentry{CLIP}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{computer vision?\glossentry{CV}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{open-source?\glossentry{ops}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{processeur graphique?\glossentry{GPU}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{processeur?\glossentry{CPU}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{diarisation?\glossentry{diaz}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{open-source?\glossentry{ops}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{diarisation?\glossentry{diaz}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{réseau de neuronnes convultifs?\glossentry{CNN}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{diarisation?\glossentry{diaz}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{processeur graphique?\glossentry{GPU}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{multimodalité native?\glossentry{mmn}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{open-source?\glossentry{ops}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{processeur graphique?\glossentry{GPU}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{processeur?\glossentry{CPU}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{interopérabilité des données?\glossentry{intero}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{fine-tuning?\glossentry{ft}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{audio large language model?\glossentry{ALM}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{87}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{88}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{88}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{88}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{88}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{88}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{90}
+\glossaryentry{chatbot?\glossentry{chatbot}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{agent IA?\glossentry{AGIA}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{agent conversationnel?\glossentry{ac}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{103}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{104}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{104}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{104}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{104}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{machine learning?\glossentry{ML}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{IFLA?\glossentry{IFLA}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{105}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{106}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{106}
+\glossaryentry{grille de recherche?\glossentry{grdr}|setentrycounter[]{page}"\glsnumberformat}{106}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{transformers?\glossentry{tfmrs}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{deep learning?\glossentry{DPL}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{107}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{multimodalité native?\glossentry{mmn}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{machine learning?\glossentry{ML}|setentrycounter[]{page}"\glsnumberformat}{108}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{109}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{110}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{scène?\glossentry{sc}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{NoSQL?\glossentry{NSQL}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{pipeline d'agrégation?\glossentry{pipagreg}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{large language model?\glossentry{LLM}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{retrieval augmented generation?\glossentry{RAG}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{vecteur?\glossentry{vcs}|setentrycounter[]{page}"\glsnumberformat}{111}
+\glossaryentry{token?\glossentry{tk}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{auto-attention?\glossentry{autat}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{réseau de neuronnes convultifs?\glossentry{CNN}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{NLP?\glossentry{NLP}|setentrycounter[]{page}"\glsnumberformat}{112}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{Fédération Internationale des Archives du Film?\glossentry{FIAF}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{manifestation?\glossentry{man}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{expression?\glossentry{exp}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{item?\glossentry{it}|setentrycounter[]{page}"\glsnumberformat}{113}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{115}
+\glossaryentry{oeuvre?\glossentry{oe}|setentrycounter[]{page}"\glsnumberformat}{115}
+\glossaryentry{text-to-sql?\glossentry{2SQL}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{text-to-nosql?\glossentry{2NSQL}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{intelligence artificielle?\glossentry{IA}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{système de gestion des collections?\glossentry{sgc}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{user experience design?\glossentry{ux}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{user interface design?\glossentry{ui}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{WEMI?\glossentry{WEMI}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{plan?\glossentry{pl}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{image animée?\glossentry{imgani}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{vision language model?\glossentry{VLM}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{modèles multimodaux?\glossentry{mmlts}|setentrycounter[]{page}"\glsnumberformat}{118}
+\glossaryentry{native multimodal modeling?\glossentry{NVM}|setentrycounter[]{page}"\glsnumberformat}{118}

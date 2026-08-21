@@ -1,0 +1,403 @@
+% !TeX root = ../main.tex
+
+Les deux axes d'améliorations, dû au \gls{NLP}, que nous venons de distinguer sont pensé en deux outils distincts. La \guillemet{recherche augmentée} consistant en une recherche assistée par \gls{IA} pour interroger le \gls{SRI} en langage naturel. Et un \guillemet{\gls{chatbot}} afin de converser avec l'utilisateur pour le guider dans l'application et dans son usage. Chaque outils possède sa propre interface bien qu'il s'agisse des mêmes technologies appartenant au \gls{NLP} qui alimentent finalement deux processus de traitements différents. En effet, parler d'outils différents ne revient pas systématiquement à parler de technologies différentes. En effet on parle le plus souvent de processus divergents afin de traiter des données, identiques ou différentes, de manière différenciée.
+
+Les deux outils en question sont aujourd'hui au c\oe{ur} de différents projets académiques et professionnels sur la question de la gestion des données patrimoniales. Ces travaux ne sont pas nombreux et recouvrent des réalités techniques et professionnelles différentes de celles recouvertes par un \terme{SGC}. Étant donné que nous nous sommes basés sur ces études, il convient de connaître ces derniers afin de comprendre les choix effectués dans l'implémentation de ces deux outils dans le logiciel SkinSoft. Ainsi, dans cette partie nous souhaitons établir un état de l'art de chacun des outils cités. Ce sera l'occasion d'analyser la réalité techniques se cachant derrière ces fonctionnalités. Cela amène à une discussion sémantique sur les termes d' \guillemet{Agent IA} et de \guillemet{Chatbot} afin de lever une confusion technique et terminologique autour de ces deux outils. C'est également l'opportunité de discerner les limites et enjeux des technologies et processus cités, ainsi que le décalage subsistant entre l'apport réel de ces derniers et le besoin utilisateur au sein de \terme{SGC}. \newline
+
+\subsection{La \guillemet{recherche augmentée} : }
+
+\subsubsection{La recherche intelligente :}
+
+
+Cet outil découle de différentes réalités techniques se faisant suite. L'origine est la recherche intelligente, un processus mis en place notamment par les grands moteurs de recherche comme Google afin d'offrir des résultats pertinents et de plus en plus sous forme de résumé.\footcite{flamentGoogleSGEAI2025}. Son objectif est double : augmenter l'accessibilité utilisateur aux données grâce à des requête en langage naturel et se baser sur le \gls{NLP} afin d'offrir des résultats plus pertinents et sélectifs notamment par le dépassement des limites traditionnels des \gls{SRI}.\footcite{flamentGoogleSGEAI2025}. Il est important de le comprendre avant d'aborder des processus en dérivants et plus proche de l'outil mise en place.\newline
+
+Le processus repose sur l'utilisation de trois outils d'\gls{IA} : le \gls{LLM}, le \gls{RAG} et les modèles de \gls{NLP} notamment basé sur des architectures à \gls{tfmrs}.
+
+Le \gls{LLM} est un élément important car il est l'intermédiaire entre les données et l'utilisateur. Basé sur du \gls{DPL}, cet outil mobilise les technologies du \gls{NLP} et les combines a une faculté de raisonnement et de calcul. Ainsi il est capable : d'analyser et d'extraire la sémantique d'une phrase mais aussi de formuler ces propres phrases. Dans un processus de recherche intelligente, le \gls{LLM} intervient au moment de la réponse afin de converser avec l'utilisateur. Son fonctionnement est le suivant : lorsqu'il reçoit une requête il en extrait des \gls{tk}, c'est à dire des mots. Il procède à une \gls{Vecsion} : chaque morceau de texte devient une suite de nombres décimaux unique appelé \gls{vcs}. Cela créer une traduction informatique de la requête qui lui est compréhensible. Il applique ensuite les différents outils issus du \gls{NLP} dont il dispose afin d'extraire du sens et des relations depuis ces \gls{vcs}. De cette manière, le \gls{LLM} \guillemet{comprend} la requête utilisateur et peut ensuite lui répondre.\newline
+
+Le \gls{RAG} constitue le c\oe{ur} du processus. C'est un processus d'\gls{IA} employé pour fiabiliser et contextualiser les résultats. Son objectif premier est de limiter un phénomène récurrent avec les \gls{LLM} : les hallucinations. Dû à sa capacité de mémorisation, le modèle peut parfois être tenter de répondre à l'aide de ses propres \guillemet{connaissances}. Cela peu conduire à répondre en mélangeant \guillemet{connaissances} et données ce qui créer des éléments de réponses faussé.
+
+Le \gls{RAG} consiste à connecter un \gls{LLM} à une ou plusieurs bases de données afin de forcer l'utilisation de ces données comme éléments de réponses. On empêche le \gls{LLM} de s'appuyer sur ses propres connaissances en lui donnant des données vérifiées et validées par un opérateur humain. Cela ne l'empêche pas de faire preuve de réflexion : grâce au \gls{NLP} et \gls{DPL}, le modèle sera capable de reformuler et d'approfondir. Mais on vient nourrir ces actions avec des données externes servant de contexte et de connaissance que le \gls{LLM} doit analyser et formuler en réponse.\newline
+
+Les modèles \gls{NLP} basé sur des \gls{tfmrs} sont essentiels. Nous ne reviendrons pas sur les notions vus lors du chapitre 2. Les modèles utilisé sont spécialisé sur des tâches précises du \gls{NLP} tel que le \gls{POS}, \gls{NER} ou encore \gls{LEM} permettant ainsi deux éléments : une compréhension approfondie des requêtes utilisateurs afin de saisir le besoin profonds, et une meilleure compréhension des données stockée dans le \gls{RAG} permettant ainsi de mieux les vectoriser augmentant la qualité et la pertinence des réponses. 
+
+C'est la combinaison de ces deux éléments qui permet de créer la recherche intelligente, soit la capacité d'utiliser un \gls{LLM} pour répondre à des requêtes en langage naturel à l'aide de données certifiées et fiables. On peut distinguer deux temps dans la recherche intelligente. Le premier temps est une tâche de fond : un processus constamment en activité mais jamais visible par l'utilisateur. Nous l'appelons, ici, la phase d'analyse. En voici un schéma :
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+node distance=1.2cm,
+% Définition directe des styles à l'intérieur de l'environnement tikzpicture
+stepbox/.style={
+rectangle,
+draw=blue!80!black,
+fill=blue!5,
+thick,
+rounded corners=4pt,
+minimum width=9.5cm,
+minimum height=1.2cm,
+align=center,
+font=\sffamily
+},
+arrow/.style={
+->,
+>=Stealth,
+very thick,
+draw=blue!80!black
+}
+]
+
+% --- 1. LES SOURCES ---
+\node (sources) [font=\sffamily\small, align=center, text=gray!80!black] 
+{Sources de données\\(Documents PDF, Base de données, ...)};
+
+% --- 2. LES 4 ÉTAPES CLÉS ---
+\node (e1) [stepbox, below=0.8cm of sources] {
+\textbf{1. Connexion à la source de données}\\
+\small Connecte l'outil aux données stockées.
+};
+
+\node (e2) [stepbox, below=of e1] {
+\textbf{2. Analyse sémantique par modèle de \gls{NLP}}\\
+\small \gls{POS}, \gls{NER}, \gls{LEM}, ...
+};
+
+\node (e3) [stepbox, below=of e2] {
+\textbf{3. Indexation unifiée des données}\\
+\small Réunis les données en un index permettant de classer les données enrichies à l'étape 2 \\ \small et de permettre de les organiser dans une architecture propre à ce système.
+};
+
+\node (e4) [stepbox, fill=green!15, draw=green!60!black, below=of e3] {
+\textbf{4. \Gls{Vecsion} des données indexées}\\
+\small Les données sont représentées par des \gls{vcs}, c'est à dire\\ des suite de nombres calculées en fonction, ici, du sens du mot. \\ Ce sont avec ces vecteurs que l'on va interragir.
+};
+
+% --- 3. FLÈCHES DE LIAISON ---
+\draw [arrow] (sources) -- (e1);
+\draw [arrow] (e1) -- (e2);
+\draw [arrow] (e2) -- (e3);
+\draw [arrow] (e3) -- (e4);
+
+\end{tikzpicture}
+\caption{Phase d'analyse de la recherche intelligente.}
+\end{figure}
+
+\newpage
+
+Ce que l'on voit ici est principalement le mécanisme du \gls{RAG}. Une fois connectées à une, ou plusieurs, source de données il y a une analyse des données grâce aux modèles \gls{NLP} traitant la donnée dans des processus successif.  De cette manière, on donne du sens aux mots et c'est ce sens sémantique qui créer le \gls{vcs}. Ces données dites enrichies, car analysées, sont ensuite réunis dans un index : comme un \gls{SRI}\footnote{voir \pageref{Keyword}} le \gls{RAG} dispose de sa propre architecture de données. C'est sur les données de l'index que la \gls{Vecsion} s'applique, créant des  \gls{vcs} qui sont plus léger, plus facile à interroger et plus fiable que l'index des données.
+
+Ainsi, on obtient un double avantage par rapport à une recherche par mots-clés traditionnels :  une compréhension sémantique d'un référentiel de données, créant le contexte, et une rapidité dans l'interrogation des données. En théorie, nous gagnons en précisions des résultats ainsi qu'en rapidité d'exécution. \newline
+
+L'envoie d'une requête utilisateur formulée en langage naturel déclenche une nouvelle phase de traitement : la phase de requêtage. En s'appuyant sur le travail effectué en amont, le processus suis les étapes suivantes : 
+
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+node distance=1cm,
+% Style des blocs standards
+box/.style={
+rectangle,
+draw=blue!80!black,
+fill=blue!5,
+thick,
+rounded corners=3pt,
+minimum width=8.5cm,
+minimum height=1.1cm,
+align=center,
+font=\sffamily\small
+},
+% Style des flèches
+arrow/.style={
+->,
+>=Stealth,
+very thick,
+draw=blue!80!black
+}
+]
+
+% --- LES ÉTAPES DU FLUX ACTIF ---
+
+\node (e1) [box] {
+\textbf{1. Réception de la requête}\\
+\small Saisie de la question en langage naturel
+};
+
+\node (e2) [box, below=of e1] {
+\textbf{2. Analyse par NLP}\\
+\small Nettoyage et extraction du sens de la demande
+};
+
+\node (e3) [box, below=of e2] {
+\textbf{3. Vectorisation en direct}\\
+\small Transformation de la demande en vecteur d'embeddings
+};
+
+\node (e4) [box, fill=purple!10, draw=purple!80!black, below=of e3] {
+\textbf{4. Comparaison sémantique}\\
+\small Mise en correspondance du vecteur avec les données déjà stockées
+};
+
+\node (e5) [box, fill=green!15, draw=green!60!black, below=of e4] {
+\textbf{5. Restitution des résultats}\\
+\small Tri et affichage des réponses les plus pertinentes
+};
+
+% --- FLÈCHES DE LIAISON ---
+\draw [arrow] (e1) -- (e2);
+\draw [arrow] (e2) -- (e3);
+\draw [arrow] (e3) -- (e4);
+\draw [arrow] (e4) -- (e5);
+
+\end{tikzpicture}
+\caption{Phase dite \guillemet{active} de la recherche intelligente.}
+\end{figure}
+
+\newpage
+
+La phase \guillemet{active} de ce processus commence donc dès l'envoie par l'utilisateur d'une requête en langage naturel. Le processus est relativement peu différent de celui appliqué à la phase d'analyse : le logiciel cherche d'abord à comprendre sémantiquement la requête à l'aide de modèles de \gls{NLP} avant d'opérer une \gls{Vecsion} des données composant la requête.
+
+Ce sont les \gls{vcs} qui sont ensuite comparés : des vecteurs proches signifient des correspondances sémantiques. On sort des liens définis entre des mots-clés basé sur la ressemblance exact de chaînes de caractères. Ici on vient chercher le sens profonds de la donnée : l'idée qu'elle représente et exprime. C'est tout l'objectif du processus : créer la capacité à aller saisir les idées représentées par les mots plus que les mots en eux mêmes afin de répondre à une volonté, une question, plus qu'à des mots.
+
+Voici un schéma représentant le fonctionnement final d'un processus de recherche intelligente : 
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+node distance=0.9cm and 1.2cm,
+% Définition des blocs et des flèches utilisées dans le schéma
+box/.style={
+rectangle,
+draw=blue!80!black,
+fill=blue!5,
+thick,
+rounded corners=3pt,
+minimum width=6.5cm,
+minimum height=1cm,
+align=center,
+font=\sffamily\small
+},
+passivebox/.style={
+rectangle,
+draw=orange!80!black,
+fill=orange!5,
+thick,
+rounded corners=3pt,
+minimum width=4.5cm,
+minimum height=1cm,
+align=center,
+font=\sffamily\small
+},
+database/.style={
+cylinder,
+cylinder uses custom fill,
+cylinder end fill=blue!20,
+cylinder body fill=blue!10,
+draw=blue!80!black,
+thick,
+aspect=0.25,
+minimum width=3cm,
+minimum height=1.2cm,
+align=center,
+font=\sffamily\small\bfseries
+},
+arrow/.style={
+->,
+>=Stealth,
+very thick,
+draw=blue!80!black
+},
+passivearrow/.style={
+->,
+>=Stealth,
+very thick,
+draw=orange!80!black,
+dashed
+}
+]
+
+
+% Phase d'analyse, située sur la gauche
+
+\node (docs) [passivebox] {Données stockées\\(Documents PDF, Bases de données, ...)};
+\node (doc_vec) [passivebox, below=of docs] {Traitement NLP pour extraction du sens \\ \& Vectorisation des données};
+\node (index) [database, below=1.2cm of doc_vec] {Index Vectoriel\\des données stockées)};
+
+% Phase de requêtage, située sur la droite
+
+\node (req) [box, right=2.5cm of docs] {1. Réception de la requête\\en langage naturel};
+\node (nlp) [box, below=of req] {2. Analyse par NLP pour extraction du sens};
+\node (vec) [box, below=of nlp] {3. Vectorisation de la requête selon son sens};
+\node (comp) [box, fill=purple!10, draw=purple!80!black, below=of vec] {4. Comparaison des vecteurs\\(Requête vs Documents stockés)};
+\node (res) [box, fill=green!15, draw=green!60!black, below=of comp] {5. Retour des résultats pertinents \\ sur correspondance vectorielle};
+
+% Création des flèches entre les blocs et phases
+
+\draw [passivearrow] (docs) -- (doc_vec);
+\draw [passivearrow] (doc_vec) -- (index);
+
+\draw [arrow] (req) -- (nlp);
+\draw [arrow] (nlp) -- (vec);
+\draw [arrow] (vec) -- (comp);
+\draw [arrow] (comp) -- (res);
+
+\draw [arrow, draw=purple!80!black] (index) -- (comp) 
+node[midway, above, font=\sffamily\tiny, text=purple!80!black] {Mise en correspondance};
+
+% Définitions des cadres de regroupement
+\node[draw=orange!80!black, dashed, thick, rounded corners, fit=(docs) (doc_vec) (index), 
+inner sep=8pt, label=above:{\sffamily\bfseries\color{orange!80!black}Phase d'analyse}] {};
+
+\node[draw=blue!80!black, thick, rounded corners, fit=(req) (nlp) (vec) (comp) (res), 
+inner sep=8pt, label=above:{\sffamily\bfseries\color{blue!80!black}Phase de requêtage}] {};
+
+\end{tikzpicture}
+\caption{Fonctionnement global de la recherche intelligente.}
+\end{figure}
+
+Ce que nous avons décrit ici s'apparente à un processus générique. En effet, cet architecture constitue le c\oe{ur} du processus, mais il est largement optimisable de différentes manières. D'abord avec le \gls{chck}, un processus informatique consistant en un découpage de documents très longs, qui est en informatique une seule chaîne de caractère, en plusieurs morceaux plus petits. Cela permet : une accélération du traitement, la parallélisation de tâches\footnote{Désigne en informatique la capacité à traiter simultanément plusieurs tâches et données parfois dans des processus différents.}, de limiter la perte de précision par des analyses restreintes et réduire la consommation de ressources computationnelles. Ce n'est qu'après qu'on peut extraire des \gls{tk}.\footcite{QuestceQueChunking}
+
+Ensuite le \gls{RR} intervenant en fin de processus. À l'issu du processus classique, les résultats les plus pertinents sont sélectionnés et classé selon un ordre d'importance permettant au \gls{LLM} d'organiser sa réponse en priorisant certaines données. Cependant, le \gls{RAG} rencontre des lacunes sur cette partie. Ainsi, cet outil consiste à évaluer la pertinence des résultats, les valider et reclasser. Pour cela il effectue sa propre recherche dans les données propres et les compares aux données de la requête utilisateurs. Au regard des résultats obtenus, il analyse le classement des résultats d'origine et le réorganise selon ses propres résultats créant un nouveau ordre d'importance.\footcite{ultralyticsQuestCeQuun2026}\newline
+
+Cependant, ce processus de recherche intelligente présente des limites importantes mettant en doute la véracité scientifique des résultats. L'utilisation d'\gls{IA} entraîne le risque d'hallucination et malgré le \gls{RAG}, ce risque est toujours présents notamment sur des requêtes utilisateurs basée sur des expressions communes, des expressions imagées ou des termes spécifiques à des \guillemet{jargons} professionnels et/ou personnels. Ces modèles vont s'efforcer de trouver du sens afin de satisfaire la requête utilisateur : ainsi ils vont halluciner afin de créer une solution.\footcite{cazzaroQueryingLLMsIf} 
+
+De plus, ce processus ne peux procéder à des calculs d'agrégation de données. En effet, les systèmes de recherche intelligentes ne peuvent calculer les données stockées : chiffres ou lettres ce sont des chaînes de caractères puis des vecteurs et donc on ne peut pas les calculer. Ainsi, on en peut avoir recours à des calculs comme des moyennes, ce qui est essentiels dans certains domaines de recherches. \footcite{cazzaroQueryingLLMsIf} 
+
+Ensuite, la segmentation des documents par \gls{chck} apporte des limites aux recherche complexes. Le \gls{chck} est une pratique courante, cependant morceler les documents revient à multiplier les points d'informations et donc les recherches à mener. Lorsqu'une requête amène à analyse run grand nombre de segments, le \gls{RAG} peu entre dans un état de confusion et générer du bruit. \footcite{cazzaroQueryingLLMsIf} 
+
+De plus, la recherche intelligente n'est pas transparente quant aux modalités de recherche. Si le \gls{RAG} permet de mettre en avant la source utilisée, ils ne permettent pas présenter la manière dont on est arrivé à ce résultat et le \gls{LLM} est tout aussi opaque dans ces processus de réflexion. Ainsi, des doutes peuvent exister : a-t-il confondu des termes ? A-t-il halluciné ? A-t-il mal compris ? A-t-il analysé un document plusieurs fois ? Toutes ces questions restent sans réponse. Finalement, on retombe sur un problème déjà rencontré dans les \gls{SRI}\footnote{Voir page \pageref{opaque}}. 
+
+Finalement, il y a aussi un enjeux de sécurité et de confidentialité des données. En effet, il peut arriver que l'on souhaite ne distribuer que certaines informations à certaines personnes notamment dans des entreprises. L'accès à l'information dépendra de droits d'accès. Ces derniers sont difficiles à gérer sur des \gls{vcs}, notamment car les systèmes le permettant ne sont pas encore totalement sécurisé. En effet, ils connaissent encore un certains nombre de faille trop importante ce qui pose problème dans les structures patrimoniale ou la sécurité de l'information et sa confidentialité sont deux principes clés. \newline
+
+\subsubsection{Les processus \gls{2SQL} et \gls{2NSQL} : }
+
+Cela a conduit la création de solutions similaires mais permettant de mieux répondre aux enjeux scientifiques et de dépasser ces limites. L'objectif globale a été d'adapté le processus de recherche intelligente à des technologies déjà utilisées : le SQL et No-SQL. Cela émerge d'un constat : les limites de la recherche intelligente ne sont pas retrouvées dans l'utilisation des bases de données SQL et No-SQL. D'abord, ces langages n'hallucine pas : si la requête n'est pas comprise ou la données inexistante il n'y a simplement pas de réponse. De plus, ils permettent des calculs mathématiques sur des données stockées en tant que chiffre. Ajoutons que les requêtes complexes, multipliant les sources, ne sont pas sujettes à confusion grâce aux jointures pour le SQL et aux \gls{pipagreg} pour le No-SQL, tout deux permettant le traitement de masses des données. Ces langages fonctionnent par des requêtes compréhensibles par l'humain, stockable et rejouable ce qui apporte une transparence au processus de recherche. Et pour finir, ces langages intègrent nativement des outils de contrôle des droits d'accès assurant la confidentialité des données. Ces processus hybrides visent à conserver l'objectif et le fonctionnement en deux temps de la rechercher intelligente, mais en utilisant le \gls{NLP} pour traduire une requête utilisateur en requêtes SQL ou No-SQL. De cette manière on évite la \gls{Vecsion} et de trop se reposer sur l'interprétation de l'\gls{IA} en plus de rester dans l'utilisation de technologie connues que sont les bases SQL et \gls{NSQL}. C'est ce que l'on appel les processus \gls{2SQL} ou \gls{2NSQL}.
+
+Le \gls{2SQL} est un processus plus \guillemet{ancien} et plus éprouvé dans le monde patrimonial puisque déjà appliqué en partie. Cependant, il y a un manque considérable d'informations sur les projets menés par les institutions conservatrices à propos d'implémentation de tel processus. On trouve bien souvent des approches plus complexes remaniant le processus \gls{2SQL} de différentes manière, ce qui en montre finalement l'adoption de tel processus.\footnote{Nous ne développons pas ces approches divergentes mais les mentionnons par soucis d'exhaustivité. Pour plus d'informations sur ces approches divergentes, consulter \cites{sergeevTalkingDataDesigning}{cazzaroQueryingLLMsIf}} ainsi, nous allons expliquer de manière générale et théorique comment fonctionne un pipeline \gls{2SQL} et son adaptation en processus \gls{2NSQL}.\newline
+
+D'emblée, l'adaptation de la recherche intelligente en un processus hybridé avec le SQL pose 3 difficultés majeures. 
+
+La première difficultés est la compréhension des schémas SQL et du contexte métier. En effet, les bases SQL ont une structure souple afin de correspondre aux besoins de représentations de la données des institutions. Ces schémas inclus donc des besoins des biais de recherches et d'exploitations définis selon une stratégie institutionnelle et les \guillemet{besoins métiers}\footnote{On parle de \guillemet{besoin métier} pour exprimer les besoins inhérent à un domaine professionnel et propre à ce domaine. Il correspond souvent à la réalité des pratiques employées par les professionnels.}. On attend de l'\gls{IA} qu'elle puisse comprendre un univers métier institutionnel afin de pouvoir requêter correctement. On déplace le curseur : la compréhension des données stockées est un intérêt secondaire et la compréhension de l'univers professionnel prime.\footcite{CommentObtenirCode}
+
+La seconde difficultés est la compréhension du besoin utilisateur. Dans un processus de recherche intelligente, l'erreur courant est la mauvaise compréhension de la requête utilisateur. La souplesse du processus permet de changer le processus de réflexion du \gls{LLM} par la conversation. Cependant, dans un processus de \gls{2SQL} pour changer cette réflexion cela demande de connaître la structuration de la base de données afin de reformuler efficacement et guider plus facilement le modèle. Cette compétence technique est cependant rare dans les institutions conservatrices ce qui amène le besoin de limiter les incompréhensions du besoin utilisateur et les interactions entre l'utilisateur et la base SQL.\footcite{CommentObtenirCode}
+
+Enfin, la notion de \guillemet{[..] dialecte SQL [...]}\footcite{CommentObtenirCode}. Tout les systèmes de gestions des bases de données n'emploient pas exactement le même langage, et la plus parts des \glspl{LLM} ont souvent du mal à s'adapter aux différences. Ainsi, sur certains système de gestion de base de données, la génération de requête complexes risque de s'en trouver complexifiée et réactivant le risque d'hallucination.\footcite{CommentObtenirCode}\newline 
+
+Deux approches permettent de combler cet écart : les \textit{frameworks} spécialisé comme VANNA AI et les \gls{AGSQL} comme LangChain\footcite{TexttoSQLInterrogerVos2026}. La première approche consiste à créer un processus de \gls{RAG} avec le schéma SQL, des exemples de requêtes et de la documentation professionnelle. Ceci permet à n'importe quel \gls{LLM} de s'entraîner sur ces données afin de comprendre les besoins, enjeux et possibilités de requêtage. C'est un processus qui atteint vite ses limites car manquant de souplesse et de scalabilité : chaque changement d'architecture de la base amène un réentrainement du modèle et la documentation doit être tenue à jour. La seconde approche consiste en la spécialisation d'un ou plusieurs \gls{LLM} pour la compréhension et la génération de requête SQL. Ces modèles spécialisés sont dès lors capable de traiter des bases plus complexes grâce à leurs compréhensions native du SQL. C'est cependant un outil plus complexe à mettre en place et énergivore demandant plus de compétences techniques. \newline
+
+Qu'il soit basé sur un \gls{AGSQL} ou un \textit{framework}, un processus \gls{2SQL} ressemble à ceci :
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./Schema/Text-to-SQL.png}
+\caption{Schéma d'un pipeline \gls{2SQL}. Source : \cite{CommentObtenirCode}}
+\label{fig:text-to-sql-schema}
+\end{figure}
+
+Nous en distinguons deux temps : le premier est consacré à la compréhension des besoins utilisateurs exprimés dans la requête initiale. Pour cela, on accorde la capacité au \gls{LLM} de relancer l'utilisateur à l'aide de question afin d'amener l'utilisateurs à approfondir et clarifier son besoin. Cette première phase est facilité par la capacité de compréhension de l'univers et des vocabulaires métiers, possible grâce aux deux outils présenté plus haut. C'est essentiel afin de mieux comprendre et répondre aux requêtes. 
+
+Le second temps est consacré à la génération de la requête SQL. Pour cela, le \gls{LLM} agit en traducteur et suit plusieurs étapes. D'abord il reformule la requête utilisateur afin de la rendre plus compréhensible afin d'augmenter la précision de la requête SQL générée en fin de processus. Cela donne naissance à un nouveau prompt généré par \gls{LLM} dans le seul but de générer du SQL. Ce prompt entre dans une boucle de traitement : il est examiné, puis refusé et reformulé ou bien validé. La validation entraîne la génération d'une requête SQL à partir du prompt et son envoie à un \guillemet{parseur SQL}, un logiciel de vérification syntaxique des requêtes SQL, pour une dernière vérification et validation. Cette requête est ensuite directement adressée à la base SQL en question. Dans le cas où l'institution possède plusieurs bases de données, le \gls{2SQL} peut s'y adapter soit par l'intégration d'un moteur de recherche fédéré permettant de décliner la requête selon l'architecture propre à chaque base, comme DuckDB, soit en laissant l'\gls{IA} déterminer quelle base de données est la plus pertinente afin de répondre à la requête.\newline
+
+Peu importe ces variations, le \gls{2SQL} est un processus fréquemment utilisé et sa large adoption s'explique par sa capacité à s'adapter à toutes les bases de données existantes. Puisque le \gls{LLM}, entraîné sur du SQL, ingère directement la \gls{DDL} il peut ainsi se familiariser avec toutes les bases de données. De plus, ce processus assure des résultats fiables dès sa mise en place car il ne repose pas sur des \guillemet{connaissances} du \gls{LLM} mais bien sur des métas-données saisies par l'institution conservatrice ce qui assure une plus grande véracité.\newline
+
+Il y a cependant quelques limites : d'abord, la dépendance à la \gls{DDL} de la base de données et à la documentation métier. Si le schéma de la base, les pratiques et ou besoins métiers évoluent si la documentation n'est pas mise à jour alors le processus peu rencontré des situations d'échecs. Cela demande donc de surveiller et mettre à jour fréquemment cette documentation techniques demandant des compétences particulières. Le manque de compétences techniques, ou l'absence de personnel ayant à charge le maintient de ce socle, entraînent l'échec du processus. 
+
+Ensuite, son manque de scalabilité. En effet, une bases de données est rarement figées. Régulièrement, de nouveaux besoins émergent, ou gagnent en importance, ce qui peut demander d'adapter la base de données. Plus la base se complexifie, plus les requêtes vont elles aussi se complexifier. En fonction du \gls{LLM} choisi et des technologies sur lequel repose le pipeline la génération de requête complexes, comme des requêtes imbriquées, représente une difficulté plus ou moins importante. En réalité, même des \gls{LLM} puissants s'en retrouvent limitées. Cela peut alors conduire à des hallucinations de requête : soit les requêtes ne retournent pas les bonnes données, soit la syntaxe de la requête est en partie hallucinée et donc non valide. Cela fini par créer une boucle dans le processus : le parseur SQL refuse de valider la requête SQL et le \gls{LLM} continu cependant d'halluciner. \newline
+
+Un processus \gls{2NSQL} n'est pas très différent. En réalité, il repose sur l'exact même architecture \footnote{voir schéma du pipeline \gls{2SQL} page \pageref{fig:text-to-sql-schema}} et ne diverge que dans les implications techniques et les limites. 
+
+D'abord, au niveau du processus en lui même on distingue deux variations importantes. La première survient lors de la récupération de la documentation offrant le contexte de réponse. Une base \gls{NSQL} ne connaît pas de schéma fixe : chaque objets contenus, notamment dans les bases orientées documents, est définis selon son propre schéma créant une très grande variétés de données. Sans structure globale fixée par une \gls{DDL}, le processus passe par une étape d'échantillonnage : le \gls{LLM} parcours un nombre déterminés d'objets afin de cerner la variété des schémas stockés. Cette variation constitue une limite : sans la constance du schéma SQL on perd en fiabilité et en taux de réussite car à partir d'un échantillon, un \gls{LLM} ne peu pas se parer à toute éventualité augmentant le risque de se retrouver en situation d'échec ou pouvant pousser à l'hallucination.
+
+La seconde variation intervient sur ce que le \gls{LLM} génère. Le fonctionnement reste le même mais en \gls{NSQL} orienté documents on génère un pipeline d'agrégation. C'est un outil faisant passer chaque objet à travers des étapes de traitement successives, chaque résultats d'un traitement devient l'entrée du traitement suivant. C'est un changement de paradigme : en SQL on récupère les données brutes quand en \gls{NSQL} on récupère les bons objets afin d'en extraire les bonnes données via les bons traitements. Cela ajoute donc de nouvelles couches de complexité puisque cette fois il ne s'agit de comprendre chaque objet afin d'en établir la pertinence. En somme, la sélection du document pertinents à partir d'une \guillemet{connaissance} par échantillonnage peut sembler hasardeuse.
+
+La dernière variation intervient sur la validation de la requête et son exécution. Dans un processus \gls{2NSQL}, il n'y a pas d'analyse syntaxique car le \gls{pipagreg} est plus souple, plus dense et donc plus complexe à examiner et valider. La solution qui a été apportée est l'exécution du pipeline d'agrégation dans un environnement isolé dit de test. Si le pipeline semble fonctionner, alors il est exécuté sur les données. Cependant, ces pipelines sont complexes à générer : ils sont très verbeux, utilise des syntaxes complexes et les \gls{LLM} sont encore peu habitué à ce fonctionnement.\newline
+
+Ce qui caractérise également les limites du processus \gls{2NSQL} sont celles propres aux typologies des bases \gls{NSQL}. En effet, les bases \gls{NSQL} sont de typologies variée : orientées documents, orientées graphes ou bien colonne. Chaque typologie à sa propre manière de stocker les données et de les interroger. Ainsi, un processus \gls{2NSQL} créé pour une base de données \gls{NSQL} ne pourra pas s'appliquer à une base d'une autre typologie, et parfois même à un autre système de gestion de base appartenant pourtant à la même typologie. Il y a donc une problématique d'interropérabilité du processus, le rendant spécifique à chaque base et besoins. Ainsi, si un processus \gls{2SQL} peut interroger plusieurs bases de données différentes ce n'est pas le cas d'un processus \gls{2NSQL} à cause de ces variations logiques, syntaxiques et architecturales. \newline
+
+Avant de conclure cette exploration des différents processus aujourd'hui existant pour améliorer la recherche sur des données, voici un tableau récapitulatif. Chaque processus est décrit sur 3 niveaux : son principe de fonctionnement, ses apports et limites. De cette manière, il est plus évident de comprendre les différences entre chaque processus.
+
+\vspace{0.5cm}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{>{\bfseries}l X X X}
+\toprule
+Processus & Principe de fonctionnement & Apport & Limites \\
+\midrule
+Recherche intelligente & Indexation vectorielle du langage naturel et des données contenues dans une base & Recherche sémantique et contextualisée via des \gls{vcs} & Hallucinations, opacité, absence de calculs et risques de sécurité \\
+\addlinespace[1cm]
+Text-to-SQL & Traduction d'une requête en langage naturel en code SQL & Fiabilité des résultats retournés, prises en compte des données structurées et gestion des droits & Dépendance à la \gls{DDL}, requêtes imbriquées complexes et sclabilité complexe \\
+\addlinespace[1cm]
+Text-to-NoSQL & Traduction de requêtes en langage naturel en pipeline d'agrégation & Souplesse face aux structures JSON/Documents évolutives, haute scalabilité & Fonctionne sur échantillonnage, absence de schéma fixe et manque d'interopérabilité \\
+\bottomrule
+\end{tabularx}
+\caption{Comparaison des architectures des systèmes de recherche cités.}
+\label{tab:pipelines_recherche}
+\end{table} \newpage
+
+Cette exploration de la recherche intelligente, du \gls{2SQL} et \gls{2NSQL} nous a amené à voir comment répondre aux enjeux d'interrogation des données patrimoniales, massives et hétérogènes. Les processus \gls{2SQL} et \gls{2NSQL} permettent de faciliter l'interrogation des bases de données et d'optimiser les réponses obtenues. Résolvant ainsi les problèmes posés par les \gls{SRI} tradtionnels ainsi que les enjeux d'accessibilités aux données. 
+
+Le \gls{RAG},représente la clés de voute de ces ambitions. Sa capacité à contextualiser des données et requêtes grâce à la construction d'une base de connaissance contrôlée représente un atout. Cependant, sa capacité à halluciner de l'\gls{IA} et l'opacité du processus ont tout de suite créé un décalage avec la rigueur scientifique exigée par ce milieu professionnel. Par un changement de paradigme, de la recherche intelligente sont nés deux autres processus : le \gls{2SQL} et le \gls{2NSQL} permettant de satisfaire les exigences exprimées.
+
+Cependant, placer ces processus au sein de \terme{SGC} pose un certains nombre de difficultés. Tout d'abord, ces technologies sont dépendantes d'un socle de connaissance métier propre à l'institution. Le logiciel SkinSoft s'adressant à une pluralité de profil métier et de typologie de collection y rencontre une limite. En effet, chaque institution a ses propres besoins, pratiques et enjeux métier et la \guillemet{recherche augmentée} doit pouvoir y répondre.
+
+De plus, les processus décrit ne prennent pas en compte l'usage d'un \gls{SRI}. Ils souhaitent s'y substitue mais cependant, la plus part de ces logiciels reposent sur cet outil fondamental pour leur système de recherche. Ainsi, \gls{SRI} et les principes des processus examinés sont mélangés dans une approche hybride associant les \gls{SRI} aux approches méthodiques des processus \gls{2SQL} et \gls{2NSQL} que nous explorerons par la suite. Mais une telle avancée pose la question des coûts financiers et écologiques, du contrôle des données, de leur sécurité, ainsi que de l'expérience utilisateur. 
+
+Cet état de l'art et ouverture que nous venons de faire vont nous permettre d'explorer plus en détails la conception et l'intégration de tel moyens dans le \terme{SGC} SkinSoft par la suite. Mais avant cela, nous allons explorer la question du \guillemet{chatbot} dans le monde patrimonial.
+
+\subsection{Le \guillemet{chatbot} :}
+
+La majorité des recherches en humanités numériques ont portées sur la recherche intelligente et les processus \gls{2SQL} et \gls{2NSQL}. Cependant, il est illusoire de croire que rendre l'accès aux données plus évident et naturel par ces processus résoud toutes les problématiques professionnelles.
+
+L'accessibilité aux données dans un logiciel métier se joue également dans les notions d'\gls{ui} et d'\gls{ux}. Un logiciel métier doit placer l'utilisateur au centre de son application et lui en proposer une utilisation simple et intuitive. Ce n'est pas le cas des \terme{SGC} présentant souvent des interfaces complexes et des parcours utilisateurs nombreux et sinueux. Notons que la production d'un professionnel dépend surtout de sa capacité à utiliser le logiciel et donc de sa clareté d'usage. Ainsi, la \guillemet{recherche augmentée} n'aborde pas cette problématique de front et n'y apporte pas de solutions.\footnote{Voir page \pageref{cognitif}} 
+
+L'accessibilité à l'application impact la qualité de production. Un logiciel à l'\gls{ui} et l'\gls{ux} limpide et pensée pour l'utilisateur favorise sa productivité. Puisque l'utilisateur peut se repérer, il est plus évident pour lui d'indexer les bons éléments aux bons endroits et de la bonne manière. 
+
+Ainsi, dans un environnement de production comme un \terme{SGC}, une \guillemet{recherche augmentée}, peu importe le processus désigné, ne permet pas seul de résoudre les problématiques de productivités et d'accès. Il faut chercher la solution dans un autre outil d'\gls{IA} : le \guillemet{chatbot}\newline
+
+Les récentes évolutions technologiques en matière d'\gls{IA} ont amené des transformations d'usages mais aussi terminologiques. Aujourd'hui, le terme \gls{chatbot} porte un sens confus que nous devons clarifier.
+
+Le premier \gls{chatbot} voit le jour en 1966 : c'est le programme ELIZA \footcite{adamopoulouChatbotsHistoryTechnology2020}. Assez simplement, ce programme interragit avec l'utilisateur en transformant les phrases qui lui sont donné en question. Il s'appuis sur les première technologies de \gls{NLP} qui sont alors basées sur de l'analyse computationnelle du langage naturel.\footnote{voir page \pageref{nlp}} Cette première expérience démontre la capacité à transformer une phrase en langage naturel en \gls{vcs} permettant à l'ordinateur d'interragir indirectement avec le langage naturel. \footcite{adamopoulouChatbotsHistoryTechnology2020}.
+
+L'apparition du mot \gls{chatbot} date de 1994 avec le programme \textit{Julia} de Michael Loren Mauldin. Ce dernier peu générer des phrases en temps réel permettant l'interraction avec l'utilisateur. Il repose sur l'accumulation de règles de réponses prédertiminées à utiliser en fonction d'un contexte. En somme, le programme analyse la phrase, détermine à quel ensemble de règles la phrase se rattache et renvoie les réponses prédertiminées. C'est ce que l'on appelle l'\gls{IA} symbolique. Nous n'avons pas encore de \guillemet{réflexion}, le programme ne reposant pas sur une architecture de neuronnes artificiels. Mais c'est cela que le mot \gls{chatbot} représente à l'origine. 
+
+Très vite, cette technologie a été utilisé afin de diriger l'utilisateur vers les bons endroits dans le site. Cela est possible par une interface simple : une fenêtre flotante avec un endroit où rédiger et envoyer la requête et un endroit où afficher la réponse.\newline
+
+L'arrivée des modèles d'\gls{IA} reposant sur du \gls{DPL} et des neurones artificiels change le paysage du \gls{chatbot}. Il n'est plus nécessaire de spécifier des ensembles de règles : le programme est capable de réfléchir et de s'exprimer par une génération autonome. Chose que les \guillemet{\gls{chatbot}} traditionnels ne pouvaient pas faire. \footcite{adamopoulouChatbotsHistoryTechnology2020}
+
+Ces premiers modèles sont implémentés dans des assistants vocaux comme Siri, de Apple, en 2011. On ne les considérait pas comme des \guillemet{\gls{chatbot}} : ces programmes sont des assitants vocaux, dotée d'une faible capacités d'apprentissage.
+
+Peu à peu, des technologies d'apparences similaires, mais techniquement différentes, ont émergées. Leurs capacité de génération et de compréhension ne faisant que grandir, les \guillemet{\gls{chatbot}} traditionnels ont peu à peu disparu. Cependant, l'assitant vocal et le \gls{chatbot} restaient bien différencié.\newline
+
+L'explosion des \gls{LLM} en 2020 auprès du grand public a brouillé la barrière sémantique. En effet, les modèles comme ChatGPT sont capable de comprendre une requête, de générer des réponses en langage naturel et de mémoriser des conversations entières. Très différents d'un \gls{chatbot} ils en adoptent pourtant la même forme : un espace de rédaction et d'envoie de la requête, un espace d'affichage et de réception de la réponse. C'est ce qu'on appelle les \gls{ac}
+
+Et cela vient briser la barrière sémantique car dans la position d'un utilisateur ce sont les mêmes outils visuellement. Ainsi, le terme \guillemet{\gls{chatbot}} fini par désigner les deux outils.\newline
+
+Très récemment, les \gls{LLM} ont commencé à se développer dans un autre sens : celui des \glspl{AGIA}. Si les \gls{ac} ont pour objectif de simuler une conversation avec un être humain, les \gls{AGIA} visent à accomplir des tâches complexes en autonomie. Un \gls{ac} converse uniquement, quand un \gls{AGIA} exécute des processus à l'aide d'outil. On constate que les \gls{AGIA} prennent la même forme que les \gls{ac} et \gls{chatbot} : une interface de chat permettant d'envoyer une requête et de recevoir une réponse.\newline
+
+Ainsi, de nos jours, dans le langage courant, le terme de \guillemet{\gls{chatbot}} est profondément confus. Il désigne à la fois sa technologie historique, les \gls{ac} et les \gls{AGIA}. Ce sont pourtant trois ensembles technologiques et processus différents.
+
+Au sein de SkinSoft, la discussion autour de l'intégration d'un \gls{chatbot} dans le logiciel a fait ressortir cette évidente confusion. Lorsque l'on élargi le spectre à des projets et logiciels concurrents ayant implémenté un \guillemet{\gls{chatbot}} on se rend compte de la même confusion. 
+
+Ainsi, dans ce présent mémoire lorsque nous parlons de \guillemet{\gls{chatbot}} nous désignons en réalité un \gls{ac}. Cela dans une volonté de s'inscire dans une tendance terminologique actuelle et dominante. Lorsque nous évoquerons l'\gls{AGIA}, nous le ferons sous ce terme là et pareil pour le \gls{chatbot}. \newline
+
+La question de l'intégration d'un \gls{chatbot} dans une \terme{SGC} est assez peu discutée à l'échelle académique. Cela peut s'explique par les risque d'hallucination dû à l'utilisation d'un \gls{LLM}, cependant nous n'avons aucune certitude. Notre attention doit se tourner alors vers les projets professionnels. 
+
+Lorsque l'on regarde d'autres \terme{SGC} comme Axiell\footnote{Pour consulter leurs innovations, voir : \url{https://www.axiell.com/fr/solutions/product/ai-for-museums-and-archives/}}, ou Terentia \footnote{Pour consulter leurs innovations, voir : \url{https://terentia.io/collections-management}} on remarque les éléments suivants. D'abord, les termes de \gls{chatbot}, de \gls{ac} ou de \gls{AGIA} ne sont pas employés. Il est mention \guillemet{d'outils d'\gls{IA}}, sans précisions sur les technologies employées. De plus, les outils cités semblent peu orienté vers l'accessibilité applicative et les questions d'usages. Que ce soit chez Axiell ou Terentia, les \guillemet{outils d'\gls{IA}} ont pour but principaux de produire de la méta-donnée et de faciliter des liens avec des thésaurus externes. En sommes ce sont de nouveaux outils pensé pour simplifier l'utilisation d'aspect très précis des applications citées.
+
+Cependant, la combinaison entre le \gls{RAG} et la capacité conversationnel d'un \gls{chatbot} ouvre d'autres perspectives. Ce système à déjà été appliqué à l'exploration de corpus documentaires, souvents, historiques afin d'accompagner les chercheurs dans leurs explorations. \footcite{tuzaInterrogerMemoireDentreprise2025} Ces tentatives visent à permettre des explorations plus rapides et approfondies de coprus important grâce aux capacités de conversation et de réflexion des \gls{chatbot} limités par un \gls{RAG} aux seuls corpus.
+
+Dès lors, appliquer ce principe à de la documentation métier et d'usage d'une application permet d'envisager un \gls{chatbot} capable d'accompagner l'utilisation applicative. Cette perspective mérite d'être approfondie. \newline
+
+D'abord, cela pose plusieurs questions. La première est le choix de la documentations professionnelle, propre aux collections traitées. Pour exploiter pleinement le \gls{RAG} il faut proposer une documentation limitée et uniforme. Ce n'est pas tout à fait le cas dans l'univers de la gestion des collections. La documentation est massive et prend des formes diverses. Une institutions gérant des fonds très diversifiés peuvent donc rencontrer une première limite. 
+
+La seconde question est le choix de la documentation propre au fonctionnement de l'application. Étant donné la complexité native des \terme{SGC} et du logiciel SkinSoft, cette question semble la plus importante. Il faut pouvoir différencier ce qui relève des fonctionnalités communes et ce qui relèves des fonctionnalités propres aux modules adaptés à chaque typologies.
+
+Ces deux points viennent souligner une limite du \gls{RAG} : sa rigidité. Par définition, ce processus recherche toujours dans la même base de données, dans un même contexte et donc dans des objectifs toujours similaire. L'hétérogénéité des collections représentées, la variétées des institutions utilisant ce logiciel et des pratiques entre en contradiction avec ce principe. 
+
+Alors pourquoi envisager l'élaboration d'un \gls{chatbot} plutôt que d'une \gls{AGIA} peut être plus adaptés à ces problématiques ? Tout d'abord car cette technologie est bien plus quotidienne, moins révolutionnaires, à l'échelle des pratiques, et moins coûteuses. \newline
+
+Sans projets ni études à l'appuis, il est difficile de faire un état de l'art de cette emploie, encore peu répandue, de cette technologie. Cependant, notre rapide examen permet de conclure que cette perspective est encore expérimentale et semble rencontrer bien des soucis de définitions.
+
+Cependant, ses capacités conversationnelles du \gls{chatbot} ainsi que la possibilité de l'intégrer dans des processus plus large permettent d'envisager cette technologie comme une solution quant à l'accessibilité des \terme{SGC}. Loin de remettre en question les notions d'\gls{ui} et d'\gls{ux}, le \gls{chatbot} semble constituer un outil complémentaire utile pour améliorer l'accessibilité de tels outils. 
