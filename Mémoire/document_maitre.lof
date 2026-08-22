@@ -4,16 +4,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma du fonctionnement d'Elasticsearch }}{17}{figure.caption.5}%
-\contentsline {figure}{\numberline {2}{\ignorespaces \xpg@aux {}{french}\ignorespaces Phase d'analyse de la recherche intelligente.}}{28}{figure.caption.6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces \xpg@aux {}{french}\ignorespaces Phase dite \guillemetleft {active} \guillemetright de la recherche intelligente.}}{29}{figure.caption.7}%
-\contentsline {figure}{\numberline {4}{\ignorespaces \xpg@aux {}{french}\ignorespaces Fonctionnement global de la recherche intelligente.}}{30}{figure.caption.8}%
-\contentsline {figure}{\numberline {5}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma d'un pipeline \gls {2SQL}. Source : \blx@tocontentsinit {0}\cite {CommentObtenirCode}}}{34}{figure.caption.9}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma du fonctionnement d'Elasticsearch }}{23}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \xpg@aux {}{french}\ignorespaces Phase d'analyse de la recherche intelligente.}}{34}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \xpg@aux {}{french}\ignorespaces Phase dite \guillemetleft {active} \guillemetright de la recherche intelligente.}}{35}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \xpg@aux {}{french}\ignorespaces Fonctionnement global de la recherche intelligente.}}{36}{figure.caption.8}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma d'un pipeline \gls {2SQL}. Source : \blx@tocontentsinit {0}\cite {CommentObtenirCode}}}{40}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma d'un WEMI fictif d'une \gls {oe}.}}{53}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma de fonctionnement des liens dans un WEMI. Source : \url {https://mediadix.parisnanterre.fr/medias/fichier/catalogage-isbd-unimarc-apports-theorique-maj-2025_1736242651118-pdf}}}{55}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma du modèle WEMI implanté dans la solution S-Movies. Source : \blx@tocontentsinit {0}\cite {fairbairnManuelCatalogageImages}}}{57}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma de fonctionnement de la solution vitrivr. Source : site officiel vitrivr à l'URL \url {https://vitrivr.org/vitrivr.html}.}}{68}{figure.caption.14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma d'un WEMI fictif d'une \gls {oe}.}}{59}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma de fonctionnement des liens dans un WEMI. Source : \url {https://mediadix.parisnanterre.fr/medias/fichier/catalogage-isbd-unimarc-apports-theorique-maj-2025_1736242651118-pdf}}}{61}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma du modèle WEMI implanté dans la solution S-Movies. Source : \blx@tocontentsinit {0}\cite {fairbairnManuelCatalogageImages}}}{63}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \xpg@aux {}{french}\ignorespaces Schéma de fonctionnement de la solution vitrivr. Source : site officiel vitrivr à l'URL \url {https://vitrivr.org/vitrivr.html}.}}{74}{figure.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

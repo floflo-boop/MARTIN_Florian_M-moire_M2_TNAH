@@ -1,18 +1,8 @@
 % !TeX root = ../main.tex
 
-\begin{itemize}
-	\item Je vais reprendre la notion d’UX design ici et à nouveau la travailler sur ce sujet spécifiquement. L’idée étant de se baser sur les questions qui ont été soulevées lors de l’établissement de la spécification de cette fonctionnalité. 
-	% \item Méfiance utilisateurs et implémentation de l'utilisation : comment le gérer ? 
-	% \item  Parcours utilisateurs anciens et nouveaux, quelle position adopter ? Forcer le changement ? Proposer la nouvelle solution comme une alternative ? L’insérer dans les parcours classiques identifier ? 
-	
-	\item \textbf{Plan :}
-	\subitem 1. Je ne redéfinis pas l'UX Design, mais je pars de la conclusion de ma partie 2, chapitre 1, section 3 sur l'UX design appliqué au NLP, et remobilise les mêmes connaissances et sources. J'annonce dès le départ cet axe avec l'orientation vers l'indexation semi-automatisée dans l'application. 
-	\subitem 2. Contrairement au NLP où on propose d'approfondir des manières déjà existantes d'utiliser l'application ou une nouvelle manière d'usage mais sans interférence sur la gestion des collections \textit{("chatbot")}, ici il s'agit de changer complètement la manière de travailler. Pas juste d'usage. Se pose la question de comment utiliser l'UX design pour faciliter le changement dans la manière de travailler en plus de faciliter l'usage de l'outil ? 
-	\subitem 3. Reprise des enjeux vus sur le NLP mais appliqués à cet outil. Comment ne pas trop impacter l'utilisateur négativement tout en créant une réelle valeur ajoutée ? Question du changement de parcours utilisateurs : changement total ou partiel ?. Montrer toutes les difficultés qu'une telle fonctionnalité amène. L'idée est de jongler avec des concepts d'UX design pour montrer les difficultés d'implémentations qu'il risque d'y avoir et ce que ça peut impacter. 
-	
-\end{itemize}
+Nous ne reviendrons pas dans cette partie sur les notions d'\gls{ux} et d'\gls{ui} largement traitée page \pageref{uxui}. Il s'agit ici de reprendre les considérations précédentes et de se questionner sur l'inclusion de l'indexation semi-automatisée dans un \gls{sgc}. 
 
-Nous ne reviendrons pas dans cette partie sur les notions d'\gls{ux} et d'\gls{ui} largement traitée page \pageref{uxui}. Il s'agit ici de reprendre les considérations précédentes et de se questionner sur l'inclusion de l'indexation semi-automatisée dans un \gls{sgc}\newline
+Comme précédemment, il s'agit plus d'une partie menant à des réflexions qu'à des solutions techniques ou des prises de décisions concrètes. Cela s'explique en grande partie par le manque d'informations sur ces domaines.\newline
 
 Nous avons donc mis en exergue la complexité que représente l'intégration du \gls{NLP}, sous deux outils différents, dans l'application. Cela revient à changer presque totalement le rapport de l'utilisateur avec son système de production par l'introduction de technologies envers lesquelles une certaines méfiances existent. Ce changement important ne doit pas provoquer de bouleversement graphiques et d'expérience utilisateur : si à l'échelle technique les changements sont important, l'impact utilisateur se doit d'être contrôlé. 
 
@@ -20,4 +10,27 @@ Finalement, le c\oe{ur} de l'enjeu réside dans l'adoption de ses outils, ou du 
 
 Mais qu'en est-il de l'indexation semi-automatisée ? Les enjeux d'\gls{ux} et d'\gls{ui} sont-ils similaires ? Ont-ils les mêmes réponses ? La réponse est en réalité assez nuancée. 
 
-Si \gls{NLP} change le rapport de l'utilisateur au système, cette proposition amène à changer entièrement une manière de travailler avec le logiciel SkinSoft et, à plus large échelle, au sein des collections d'\glspl{imgani}. On retrouve bien évidemment cette question de l'adoption de l'outil, qui trouve forcément les mêmes réponses.
+Avec l'intégration d'un \gls{chatbot} et d'une recherche augmentée, on amène des changements dans le rapport et l'interraction entre l'utilisateur et le système. Cependant, il n'y a pas de changement drastique dans l'usage de l'application : on offre une nouvelle manière d'explorer et d'interragir sans pour autant effacer ce qui préexiste. Au contraire, ces outils agissent commes des compléments et améliorations afin d'approfondir des parcours préexistant. 
+
+L'approche ici est très différente puisqu'il s'agit de créer quelques choses d'inexistant dans l'expérience et l'interface utilisateur et de manquant. Cette création ne vient pas compléter un parcours, mais viens en remplacer un préexistant autant à l'échelle de l'application qu'à celle des institutions. Ainsi, on bouleverse nécessairement l'expérience utilisateur d'indexation de l'\gls{imgani} et l'interface par la création de nouveaux parcours avec des interfaces dédiées. En somme, on ne parle de changer quelques points plus ou moins généraux dans un système mais bien de changer des pratiques et logiques dans un univers métier. \newline
+
+En effet, les chaîne de traitement d'indexation de l'\gls{imgani} sont bien définie, comme nous l'avons vus, et n'intègre les \gls{sgc} que partiellement. C'est l'endroit où on stocke les données et extraits obtenus par différentes chaîne de traitement basée sur des processus et outils externes.
+
+Si l'indexation semi-automatisée intégrée dans un \gls{sgc} change certains aspects logiciels, devant maintenant pouvoir afficher des propositions et proposer un parcours simple menant à cela, elle vise surtout à mettre fin à ces traitements externes. Ce qui change la réalité métier et les logiques de productions de métas-données. Ainsi, il incombe au logiciel et à la nouvelle fonctionnalité de pouvoir accompagner les utilisateurs dans un changement à si grande échelle. \footcite{baddaTechnologyAcceptanceModel2025} Ceci nous amène à faire face à différentes problématiques, et à présenter différentes logiques en réponse : 
+
+\begin{enumerate}
+	\item On peut par exemple penser à fait de ce processus, un processus optionnel. L'utilisateur ne doit pas changer drastiquement sa manière de faire et produire de la méta-données, il peut choisir une option ou l'autre. Cela signifie qu'il faut inclure la notion de choix dans l'expérience et l'interface. 
+	
+	\item Dans l'univers métiers dépeint, on comprend qu'un tel outil peut donner une sensation de perte de contrôle. En effet, la production de méta-données revient à une \gls{IA} qui va également créer les extraits selon sa propre logique. L'aspect semi-automatisée et optionnel risque de ne pas être suffisant pour rassurer l'utilisateur, notamment dans la capacité de l'outil à respecter les \gls{WEMI} et à produire de la données scientifiques et certaines. Il faut donc intégré un système \guillemet{\textit{human in the loop}}, plaçant l'utilisateur au centre de tout et en position de contrôle. \footcite{amershiGuidelinesHumanAIInteraction2019}
+
+	\item Intégrer une distinction visuelle claire entre les données suggérées par \gls{IA} et les données validées ou saisie par une utilisateur. L'interface doit traduire cette différence afin de donner à l'utilisateur des moyens visuels à des fins de distinctions et de contrôle. De plus, cela peut permettre de réduire la surcharge cognitive\footcite{paasCognitiveLoadTheory2010} en offrant à l'utilisateur un moyen de distinction rapide, sans avoir besoin de réflexion. C'est ce que l'on appel, entre autre, le principe de \textit{explanable artificial intellegence} c'est à dire le fait de pouvoir expliquer et constater les choix et productions effectué par \gls{IA}.\footcite{liaoHumanCenteredExplainableAI2022}
+
+\end{enumerate}
+
+Mais différents éléments relevant des logiques d'implémentations et des questions d'usages semblent devoir trouver des inspirations nouvelles. À l'échelle de l'expérience il faut distinguer deux éléments : le souhait d'implémentation et le confort d'usage. Il existe une tension entre la direction que l'on souhaite prendre, son objectif final et l'envergure du changement que cela amène, et le besoin d'un certains confort de l'utilisateur passant surtout par la confiance accordable à l'outil. 
+
+Par exemple, comment gérer les erreurs d'indexation semi-automatisée ? Par définition, ce processus n'est pas infaillible et c'est pour cela qu'il ne fait que de proposer des éléments d'indexation. Il peut très bien mal segmenter une image, créer des extraits mals identifiés, ou ne pas reconnaître une entité sur l'image et ne pas pouvoir l'indexer. Tout cela peut créer des omissions et des fausses détections qui risquent de mettre à mal le confort utilisateur, n'ayant finalement pas de gain de temps. Si l'utilisateurs doit corriger sans cesse, le gain de temps est finalement minime et l'outil peut désintéresser.
+
+Ou encore comment gérer la surcharge informationnelle ? En effet, indexer une \gls{imgani} c'est prendre le risque de produire d'énormes quantités de données et dès lors de submerger l'utilisateur. De plus, cette quantités de données doit être répartit sur l'ensemble des \gls{WEMI} ce qui pose des problématiques techniques, mais aussi d'usage puisque chaque institutions peut utiliser le \gls{WEMI} de différentes manières. Adopter une position \guillemet{\textit{human in the loop}} risque de surcharger l'utilisateur avec un nombres de décisions à prendre trop important.\footcite{epplerConceptInformationOverload2004}\newline
+
+En somme, comme avec le \gls{chatbot} et la recherche augmentée, le succès de l'implémentation de l'indexation semi-automatisée des \glspl{imgani} réside moins dans la précision technologique de l'outil que dans ses caractéristiques graphiques et d'expérience utilisateur. L'objectif est de réussir à instaurer un climat de confiance suffisant avec l'utilisateur afin de l'amener à changer ces habitudes métiers. L'outils ce doit donc d'être inventif en terme d'\gls{ux} et d'\gls{ui}.

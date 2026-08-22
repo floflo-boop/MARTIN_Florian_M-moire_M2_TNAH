@@ -337,7 +337,6 @@
       \field{title}{Guidelines for {{Human-AI Interaction}}}
       \field{year}{2019}
       \field{dateera}{ce}
-      \true{nocite}
       \field{pages}{13}
       \range{pages}{1}
       \verb{doi}
@@ -2044,6 +2043,52 @@
       \verb /home/florian/Zotero/storage/RCPQUDMD/Edmondson - PHILOSOPHY AND PRINCIPLES.pdf
       \endverb
     \endentry
+    \entry{epplerConceptInformationOverload2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f91e2f921e75c75e567562344b77596a}{%
+           family={Eppler},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=017d00044fcadb4956b2359bb5a7d4b6}{%
+           family={Mengis},
+           familyi={M\bibinitperiod},
+           given={Jeanne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92b425fc59947076cfea49591ca2854b}
+      \strng{fullhash}{92b425fc59947076cfea49591ca2854b}
+      \strng{fullhashraw}{92b425fc59947076cfea49591ca2854b}
+      \strng{bibnamehash}{92b425fc59947076cfea49591ca2854b}
+      \strng{authorbibnamehash}{92b425fc59947076cfea49591ca2854b}
+      \strng{authornamehash}{92b425fc59947076cfea49591ca2854b}
+      \strng{authorfullhash}{92b425fc59947076cfea49591ca2854b}
+      \strng{authorfullhashraw}{92b425fc59947076cfea49591ca2854b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Based on literature from the domains of organization science, marketing, accounting, and management information systems, this review article examines the theoretical basis of the information overload discourse and presents an overview of the main definitions, situations, causes, effects, and countermeasures. It analyzes the contributions from the last 30 years to consolidate the existing research in a conceptual framework and to identify future research directions.}
+      \field{day}{1}
+      \field{journaltitle}{The Information Society}
+      \field{month}{11}
+      \field{shortjournal}{Inf. Soc.}
+      \field{shorttitle}{The {{Concept}} of {{Information Overload}}}
+      \field{title}{The {{Concept}} of {{Information Overload}}: {{A Review}} of {{Literature}} from {{Organization Science}}, {{Accounting}}, {{Marketing}}, {{MIS}}, and {{Related Disciplines}}}
+      \field{volume}{20}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{325\bibrangedash 344}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/01972240490507974
+      \endverb
+      \verb{file}
+      \verb /home/florian/Zotero/storage/CPZE48DL/Eppler and Mengis - 2004 - The Concept of Information Overload A Review of Literature from Organization Science, Accounting, M.pdf
+      \endverb
+    \endentry
     \entry{EuropeanaEnrichesIts}{online}{}{}
       \list{organization}{1}{%
         {Europeana PRO}%
@@ -3120,7 +3165,6 @@
       \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/natural-language-processing
       \endverb
@@ -3347,6 +3391,56 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2308.07464v1
+      \endverb
+    \endentry
+    \entry{IntelligenceArtificielleDefinition2020}{online}{}{}
+      \list{organization}{1}{%
+        {Thèmes | Parlement européen}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{L’intelligence artificielle (IA) est en passe de devenir la « technologie clé de l’avenir ». Mais qu’entend-on exactement par « IA » et comment affecte-t-elle notre quotidien ?}
+      \field{day}{9}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{shorttitle}{Intelligence artificielle}
+      \field{title}{Intelligence artificielle : définition et utilisation}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/CGKLEKAK/intelligence-artificielle-definition-et-utilisation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.europarl.europa.eu/topics/fr/article/20200827STO85804/intelligence-artificielle-definition-et-utilisation
+      \endverb
+      \verb{url}
+      \verb https://www.europarl.europa.eu/topics/fr/article/20200827STO85804/intelligence-artificielle-definition-et-utilisation
+      \endverb
+    \endentry
+    \entry{IntelligenceArtificielleQuoi}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Qu’est-ce qu’une intelligence artificielle~? L’intelligence artificielle n’est pas une technologie à proprement parler mais plutôt un domaine scientifique dans lequel des outils peuvent être classés lorsqu’ils respectent certains critères.}
+      \field{langid}{french}
+      \field{title}{Intelligence artificielle, de quoi parle-t-on ?}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/LW3VJ9L2/intelligence-artificielle-de-quoi-parle-t-on.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cnil.fr/fr/intelligence-artificielle/intelligence-artificielle-de-quoi-parle-t-on
+      \endverb
+      \verb{url}
+      \verb https://www.cnil.fr/fr/intelligence-artificielle/intelligence-artificielle-de-quoi-parle-t-on
       \endverb
     \endentry
     \entry{ISO92411122025}{online}{}{}
@@ -4419,6 +4513,65 @@
       \verb https://inalelab.hypotheses.org/284
       \endverb
     \endentry
+    \entry{liaoHumanCenteredExplainableAI2022}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=49328c4b01cc4fc9689f408d98659792}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Q.\bibnamedelimi Vera},
+           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ee022cf13c12a788da92b67a9780cff}{%
+           family={Varshney},
+           familyi={V\bibinitperiod},
+           given={Kush\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{fullhash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{fullhashraw}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{bibnamehash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{authorbibnamehash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{authornamehash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{authorfullhash}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \strng{authorfullhashraw}{7abb2c1f235fd7ea5dfe267338cd0ed4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In recent years, the field of explainable AI (XAI) has produced a vast collection of algorithms, providing a useful toolbox for researchers and practitioners to build XAI applications. With the rich application opportunities, explainability is believed to have moved beyond a demand by data scientists or researchers to comprehend the models they develop, to an essential requirement for people to trust and adopt AI deployed in numerous domains. However, explainability is an inherently human-centric property and the field is starting to embrace human-centered approaches. Human-computer interaction (HCI) research and user experience (UX) design in this area are becoming increasingly important. In this chapter, we begin with a high-level overview of the technical landscape of XAI algorithms, then selectively survey our own and other recent HCI works that take human-centered approaches to design, evaluate, and provide conceptual and methodological tools for XAI. We ask the question "what are human-centered approaches doing for XAI" and highlight three roles that they play in shaping XAI technologies by helping navigate, assess and expand the XAI toolbox: to drive technical choices by users' explainability needs, to uncover pitfalls of existing XAI methods and inform new methods, and to provide conceptual frameworks for human-compatible XAI.}
+      \field{day}{19}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Human-{{Centered Explainable AI}} ({{XAI}})}
+      \field{title}{Human-{{Centered Explainable AI}} ({{XAI}}): {{From Algorithms}} to {{User Experiences}}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2110.10790
+      \endverb
+      \verb{eprint}
+      \verb 2110.10790
+      \endverb
+      \verb{file}
+      \verb /home/florian/Zotero/storage/4KRAPK25/Liao and Varshney - 2022 - Human-Centered Explainable AI (XAI) From Algorithms to User Experiences.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2110.10790
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2110.10790
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
+    \endentry
     \entry{liuVideoSwinTransformer2021a}{online}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=19aabf2deb737584450693431af51cc3}{%
@@ -5204,7 +5357,6 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/florian/Zotero/storage/RFWNML7B/nlp.html
       \endverb
@@ -5523,7 +5675,6 @@
       \field{year}{2014}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{25\bibrangedash 51}
       \range{pages}{27}
       \verb{doi}
