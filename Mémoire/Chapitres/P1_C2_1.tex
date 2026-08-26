@@ -1,96 +1,124 @@
-% !TeX root = ../main.tex
+% !TeX root = ../document_maitre.tex
 
-De nos jours, dans le domaine de la gestion des objets patrimoniaux et de leurs données nous entendons beaucoup le terme d'\guillemet{\gls{IA}}. En réalité, ce terme nous l'entendons aujourd'hui dans toutes sortes de contextes, dans toutes sortes de sphère professionnelle et avec des définitions souvent très différentes. 
+De nos jours, dans le domaine de la gestion des objets patrimoniaux et de leurs données reviens régulièrement le terme d'\guillemet{\gls{IA}}. En réalité, nous l'entendons aujourd'hui dans toute sortes de contextes et de sphères professionnelles offrant des définitions souvent très différentes. 
 
-Par abus de langage, nous utilisons ce terme générique pour désigner toute sortes de technologies, processus et outils qui s'apparentent de près ou de loin à cette technologie. Cela peut conduire à parler de technologies qui n'entre pas dans ce domaine technique, mais surtout cela amène une confusion technique importante. Ainsi lorsque nous parlons d'appliquer de l'\guillemet{\gls{IA}} à des \gls{sgc}, en réalité nous ne soulevons aucun enjeux et aucune réalité technique précises. 
+Nous utilisons ce terme générique pour désigner toute sortes de technologies, processus et outils qui s'apparentent à cette technologie. Cependant, cela amène une confusion technique et technologique importante.
 
-Avant d'approfondir notre travail, il semble important de consacrer un temps à la définition de l'\gls{IA} et aux réalités techniques que nous désignons lorsque nous parlons de son application aux données patrimoniales. \newline
+Avant d'approfondir notre travail, il semble important de consacrer un temps à la définition de l'\gls{IA}. Mais aussi aux réalités techniques désignées dans le cadre de son application aux données patrimoniales. \newline
 
-L'\gls{IA} est définis selon le Parlement Européen comme : \guillemet{la possibilité pour une machine de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité}.\footcite{IntelligenceArtificielleDefinition2020} La Commission nationale de l'informatique et des libertés, ou CNIL, élargis cette notion à toutes technologie avec des \guillemet{comportements dépassant les capacités humaines, puisque les ordinateurs actuels parviennent aujourd’hui à les surpasser dans certaines tâches}.\footcite{IntelligenceArtificielleQuoi} Rajoutons qu'une autre caractéristique de ce domaine est l'autonomie et la capacité de traitement de masse que ces procédés offrent aux systèmes basé sur ces technologies 
+Le Parlement Européen défini l'\gls{IA} comme : \guillemet{la possibilité pour une machine de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité}.\footcite{IntelligenceArtificielleDefinition2020} La CNIL\footnote{Commission nationales informatiques et des libertés} élargie cette notion à toutes technologie avec des \guillemet{comportements dépassant les capacités humaines, puisque les ordinateurs actuels parviennent aujourd’hui à les surpasser dans certaines tâches}.\footcite{IntelligenceArtificielleQuoi} Rajoutons que l'autonomie et la capacité de traitement de masse sont des caractéristiques de ces technologies. 
 
-Dès lors, on désigne par là un ensemble de technologies et d'outils capable d'effectuer des tâches de manière autonome et sur de grandes quantités de données en imitant des comportant humains. Aujourd'hui, ces outils sont crées et appliqués à une très grande variétés d'univers métier dans des volontés d'accélération de production et d'automatisation de certaines tâches répétitives. Ce domaine de l'informatique et de l'ingénéerie est donc au c\oe{ur} d'enjeux technologiques, financiers mais aussi juridique et éthique puisqu'ils viennent questionner certains principes, comme celui du droit d'auteur. \newline
+Dès lors, on désigne un ensemble de technologies et d'outils capable d'effectuer des tâches relevant de comportements humains sur de grandes quantités de données en autonomie. Ces outils sont crées et appliqués à une très grande variétés d'univers métier. Cela à des fins d'accélération de production et d'automatisation de tâches répétitives.\newline
 
-De nos jours, l'\gls{IA} s'articule autour de quelques notions et domaine clés qu'il convient de présenter. 
+De nos jours, l'\gls{IA} s'articule autour de notions et domaines clés qu'il convient de présenter. 
 
-D'abord les \guillemet{réseaux de neurones artificiels}. Cette technologie est aujourd'hui au c\oe{ur} de tout système basé sur l'\gls{IA}. Il s'agit d'un système informatique organisé en couche, ou réseaux, d'unités de calcul appelés \guillemet{neuronnes} et qui s'inspire d'un cerveau humain et le traduit de manière mathématique et informatique. Ce sont eux qui permettent à ces systèmes de faire preuve d'apprentissage, d'analyses et d'autonomie dans des tâches de traitement de données. Il en existe plusieurs type comme les \gls{CNN} et les \gls{tfmrs}, sur lesquels nous nous attarderons par la suite. 
+D'abord les \guillemet{réseaux de neurones artificiels}. Cette technologie est aujourd'hui au c\oe{ur} de tout système d'\gls{IA}. Il s'agit d'un système informatique inspiré du cerveau humain, organisé en couche, ou réseaux, d'unités de calcul appelés \guillemet{neuronnes}. Ces réseaux permettent de faire preuve d'apprentissage, d'analyse et d'autonomie dans diverses tâches. Il en existe plusieurs type, comme les \gls{CNN} et les \gls{tfmrs}, sur lesquels nous nous attarderons par la suite. 
 
-Ensuite la notion de \gls{ML} et \gls{DPL}. La première notion est désigne un processus d'entraînement d'outils d'\gls{IA} sur une tâche précise : c'est l'ensemble des moyens leurs permettant d'apprendre et de s'entraîner à accomplir des tâches. La seconde notion est un sous domaine du \gls{ML} centré sur l'apprentissage de l'autonomie par la complexification des réseaux de neurones artificiels et des méthodes d'entraînement spécifique. Aujourd'hui, la tension technologiques amène à privilégier le \gls{DPL}. 
+Ensuite la notion de \gls{ML} et \gls{DPL}. La première notion désigne l'ensemble des moyens permettant aux \glspl{IA} d'apprendre et de s'entraîner à accomplir des tâches. La seconde notion est un sous domaine du \gls{ML} centré sur l'apprentissage de l'autonomie. Cela passe par la complexification des réseaux de neurones artificiels et des méthodes d'entraînements spécifiques. Aujourd'hui, la tension technologiques amène à privilégier cette méthode. 
 
-Et enfin de le domaine de l'\gls{IAG}. Désigne tout outil, basé sur des \gls{tfmrs} et du \gls{DPL} le plus souvent, capable de générer automatiquement, souvent à partir d'une description, du texte, des images ou encore du son. Ils constituent des modèles à part entière, qui se différencie des modèles basés sur de l'\gls{IA} dite classique leur conférant la capacité d'analyser des données mais pas d'en générer. 
+Pour finir, l'\gls{IAG}. Outil basé sur des \gls{tfmrs} et du \gls{DPL} afin de générer automatiquement du texte, des images ou encore du son. Ils constituent des modèles à part entière, différent des modèles d'\gls{IA} ne pouvant qu'analyser des données mais pas d'en générer. \newline
 
+Ainsi, le terme \guillemet{\gls{IA}} renvoie à une pluralité d'outils et de réalités techniques. Notons également que le développement constant de ce domaine amène la naissance de tout un langage propre à cet univers. L'utilisation de ce langage n'accorde pas au terme \guillemet{\gls{IA}} de définition fixe : il dépend avant tout du contexte dans lequel nous nous trouvons. 
 
-\subsection{L'\gls{IA} appliquée aux données patrimoniales : réalitées techniques}
+Ainsi, deux personnes issues d'univers métier différents peuvent parler de réalités technologiques complètement différentes en employant le même terme. La gestion des collections n'échappent pas à cette règle : on désigne une réalité techniques précises dans ce contexte. Cela s'articule autour de trois domaines : le \gls{NLP}, la \gls{CV} et le \gls{RAG}.
 
-Sans aller plus loin dans une définition générale, on comprend dès lors que le terme \guillemet{\gls{IA}} renvoie à une pluralité d'outils et de réalités techniques. Ce domaine technologique étant en plein développement, on remarque un phénomène intéressant. En effet, ce développement s'accompagne de la naissance de tout un langage propre à cet univers et qui est constante mutations. Dans ce langage, l'utilisation du terme \guillemet{\gls{IA}} ne connaît pas de définition fixe : il dépend avant tout du contexte dans lequel nous nous trouvons. 
-
-Ainsi, deux personnes issues d'univers métier différents peuvent parler de réalités technologiques complètement différentes en employant le terme : \gls{IA}. Le monde patrimonial, les institutions conservatrice et les professionnels appartenant à cet univers utilisent ce terme en pointant donc des réalités technologiques bien plus précises qu'il nous convient de présenter brièvement. 
-
-Par ce terme, dans le monde de la gestion des objets patrimonial, nous faison alors référence à 3 domaines précis : le \gls{NLP}, la \gls{CV} et le \gls{RAG}.
-
-\subsubsection{Le \gls{NLP} : définition}
+\subsection{Le \gls{NLP} : définition}
 \label{nlp}
 
-Un des premiers domaines de l'\gls{IA} à être développé, le \gls{NLP} consiste à \guillemet{permettre aux machines de comprendre, interpréter, et répondre au langage naturel}.\footcite{NLPQuestCe} Ce domaine réunis trois discipline : la linguistique, la science computationelle et l'\gls{IA}. 
+Ce domaine consiste à \guillemet{permettre aux machines de comprendre, interpréter, et répondre au langage naturel}.\footcite{NLPQuestCe} Cela est pissble par la réunion de trois disciplines : la linguistique, la science computationelle et l'\gls{IA}. 
 
-L'objectif principal de ce domaine est de permettre le dialogue entre l'homme et la machine en se délestant du biais du langage informatique. Par cet objectif, ce domaine est très vite devenu un fondement essentiel de l'\gls{IA}. Couplé aux \gls{DPL} et aux réseaux de neurones basés sur \gls{tfmrs}, qui ont révolutionné le domaine\footcite{devlinBERTPretrainingDeep2019}, il a donné naissance aux \glspl{IAG} et les \gls{LLM} concrétiser aujourd'hui dans des \glspl{ac} comme ChatGPT. \footcite{holdsworthQuestCeQue2024}\newline
+L'objectif principal de ce domaine est de permettre le dialogue entre l'homme et la machine en se délestant du biais du langage informatique. Ce domaine est très vite devenu un fondement de l'\gls{IA}. Couplé au \gls{DPL} et aux réseaux de neurones, notamment à \gls{tfmrs}, qui ont révolutionné le domaine\footcite{devlinBERTPretrainingDeep2019}, il a donné naissance aux \glspl{IAG} et \gls{LLM}.\footcite{holdsworthQuestCeQue2024}\newline
 
-Ce domaine est aujourd'hui particulièrement apprécié dans le domaine de la donnée patrimoniale notamment pour sa capacité d'analyse de la données en autonomie et ce que cela représente. En effet, le \gls{NLP} permet de comprendre le langage naturel, c'est à dire de comprendre le sujet dont il est question dans un texte, d'effectuer des analyses grammaticales mais aussi sémantique en extrayant du sens à partir de données textuelles.\footcite{holdsworthQuestCeQue2024} Cela rend cet outil particulièrement intéressant pour les institutions patrimoniales conservant souvent de grande quantité de documents qui ne demande qu'à être analysé en profondeur.\footcite{poibeauTraitementAutomatiqueLangues2014}
+Dans le domaine de la donnée patrimoniale, le \gls{NLP} offr la possibilité d'analyser les données en autonomie. Par sa compréhension du langage naturel, il permet de saisir le sujet, la grammaire et le sens profonds d'un texte à partir des données contenues.\footcite{holdsworthQuestCeQue2024} Cela représente une nouvelle opportunité d'analyse des vastes corpus documentaire conservés par les institutions patrimoniales.\footcite{poibeauTraitementAutomatiqueLangues2014}
 
-Ils représente aussi la possibilité de créer des correspondances sémantiques entre les documents. C'est à dire que grâce au \gls{NLP}, des systèmes informatiques sont capable de comprendre un texte, de mémoriser son sens grâce à une \gls{Vecsion} \textit{(principe que nous explorons plus tards)} de ce dernier, et de le rapprocher à un autre texte sur la base de correspondances sémantiques.\newline
+Dès lors, il semble possible de créer des correspondances sémantiques entre les documents. En effet, ces systèmes peuvent comprendre un texte, mémoriser son sens grâce à une \gls{Vecsion} \textit{(principe que nous explorons plus tards)}, et de le rapprocher à un autre texte sur la base de correspondances sémantiques.\newline
 
 Ce domaine recouvre un grand nombre d'outils qu'il convient de présenter : 
 
 \begin{enumerate}
 
-	\item Le \gls{NER}. Outil et méthode qui consiste à pouvoir repérer tous les noms propres et leurs associer une catégorie d'entité. Dans un texte, il saura alors reconnaître que \guillemet{Paris} est un lieu et dès lors associé toutes les autres occurences à la même valeur. 
+	\item Le \gls{NER}. Outil qui consiste à repérer tous les noms propres et les associer à une entité. Dans un texte, il saura alors reconnaître que \guillemet{Paris}, et toutes ces occurences, correspond à un lieu.\footcite{QuestCeQueNER}
 	
-	\item La \gls{coref}. Outil et principe qui consiste à pouvoir associer une entité, reconnue à l'aide du \gls{NER}, à des références implicite dans la suite du texte. Par exemple dans \guillemet{Paris, cette ville est magnifique}, il peut dès lors comprendre que \guillemet{cette ville} renvoie à \guillemet{Paris}.
+	\item La \gls{coref}. Outil consitant en l'association d'une entité à des références implicites dans le texte. Par exemple dans \guillemet{Paris, cette ville est magnifique}, il sera compris que \guillemet{cette ville} renvoie à \guillemet{Paris}.\footcite{landraginAnaphoresCoreferencesAnalyse}
 	
-	\item Le \gls{POS}. Il s'agit de pouvoir accorder à chaque mot la bonne valeure grammaticale au sein d'une phrase. De cette manière, on met en exergue sa construction grammaticale et on en comprends le sens. Le \gls{POS} peut aussi s'appliquer à des segments plus large, comme des phrases au sein de texte afin de mieux comprendre la construction de ce dernier. Particulièrement utilisé dans les analyses de discours. 
+	\item Le \gls{POS}. Il s'agit de pouvoir accorder à chaque mot la bonne valeure grammaticale au sein d'une phrase, ou alors au sein d'échelles plus larges. Ainsi, on met en exergue sa construction grammaticale et on en comprends le sens. Particulièrement utilisé dans les analyses de discours. \footcite{kavlakogluQuestceQueRacinisation2025}
 	
-	Ce dernier se décline dans une version plus poussée appelée \guillemet{parsing syntaxique} qui permet de décoder les liens logiques entre les mots en allant au delà de la simple dépendance grammaticales.
+	Ce dernier se décline dans une version plus poussée appelée le \guillemet{parsing syntaxique}. Il permet de décoder les liens logiques entre les mots et pas uniquement grammaticale.
 	
-	\item \Gls{LEM}. C'est un principe linguistique qui consiste à réduire les mots à leurs formes d'origine, la plus simple, que l'on appelle le lemme : un verbe conjuguer sera alors renvoyé à son infinitif par exemple. Cela permet d'analyse la phrase dans un état simple, en enlevant un maximum d'ambiguïté et d'ainsi pouvoir mieux comprendre le sens des mots et des phrases. Combiner à un \gls{POS}, on peut alors distinguer des homonymes et rapprocher des synonymes.
+	\item \Gls{LEM}. Principe linguistique qui consiste à réduire les mots à leurs formes d'origineque l'on appelle le lemme. Par exemple, un verbe conjugué sera renvoyé à son infinitif. Cela permet d'analyser la phrase dans un état simple, retirant un maximum d'ambiguïté permettant de mieux comprendre le sens des mots. Combiner à un \gls{POS}, on peut alors distinguer des homonymes et rapprocher des synonymes.\footcite{kavlakogluQuestceQueRacinisation2025}
 	
-	\item L'\gls{OM}. Cet outil consiste à analyser les phrases par l'examen de différents éléments linguistiques afin d'extraire le sentiment qui y est exprimé. De cette manière, le modèle peut comprendre si on exprime un sentiment négatif ou positif et donc approfondir sa compréhesion du sujet soulevé et traités.
+	\item L'\gls{OM}. Cet outil consiste à extraire un sentiment exprimé au sein d'une phrase par l'analyse de différents éléments linguistiques. Ainsi, le modèle peut comprendre si on exprime un sentiment négatif ou positif ce qui permet d'approfondir sa compréhesion du sujet.\footcite{boullierOpinionMiningSentiment2012}
 
 \end{enumerate}
 
-L'ensemble de ces outils consignés dans un modèles basé sur des réseaux de neurones artificiels et entraînes par \gls{DPL} permet des analyses de documents textuel et sonore en profondeur. Ces modèles sont capable de déterminer le sens des documents. Il existe des modèles de \gls{NLP}, généralement spécialisé sur une des technologies citées, et les \gls{LLM} intégrant, généralement, tout ces outils.
+L'ensemble de ces outils consignés dans un modèle, basé sur des réseaux de neurones artificiels entraînés par \gls{DPL}, permet des analyses de documents textuel et sonore. Ces modèles peuvent alors déterminer le sens des documents.
 
-On parle bien de déterminer ou estimer le sens. En effet, les \glspl{IA} de manières générales ne sont pas outils détenant des connaissances scientifique universelle. Dans le cas des \gls{LLM} notamment, l'intégration de tous ces outils est fréquentes mais rencontrent une limite : la nature probabiliste de cette technologie. En effet, ces modèles effectus des calculs de probabilités, les amenants ainsi à prédire la suite d'une phrase ou d'un mot et de se baser sur ces prédictions pour comprendre le sens des documents. Cela peut les conduires à commettre des erreurs, allant jusqu'à inventer de la données : c'est ce que l'on appelle l'hallucination. 
+On parle bien de déterminer ou estimer le sens car ces outils repose sur des calculs de probabilités. Cela les amènes à prédire le mot suivant plutôt que de \guillemet{comprendre} le mot et le suivant. Cela peut amener à des erreurs, allant jusqu'à inventer de la données : c'est ce que l'on appelle l'hallucination.
 
-Ce sont donc des outils faillibles, capable de se tromper et de tromper l'utilisateur.
 
-\subsubsection{La \gls{CV} : définition }
+\subsection{La \gls{CV} : définition }
 
-La \gls{CV} vise à donner à des sytèmes la capacité d'interagir avec des images, aussi bien fixe que des \glspl{imgani}, que ce soit par leurs perceptions, analyses ou compréhension. L'objectif est de se rapprocher de la capacité humaine à pouvoir regarder et comprendre une image mais de manière informatique : ainsi passer d'un amas de pixel à une informations structurées compréhensible par un modèle. 
+La \gls{CV} vise à donner à des sytèmes la capacité de percevoir, analyser et \guillemet{comprendre} des images, aussi bien fixe que des \glspl{imgani}. L'objectif est de passer d'un amas de pixel à une informations structurées compréhensible par un modèle, comme une image l'est pour un humain. Cela repose notamment sur la construction et l'entraînement de modèle pour des tâches, des types de documents et d'objets précis.\footcite{QuestceQueVision}
 
-Ce domaine est en pleine expansion depuis l'apparition du \gls{DPL} et des réseaux de neuronnes de type \gls{CNN}. Grâce à ces nouvelles technologies, les modèles spécialisé sur la \gls{CV} apprennent de manière autonome à extraire des caractéristiques des images sans interventions humaines. Quand les méthodes précédentes demandaient à l'utilisateur de délimiter manuellement les zones à analyser. \newline
+Ce domaine est en pleine expansion depuis l'apparition du \gls{DPL} et des réseaux de neuronnes de type \gls{CNN}. Grâce à cela, les modèles spécialisés sur la \gls{CV} apprennent de manière autonome à extraire des caractéristiques des images sans interventions humaines. \newline
 
-Pour le monde patrimonial, la \gls{CV} représente un avantage important. En plus des documents étant nativement des images comme des tableaux, ou des \glspl{imgani}, la numérisation massive des collections à produits bon nombre d'images de textes. La \gls{CV} permet dès lors de procéder à des analyses de collections entières, sur toutes les variétés typologies, et, associée au \gls{NLP}, de pouvoir interpréter des textes et tout types d'objet patrimonial.
+Pour le monde patrimonial, la \gls{CV} représente un avantage important. En plus de posséder des tableaux, ou des \glspl{imgani}, la numérisation massive des collections à produits bon nombre d'images de textes. La \gls{CV} permet dès lors de procéder à des analyses de collections entières et de toutes typologies. une fois associée au \gls{NLP}, on rend possible l'interprétation de ces documents.
 
 Ce domaine repose sur plusieurs tâches fondamentales :
 
 \begin{enumerate}
 	
-	\item La \gls{cl}. Procédé technique qui consiste à reconnaître un certains nombre de caractéristiques afin de déterminer le type d'image qui est analysée. De cette manière, le modèle est capable de différencier un tableau, d'une gravure, d'un texte, d'une \gls{imgani} par exemple.
+	\item La \gls{cl}. Procédé technique qui consiste à reconnaître un certains nombre de caractéristiques afin de déterminer sa typologie. Ainsi, le modèle différencie un tableau, d'une gravure, d'un texte, d'une \gls{imgani}.\footcite{QuestceQueVision}
 	
-	\item La \gls{do}. Méthode permettant de repérer plusieurs entités au sein d'une même image et de les délimiters les unes des autres. Cela permet de repérer différent composant sur des images : la détection peut être spécialisé sur un type d'objet. 
+	\item La \gls{do}. Méthode permettant de repérer une entité définie au sein d'une même image et d'en délimiter les contours. Cela permet de repérer un objet ou une entités cibles au sein d'un corpus. \footcite{QuestceQueVision}
 	
-	\item La \gls{seg}. Procédé technique qui consiste à déterminer et détourer précisément les différents objets et entités présentes sur une image. Cela peut être de reconnaître tous les éléments d'un tableaux, de repérer les lignes d'un texte ou de suivre des entités au sein d'\glspl{imgani}. Sans parler d'identifier ces éléments, ce processus permet de les distinguer et de les analyser ensuite individuellement.
+	\item La \gls{seg}. Procédé technique afin de déterminer et détourer précisément les objets et entités présentes sur une image. Cela peut être de reconnaître tous les éléments d'un tableaux, de repérer les lignes d'un texte ou de suivre des entités au sein d'\glspl{imgani}. Ce processus permet de distinguer tous les objets au sein d'une image, sans les identifier.\footcite{QuestceQueVision}
 	
-	\item L'{\gls{OCR}} et l'{\gls{HTR}}. Ces technologies sont en réalités hybridés avec le \gls{NLP}. En effet, ces outils permettent de détecter du texte, manuscrit ou typographié, au sein d'une image, de l'extraire et de le convertir en texte interrogeable grâce au \gls{NLP}. Ces outils sont largement plébiscité au sein des instituions conservants de vaste corpus d'archives comme les Archives Nationales.
+	\item L'{\gls{OCR}} et l'{\gls{HTR}}. Outils de détection et d'extraction de texte, manuscrit ou typographié, au sein d'une image. Grâce au \gls{NLP}, cet outil peut aussi le rendre interrogeable. Ces outils sont largement plébiscité au sein des instituions conservants de vaste corpus d'archives. \footcites{TechniquesFormatsConversion}{IntelligenceArtificielleCollections}
 	
 \end{enumerate}
 
-Dans le domaine patrimoniale, la \gls{CV} permet, notamment quand associé à des technologies de \gls{NLP}, d'analyser dans une certaines profondeurs toutes la partie numérique des collections des institutions conservatrices. 
+Dans le domaine patrimoniale, la \gls{CV} permet l'analyser des collections numériques des institutions conservatrices. Couplée à des technologies \gls{NLP}, cela peut permettre de rendre ces images interrogeables.
 
-Cependant, la \gls{CV} présentent deux limites dans sa conception actuelle. D'abord, sa grande dépendance à des données d'entraînement. En effet, le \gls{NLP} peut être entraîné sur des quantités de données astronomiques l'amenant aussi à s'améliorer de manière quasi autonome. Pour la \gls{CV}, les procédé techniques sont plus lourds, mobilise bien plus de ressources et sont donc bien propice à l'application de ce principe. Ainsi, on produit souvent des modèles entraînés sur des données précises afin d'effectuer des tâches précises sur ces typologies documentaires. Son fonctionnement est donc d'associer le document qu'il traite à ses données d'entraînement, soit ce qu'il \guillemet{connaît}, et si ce dernier sort de ce champs il est alors en proie à l'hallucination. Il y a un donc un biais très important.
+Cependant, la \gls{CV} présentent deux limites dans sa conception actuelle a commencer par sa grande dépendance aux données d'entraînement. Les processus d'entraînement en \gls{CV} sont lourds et mobilisent beaucoup de ressources. Ainsi, on produit souvent des modèles entraînés sur des données, tâches et typologies d'objets patrimoniaux précises. Lors de l'analyse, le modèle associe le document qu'il traite à ses données d'entraînement, soit ce qu'il \guillemet{connaît}. Si le document traité sort de son champs de \guillemet{connaissance} il est alors en proie à l'hallucination.
 
-De plus, ces outils restent des outils basés sur des calculs statistiques et de probabilités. De cette manière, il n'y a pas de \guillemet{compréhensions} de ce qu'il analyse mais simplement des associations avec ces \guillemet{connaissances} et des estimations auxquels il se rattache. Pour des analyses très fines, demandant des connaissances précises, on peut avoir des limites très importantes.  
+De plus, ces outils restent des outils basés sur des calculs statistiques et de probabilités. Ainsi, il n'y a pas de \guillemet{compréhension} de ce qu'il analyse mais simplement des associations avec ces \guillemet{connaissances}. C'est une limite importante pour des analyses très fines basées sur des connaissances précises. 
 
 
-\subsubsection{le \gls{RAG} : définition}
+\subsection{le \gls{RAG} : définition}
 
-A compléter avec l'explication du RAG lors du processus de recherche intelligente ? A réfléchir. 
+\label{rag}
+
+Le \gls{RAG} désigne une manière d'employer certaines technologies d'\gls{IA} dans un but précis : un processus. On aborde donc un champs différents, puisqu'on parle d'un processus au c\oe{ur} d'outils à destination du monde patrimonial.
+
+L'objectif principal de ce processus est de limiter la capacité à halluciner d'un \gls{LLM}. Pour cela, on met à disposition une base de connaissance large, diversifié et spécialisée sur un monde professionnel afin de consolider le modèle sur ce contexte. Ainsi, le \gls{RAG} associe les capacités d'analyses et de générations de certains outils a une fiabilisation de son système de recherches. De cette manière, on produit un outil capable de distribuer de la connaissance et non de l'inventer.\footcite{belcicQuestceQueGeneration2025}
+
+Pour ce faire, on connecte un \gls{LLM} à une ou plusieurs bases de données externes.  Il va dès lors y puiser des données et s'y appuyer afin de justifier ses réponses. Cela se base sur 3 principes : \footnote{Pour plus d'informations voir \cite{gaoRetrievalAugmentedGenerationLarge2024}}
+
+\begin{enumerate}
+	\item \textit{Retrieval} : désigne la capacité à aller chercher de la donnée dans des sources externes désignées. Il récupère de la données exacte et pertinentes, c'est à dire qui correspond à la requête utilisateur.
+	
+	\item \textit{Augmented} : désigne la capacité d'enrichir la requête utilisateur et/ou la réponse générée à l'aide des donnes stockées. Pour la requête utilisateurs, il s'agit de lui associer les bonnes données stockées afin de mieux cerner son périmètre. Pour la réponse générée, il s'agit de pouvoir indiquer une source, ou un extrait, vers laquelle se référer.
+	
+	\item \textit{Generation} : désigne finalement la capacité inhérente aux \gls{LLM} de générer des réponses, le plus souvent en langage naturel. 
+\end{enumerate}
+
+Par le respect de ces principes, on assure la pertinence des réponses, leur adéquation à un contexte professionnel ou scientifique et la validité des données retournées. Les institutions patrimoniales voient en cette architecture la possibilité simplifier et consolider la recherche dans leurs collections ou corpus. Cela grâce à une interrogation de ces éléments facilitées et à des réponses générées plus exhaustives et fiables. 
+
+Nous abordons plus en détails son fonctionnement et ses apports dans des processus déterminés ici à la page \pageref{procrag} de ce travail.\newline
+
+Cette architecture prometteuse connaît quelques fragilités. Son efficacité dépend de sa capacité à bien \guillemet{comprendre} les sources qui lui sont connectés, autrement tout résultat sera faussé. En fonction des sources, de leurs nombres et de leurs complexités, le résultat de cette première étape est hautement variable. De plus, le \gls{RAG} peut parfois ne pas suffire à contraindre les \gls{LLM} à l'utilisation de certaines sources. En effet, l'autonomie des modèles peut les conduire à outrepasser certaines instructions, sans jamais sortir de l'infrastructure.\footcite{gaoRetrievalAugmentedGenerationLarge2024}
+
+\subsection{Apports des outils et état des lieux de leur application dans la gestion des collections}
+
+Aujourd'hui, ces outils d'\gls{IA} sont perçus comme des solutions potentielles face aux difficultés actuelles par les professionnels de la gestion patrimoniale. En effet, devant la massification des données, la diversité des standards de descriptions et modèles conceptuels, et l'ambition d'interopérabilité des données à des échelles internationales et mondiales, les institutions manquent de moyen. 
+
+Ces outils représentent des solutions car ils permettent les traitements de masses en relatives autonomie. Cela peut réduire drastiquement la charge de travail reposant aujourd'hui sur le personnel souvent en sous-nombre. Grâce à leurs capacité d'analyses, de \guillemet{compréhension} de contextes et d'utilisation du langage naturel pour expliquer des concepts et des analyses, ces outils sont particulièrement intéressant. 
+
+Ces logiques ont conduit alors à la mise en place de premières expériences ponctuelles, comme HIMANIS\footcite{stutzmannRecherchePleinTexte2017/dec./15}, puis aux premiers outils instauré au sein d'institution comme LECTAUREP ou INASpeechSegmenter.\footcite{lezerInaSpeechSegmenterDecompteTemps} Ils permettent de réduire le temps de traitement de certaines typologies d'objets patrimoniaux, d'accélérer des tâches de traitement et d'offrir de nouvelles dimensions de recherches.\newline
+
+Ces outils émergent principalement dans les grandes institutions, comme les Archives Nationales ou l'INA, et viennent compléter des méthodes de gestions préexistantes. Cependant, ce n'est pas la réalité pour toutes les institutions conservatrices. 
+
+En effet, la plus part des structures utilisent aujourd'hui des \gls{sgc} fournis par des entreprises externes, comme SkinSoft, situé au c\oe{ur} de leurs pratiques. Ces structures plus petites, ont alors du mal à intégrer de nouvelles solutions. D'abord car il peut être difficile de les faires s'interfacer avec des \gls{sgc} tierces. Ensuite par un manque de compétences techniques et de moyens financiers. Il y a donc un décalage entre l'avancée des pratiques de gestions patrimoniales et la possibilité de les inclures à toutes les échelles. 
+
+Pour ces raisons, nous constatons aujourd'hui un effort global des fournisseurs de solutions externes de tendre vers l'inclusions de tels outils. D'abord afin de correspondre aux nouveaux besoins professionnels. Ensuite, afin de permettre aux institutions utilisatrices de disposer de tels moyens à des coûts techniques et financiers relativement accessibles.

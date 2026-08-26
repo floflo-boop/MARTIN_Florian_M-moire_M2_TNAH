@@ -190,6 +190,30 @@
       \endverb
       \keyw{Chatbot,Human–computer interaction,Machine learning,Natural dialog interfaces,Natural language processing,Pattern matching}
     \endentry
+    \entry{AIChatGPTStatistics}{online}{}{}
+      \list{organization}{1}{%
+        {Instant Press}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{40+ sourced AI statistics for 2026: ChatGPT, Gemini, Claude and Perplexity user numbers, adoption curves, and market size.}
+      \field{langid}{american}
+      \field{title}{{{AI}} \& {{ChatGPT Statistics}} for 2026 ({{Usage}} \& {{Adoption Data}})}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/ZUMPFM9D/ai-statistics.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.instantpress.co/ai-statistics
+      \endverb
+      \verb{url}
+      \verb https://www.instantpress.co/ai-statistics
+      \endverb
+    \endentry
     \entry{ai4humanNLINaturalLanguage2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fa9745c402f858125d5e1d2a916db27b}{%
@@ -1000,6 +1024,49 @@
       \verb /home/florian/Zotero/storage/CBMWENEZ/Bastien and Scapin - Ergonomic criteria for the evaluation of human-computer interfaces.pdf
       \endverb
     \endentry
+    \entry{belcicQuestceQueGeneration2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=485c20e134772ecba476bcc856a9d58c}{%
+           family={Belcic},
+           familyi={B\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{fullhash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{fullhashraw}{485c20e134772ecba476bcc856a9d58c}
+      \strng{bibnamehash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{authorbibnamehash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{authornamehash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{authorfullhash}{485c20e134772ecba476bcc856a9d58c}
+      \strng{authorfullhashraw}{485c20e134772ecba476bcc856a9d58c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La génération augmentée par récupération (RAG) est une architecture qui permet d’optimiser les performances d’un modèle d’intelligence artificielle (IA) en le connectant à des bases de connaissances externes.}
+      \field{day}{3}
+      \field{langid}{french}
+      \field{month}{10}
+      \field{shorttitle}{Qu’est-ce que la génération augmentée par récupération (RAG) ?}
+      \field{title}{Qu’est-ce que la génération augmentée par récupération (RAG) ? | IBM}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/YPTQ3BCG/retrieval-augmented-generation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/retrieval-augmented-generation
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/retrieval-augmented-generation
+      \endverb
+    \endentry
     \entry{bequetNumerisationPatrimoineDocumentaire2000}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b318d27af13fa0f7f2167b123d8a8aed}{%
@@ -1155,6 +1222,59 @@
       \verb{url}
       \verb https://discovery.mome.hu/hu/record/-/record/MOMEJEJH1802
       \endverb
+    \endentry
+    \entry{boullierOpinionMiningSentiment2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cd738d21cb465b5d616163df37d20bb5}{%
+           family={Boullier},
+           familyi={B\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2efed6ec05418c749195ff21ab6c830}{%
+           family={Lohard},
+           familyi={L\bibinitperiod},
+           given={Audrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Marseille}%
+      }
+      \list{publisher}{1}{%
+        {OpenEdition Press}%
+      }
+      \strng{namehash}{72567ab6cfded00901a26406125a96da}
+      \strng{fullhash}{72567ab6cfded00901a26406125a96da}
+      \strng{fullhashraw}{72567ab6cfded00901a26406125a96da}
+      \strng{bibnamehash}{72567ab6cfded00901a26406125a96da}
+      \strng{authorbibnamehash}{72567ab6cfded00901a26406125a96da}
+      \strng{authornamehash}{72567ab6cfded00901a26406125a96da}
+      \strng{authorfullhash}{72567ab6cfded00901a26406125a96da}
+      \strng{authorfullhashraw}{72567ab6cfded00901a26406125a96da}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{L’ «~opinion mining~» est en passe de devenir une véritable industrie, tout aussi stratégique que celle des sondages. Les promesses avancées sont impressionnantes~: la puissance de calcul des outils informatiques permettrait de suivre toutes les évolutions de l’opinion sur le web en temps réel, quel qu’en soit le volume. Plus encore, les capacités de traitement linguistique permettraient de détecter les tonalités de tous les verbatims recueillis, grâce aux méthodes dites de «~sentiment analysis~». L’état de l’art des offres commerciales et technologiques présenté dans cet ouvrage rend compte de cette effervescence mais en souligne aussi la démesure, en veillant à distinguer les résultats réels des slogans promotionnels quelquefois trompeurs. L’ouvrage écrit par des chercheurs du médialab de Sciences Po, laboratoire spécialisé dans le traitement des masses de données disponibles sur le web pour les sciences sociales, permet aussi de resituer l’intérêt de ces nouveaux moyens techniques pour la recherche, dans le cadre de ce qu’on appelle désormais les « humanités numériques~». Enfin, soucieux de permettre à chaque lecteur de prendre en main ces outils, certes puissants mais aux limites de validité bien réelles, les auteurs décrivent pas à pas toutes les phases d’un projet mobilisant les méthodes d’opinion mining, en précisant les pièges et les impératifs d’intervention de l’expertise humaine, toujours nécessaire. Largement illustré, cet ouvrage devrait encourager les chercheurs, les professionnels de l’opinion et du marketing tout autant que les informaticiens et spécialistes des «~web studies~» à échanger pour faire progresser ces outils communs.}
+      \field{isbn}{978-2-8218-1227-7}
+      \field{langid}{french}
+      \field{series}{Sciences Po │ médialab}
+      \field{shorttitle}{Opinion mining et ‎Sentiment analysis}
+      \field{title}{Opinion mining et ‎Sentiment analysis : Méthodes et outils}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.openedition.org/oep/198
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/oep/198
+      \endverb
+      \keyw{digital humanities,édition électronique,usages,web}
     \endentry
     \entry{zotero-item-262}{article}{}{}
       \name{author}{1}{}{%
@@ -2491,6 +2611,112 @@
       \endverb
       \keyw{Auto-supervision,Deep learning,Natural language processing,NLP,Profil professionnel,Recommandation,Recommendation,Représentation utilisateur}
     \endentry
+    \entry{gaoRetrievalAugmentedGenerationLarge2024}{online}{}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=572def57560315de76cedfc3e17c2eb2}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yunfan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=bdc1e50b7faa4f8d1a9844199179e6c2}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03e7985fe5e84b74e9f01c4cdbaaee9c}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16ccf3d9ea55a78a7d3dfea173515f1f}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Kangxiang},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd6e4a40c152c7e39a43964918a2c4a5}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jinliu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efef66e4d4bad100544cfae4a2b3104b}{%
+           family={Bi},
+           familyi={B\bibinitperiod},
+           given={Yuxi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f59ef2d4288d687c75882fd75c94cd09}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5541cd69dde50ba09f8968212da6602c}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00b734eb3fb588e4c6c94e4271080d0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cca37a322a37778f7e30f057e2c2f90}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haofen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{fullhash}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \strng{fullhashraw}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \strng{bibnamehash}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \strng{authorbibnamehash}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \strng{authornamehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{authorfullhash}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \strng{authorfullhashraw}{0ac64c8a2a8c144751e6f1d6573b5725}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domainspecific information. RAG synergistically merges LLMs’ intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-theart technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development 1.}
+      \field{day}{27}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Retrieval-{{Augmented Generation}} for {{Large Language Models}}}
+      \field{title}{Retrieval-{{Augmented Generation}} for {{Large Language Models}}: {{A Survey}}}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2312.10997
+      \endverb
+      \verb{eprint}
+      \verb 2312.10997
+      \endverb
+      \verb{file}
+      \verb /home/florian/Zotero/storage/NJXS5672/Gao et al. - 2024 - Retrieval-Augmented Generation for Large Language Models A Survey.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2312.10997
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2312.10997
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
     \entry{gargSeqNetLearningDescriptors2021}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=72eac2a55c7d9f6a939fe2183c584524}{%
@@ -2796,12 +3022,12 @@
            given={Tong},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c2fe13cf150e1efd4d1b790209c56186}{%
+        {{un=1,uniquepart=given,hash=c2fe13cf150e1efd4d1b790209c56186}{%
            family={Gao},
            familyi={G\bibinitperiod},
            given={Huilin},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{a4940ef1de75802f6e02ed35607fa271}
       \strng{fullhash}{a4940ef1de75802f6e02ed35607fa271}
@@ -3422,6 +3648,31 @@
       \verb https://www.europarl.europa.eu/topics/fr/article/20200827STO85804/intelligence-artificielle-definition-et-utilisation
       \endverb
     \endentry
+    \entry{IntelligenceArtificielleCollections}{online}{}{}
+      \list{organization}{1}{%
+        {BnF - Site institutionnel}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{BnF - Site institutionnel}
+      \field{langid}{french}
+      \field{shorttitle}{Intelligence artificielle et collections de la BnF}
+      \field{title}{Intelligence artificielle et collections de la BnF : l’exemple de l’HTR (Handwritten Text Recognition)}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/C67TSPIY/intelligence-artificielle-et-collections-de-la-bnf-lexemple-de-lhtr-handwritten-text-recognitio.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bnf.fr/fr/intelligence-artificielle-et-collections-de-la-bnf-lexemple-de-lhtr-handwritten-text-recognition
+      \endverb
+      \verb{url}
+      \verb https://www.bnf.fr/fr/intelligence-artificielle-et-collections-de-la-bnf-lexemple-de-lhtr-handwritten-text-recognition
+      \endverb
+    \endentry
     \entry{IntelligenceArtificielleQuoi}{online}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -3608,6 +3859,52 @@
       \endverb
       \verb{url}
       \verb https://www.data-transitionnumerique.com/search-elasticsearch/
+      \endverb
+    \endentry
+    \entry{kavlakogluQuestceQueRacinisation2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e336088d502b967a321ced436004cc9b}{%
+           family={Kavlakoglu},
+           familyi={K\bibinitperiod},
+           given={Jacob\bibnamedelimb Murel\bibnamedelimb Ph\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0,
+           suffix={Eda},
+           suffixi={E\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{e336088d502b967a321ced436004cc9b}
+      \strng{fullhash}{e336088d502b967a321ced436004cc9b}
+      \strng{fullhashraw}{e336088d502b967a321ced436004cc9b}
+      \strng{bibnamehash}{e336088d502b967a321ced436004cc9b}
+      \strng{authorbibnamehash}{e336088d502b967a321ced436004cc9b}
+      \strng{authornamehash}{e336088d502b967a321ced436004cc9b}
+      \strng{authorfullhash}{e336088d502b967a321ced436004cc9b}
+      \strng{authorfullhashraw}{e336088d502b967a321ced436004cc9b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La racinisation et la lemmatisation sont des techniques de prétraitement de texte utilisées dans le traitement automatique du langage naturel (NLP).}
+      \field{day}{18}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{shorttitle}{Qu’est-ce que la racinisation et la lemmatisation ?}
+      \field{title}{Qu’est-ce que la racinisation et la lemmatisation ? | IBM}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/R4FIQI4I/stemming-lemmatization.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/stemming-lemmatization
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/stemming-lemmatization
       \endverb
     \endentry
     \entry{keversIndexationSemiautomatiqueTextes2009}{inproceedings}{}{}
@@ -4180,6 +4477,33 @@
       \verb /home/florian/Zotero/storage/K74TJ9KB/Lallemand - 2018 - Méthodes de Design UX. 30 méthodes fondamentales pour concevoir des expériences optimales. (2e editi.pdf
       \endverb
     \endentry
+    \entry{landraginAnaphoresCoreferencesAnalyse}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7208caf962b906f6180d892c89de269d}{%
+           family={Landragin},
+           familyi={L\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7208caf962b906f6180d892c89de269d}
+      \strng{fullhash}{7208caf962b906f6180d892c89de269d}
+      \strng{fullhashraw}{7208caf962b906f6180d892c89de269d}
+      \strng{bibnamehash}{7208caf962b906f6180d892c89de269d}
+      \strng{authorbibnamehash}{7208caf962b906f6180d892c89de269d}
+      \strng{authornamehash}{7208caf962b906f6180d892c89de269d}
+      \strng{authorfullhash}{7208caf962b906f6180d892c89de269d}
+      \strng{authorfullhashraw}{7208caf962b906f6180d892c89de269d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Anaphores et coréférences: analyse assistée par ordinateur}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/T7GEENDB/Landragin - Anaphores et coréférences analyse assistée par ordinateur.pdf
+      \endverb
+    \endentry
     \entry{larousseLaroussefrEncyclopedieDictionnaires}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d7507e4ee9a344124ebcf84871b83290}{%
@@ -4337,6 +4661,32 @@
       \verb https://books.openedition.org/psorbonne/6831
       \endverb
       \keyw{archaeology,cultural Heritage,French Revolution,patrimoine,Révolution française}
+    \endentry
+    \entry{GrandsDefisMatiere2025}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Découvrez les défis courants auxquels les entreprises sont confrontées en 2026 alors qu’elles font évoluer leur stratégie d’IA, passant de l’IA générative à l’IA agentique.}
+      \field{day}{26}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{title}{Les plus grands défis en matière d’adoption de l’IA pour 2026 | IBM}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/IMBTGVAQ/ai-adoption-challenges.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/insights/ai-adoption-challenges
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/insights/ai-adoption-challenges
+      \endverb
     \endentry
     \entry{lewisImpactHumanDecisionMaking2025}{article}{}{}
       \name{author}{6}{}{%
@@ -4499,7 +4849,6 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.58079/q4fe
       \endverb
@@ -4572,7 +4921,7 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
     \endentry
-    \entry{liuVideoSwinTransformer2021a}{online}{}{}
+    \entry{liuVideoSwinTransformer2021}{online}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=19aabf2deb737584450693431af51cc3}{%
            family={Liu},
@@ -4633,7 +4982,6 @@
       \field{day}{24}
       \field{eprintclass}{cs.CV}
       \field{eprinttype}{arXiv}
-      \field{langid}{english}
       \field{month}{6}
       \field{pubstate}{prepublished}
       \field{title}{Video {{Swin Transformer}}}
@@ -4643,6 +4991,7 @@
       \field{year}{2021}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2106.13230
       \endverb
@@ -4650,7 +4999,7 @@
       \verb 2106.13230
       \endverb
       \verb{file}
-      \verb /home/florian/Zotero/storage/R2CUS7R5/Liu et al. - 2021 - Video Swin Transformer.pdf
+      \verb /home/florian/Zotero/storage/EKB4SYN7/Liu et al. - 2021 - Video Swin Transformer.pdf
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/2106.13230
@@ -5942,6 +6291,25 @@
       \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
       \endverb
     \endentry
+    \entry{QuestCeQueNER}{online}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{title}{Qu'est-Ce Que La {{Named Entity Recognition}}~? | {{IBM}}}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/HKNY3QZP/named-entity-recognition.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/named-entity-recognition
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/named-entity-recognition
+      \endverb
+    \endentry
     \entry{QuestceQuunChatbot2021}{online}{}{}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
@@ -6022,6 +6390,25 @@
       \verb https://www.ibm.com/fr-fr/think/topics/intelligent-search
       \endverb
       \keyw{IA,NLP}
+    \endentry
+    \entry{QuestceQueVision}{online}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{title}{Qu’est-Ce Que La Vision Par Ordinateur~? | {{IBM}}}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/9PUBMCTM/computer-vision.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/computer-vision
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/computer-vision
+      \endverb
     \endentry
     \entry{QuestceQueChunking}{online}{}{}
       \field{sortinit}{Q}
@@ -6981,6 +7368,31 @@
       \verb https://www.mpeg.org/standards/
       \endverb
     \endentry
+    \entry{StateOpenModels2026}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We’re on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{day}{12}
+      \field{month}{8}
+      \field{shorttitle}{State of {{Open Models}}}
+      \field{title}{State of {{Open Models}}: {{Summer}} 2026 {{Observations}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/RXMPTD29/state-of-open-models-summer-2026.html
+      \endverb
+      \verb{urlraw}
+      \verb https://huggingface.co/blog/state-of-open-models-summer-2026
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/blog/state-of-open-models-summer-2026
+      \endverb
+    \endentry
     \entry{stockingerAnimerBaseConnaissance2025}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bb705b56b5bd7357e15cad329ae16bb5}{%
@@ -7190,6 +7602,30 @@
       \verb http://arxiv.org/abs/2310.10190
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,IA,NLP,Text-to-SQL}
+    \endentry
+    \entry{TechniquesFormatsConversion}{online}{}{}
+      \list{organization}{1}{%
+        {BnF - Site institutionnel}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BnF - Site institutionnel}
+      \field{langid}{french}
+      \field{title}{Techniques et formats de conversion en mode texte}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/9D9YS9TT/techniques-et-formats-de-conversion-en-mode-texte.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bnf.fr/fr/techniques-et-formats-de-conversion-en-mode-texte
+      \endverb
+      \verb{url}
+      \verb https://www.bnf.fr/fr/techniques-et-formats-de-conversion-en-mode-texte
+      \endverb
     \endentry
     \entry{TexttoSQLInterrogerVos2026}{online}{}{}
       \list{organization}{1}{%

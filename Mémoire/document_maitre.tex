@@ -43,6 +43,8 @@
  \usetikzlibrary{positioning, arrows.meta, shapes.geometric, fit, shadows, calc} %Ajout de librairie supplémentaire au package tikz afin de créer plus de variétées de schéma.
  \usepackage{xurl} % Package qui permet de couper automatiquement les URL si elles sont trop longues tout en gardant la possibilité de cliquer dessus. 
  
+ \usepackage{nameref} % Package qui permet d'ajouter une commande \nameref{label}. Contrairement à \ref{label}, permet de référence à un chapitre, une section, selon son nom et non son numéro. 
+ 
 \counterwithout{figure}{chapter} % Désactive la dépendance au chapitre
 \counterwithout{figure}{section} % Désactive la dépendance à la section
 
@@ -591,6 +593,21 @@
 	description={}
 }
 
+\newglossaryentry{mod}{
+	name={modèle},
+	description={}
+}
+
+\newglossaryentry{RAM}{
+	name={mémoire vive},
+	description={Composant informatique qui définis la puissance de calcul et la rapidité de leurs exécution. Plus elle est importantes, plus il sera possible de réaliser un grand nombre de calcul plus rapidement et donc de traiter plus de données.}
+}
+
+\newglossaryentry{VRAM}{
+	name={mémoire vidéo},
+	description={Liée aux \gls{GPU}, c'est à dire que ces derniers en déterminent la quantité et disponibilité, elle définis la puissance de calcul dédiées aux traitements des images, vidéos et objets 3D disponibles. Plus il y a de mémoire vidéo, plus le nombre de calcul réalisable dans court délais appliqué à des images, vidéos et objet 3D augmente. Elle peut aussi être utilisée pour traiters d'autres catégories données, bien que ce ne soit pas son utilisation première et privilégiée.}
+}
+
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
 
@@ -602,6 +619,7 @@
 
 \newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright \space} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
 
+\newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~»}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre. 
 
 
  %%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE
@@ -733,22 +751,22 @@
 
 
 
-\chapter{L’intelligence artificielle dans le domaine de la gestion documentaire : réalités techniques, attentes, et enjeux.}
+\chapter{L'\gls{IA} dans la gestion des collections patrimoniales : réalités techniques, attentes et enjeux}
 
-\section[Réalités de l'IA dans le domaine patrimonial]{ L’intelligence artificielle dans les collections patrimoniales privées et publiques : réalités pluriels et usages }
+\section[Réalités de l'IA dans le domaine patrimonial]{Définition de l'\gls{IA} appliqués à la gestion des collections patrimoniales}
 \label{1.2.1}
 
 \input{./Chapitres/P1_C2_1.tex}
 
 \newpage
 
-\section{Enjeux techniques et d’usages}
+\section{Les enjeux techniques :}
 
 \input{./Chapitres/P1_C2_2.tex}
 
 \newpage
 
-\section{Enjeux juridiques dans des collections patrimoniales et privées.}
+\section{Les enjeux juridiques publics et privés :}
 
 \input{./Chapitres/P1_C2_3.tex}
 

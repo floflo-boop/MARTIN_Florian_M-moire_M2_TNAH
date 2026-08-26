@@ -1,16 +1,53 @@
-% !TeX root = ../main.tex
+% !TeX root = ../document_maitre.tex
 
-\begin{itemize}
-	\item Suivre 2 axes : les contraintes vis-à-vis de la gestion des collections, donc comment concilier besoin utilisateur et contraintes techniques, temporelles et d'ingénierie documentaire. Et axe 2 sur une contrainte plus technique qui est le management de ressources informatiques sur des collections titanesques notamment dans le cadre du multimédia. 
-	% \item  L’IA peut-elle faire face à une telle diversité de données ? 
-	% \item  L’IA peut-elle être utilisée sur toutes les collections ? Mêmes les plus grandes et diversifiées ? 
-	% \item  Peut-on penser intégrer de l’IA tout en conservant et respectant l’expérience utilisateur actuelle ?
-	
-	\item \textbf{Plan :}
-	\subitem 1. L'IA a une capacité de traitement énorme, mais qui a un coût financier et écologique, faire un point sur le sujet. 
-	\subitem 2. Insister sur les enjeux d'infrastructures : serveurs, RAM, VRAM, CPU. Parfois les institutions n'ont pas la possibilité d'accueillir de telles infrastructures (contraire à la politique mise en place par le SI, trop chère, espace, etc.) 
-	\subitem 3. Evolutions extrêmement rapides de l'IA dans tous les domaines qu'elle regroupe, cela signifie aussi une augmentation constante des prix pour l'accueillir. Utiliser une IA quel qu'elle soit c'est un calcul financier, technique et politique. 
-	\subitem 4. Dans le monde patrimonial la taille des collections amène des traitements monumentaux. L'enjeu financier va certainement amener à rationaliser les attentes, établir des priorités de traitement et donc morceler ces collections.
-	\subitem 5. Intégrer l'IA c'est aussi prendre le risque de modifier un chemin utilisateur, une habitude utilisateur ou d'aller contre une volonté utilisateur. En plus d'être pensée selon son coût et besoin technique, l'implémentation de l'IA doit aussi être réfléchie sous l'angle de la réception utilisateur, de l'impact sur la qualité d'usage de l'applicatif, etc.
-	
-\end{itemize}
+Ainsi, l'\gls{IA} représente aujourd'hui une solution pour le traitement des données et collections patrimoniales. Elle offre l'opportunité de palier deux grandes difficultés : la masse et le temps de traitement. Par leur autonomie et capacité, relative fiabilité et rapidité de traitement sur des masses importantes de données, ces dernières pourraient ne plus être des freins à la gestion des collections. Cependant ces considérations, si elles prennent en compte les limites précédemment vues, semblent déconnectées des réalités techniques, technologiques et financières des institutions ciblées.\newline
+
+Les technologies d'\gls{IA} connaissent aujourd'hui des évolutions rapides et importantes. Elles sont d'ordre technologique et de la popularité de ces outils. Prenons l'exemple des \gls{LLM} : 
+
+Leur popularité est croissante. En témoigne le rythme de création et de publication en ligne des \glspl{LLM} passant de 1 modèles public en novembre 2022 à plus de 500 mille \glspl{mod} en libre accès sur \textit{Huggin Face}\footcite{StateOpenModels2026}. 
+Cette croissance impressionantes démontre l'intérêt que l'on a envers ces derniers, également constatable par le nombre d'utilisateurs. Par exemple, ChatGPT est passé de 400 millions d'utilisateurs début 2025 a plus de un milliard en août 2026.\footcite{AIChatGPTStatistics}
+
+Pour ces technologies, notamment les \gls{LLM} il y a un nouvele enjeu. Il est amené par l'\gls{ops} : phénomène de publication en ligne des codes de ces outils pour permettre des déploiement dans des environements locaux, sous conditions de licence ou d'achat. Cela pousse leur adoptions personnelles et professionnelles.
+
+Pour l'aspect technologique, l'évolution entre 2022 et aujourd'hui est vertigineuse. Les corpus de données d'entraînement ne font que grossir, amenant l'ajout de ressources informatique pour créer des modèles plus puissants. De plus, les \gls{LLM} \guillemet{classiques} sont peu à peu remplacé par des \gls{mmlts}, capable de traiter du texte mais aussi des images, sons et vidéos. Ce qui démontre la caractéristique éphémères de ces technologies. 
+
+C'est une première limite : les technologies et processus employés sont rapidement dépassée par des éléments plus récents. Si cela signifie que ce qui n'est pas possible aujourd'hui le sera peut être demain, cela pose aussi de nombreuses questions techniques. Quel outil utiliser ? Quand arrêter de s'adapter à l'actualité ? Comment maintenir son processus si dans 2 ans le modèle n'est plus maintenus ?\newline
+
+Une seconde limite concernant l'utilisation de ces outils est celle des coûts financiers et de leur impact. Cela dissocie la question de l'usage de celle de l'implémentation, car il s'agit de déterminer les conditions dans lesquelles on dispose de cette technologie et les impacts provoqués. Ces choix sont d'ordres financiers, politiques, infrastructurels, éthiques et de l'ordre de la sécurité des données. C'est pour cela que l'on parle de "modèle" : ce sont deux modes de fonctionnements distincts, posant leurs propres enjeux sur chacun des points. Les deux modèles distincts sont les suivants : \newline
+
+Le modèle reposant sur un système d'abonnement à une solution proposée par une entreprise externe. Cette dernière n'est pas possédées par l'institution mais par un acteur externe qui en assume l'hébergement, les coûts et la maintenance. C'est sur ce principe que repose les \gls{ac} conversationnel publique : c'est un service appartenant à une entreprise externe mais qu'on utilise sur nos données. Ce modèle économique repose sur trois principes : 
+
+\begin{enumerate}
+\item Celui de l'abonnement. L'institution ayant souscrit à ce dernier paye régulièrement une somme définie au fournisseur de la solution afin de l'utiliser. Cela permet de prévoir les coûts, permettant à une institutions de choisir une solution selon un budget défini et connus.
+
+\item Celui de la dépendance de l'utilisateur envers le fournisseur. En effet l'utilisation de l'outil et l'hébergement des données traitées relèvent dès lors de l'entreprise externe, provoquant une perte de contrôle. Si le fournisseur arrête de maintenir son modèle, l'institution se retrouvent sans outil. Si le fournisseur connaît une faille de sécurité, ce sont les données patrimoniales qui sont en danger. 
+
+\item Celui de la souveraineté des données. Cette notion désigne la possibilité de gérer et contrôler ses propres données dans leur préservation, diffusion, usage et traitement. Utiliser une solution externe demande aux institutions d'y renoncer partiellement ou du moins de faire des concessions. Les données sont stockées, préservées et traitées par le fournisseur qui devient dès lors responsable de leur sécurité. C'est un veritable enjeux car confier ses données à une entreprise tierce est un véritable risque de sécurité informatique. En effet, il y a moins de visibilité sur l'utilisations de ces données et sur leurs sécurités, plus sensible face aux risques croissant de failles informatiques.
+\end{enumerate}
+
+Dans le monde patrimonial, ce modèle est incarné dans des solutions comme Archipanion\footcite{ArchipanionPourCineJournal} ou encore des \glspl{sgc} comme Axiell\footnote{Pour plus d'informations voir \url{https://www.axiell.com/fr/solutions/product/ai-for-museums-and-archives/}} et à terme SkinSoft. \newline
+ 
+ Le second modèle est celui de l'intégration technologiques en local. L'enjeu est alors la capacité institutionnelle à développer et héberger ses propres processus et technologies d'\gls{IA} par ses propres moyens.  Cela permet de renoncer à un appuis sur une entreprise externe et des risques et contraintes liées. Ce modèle est celui employé par les grandes institutions, comme les Archives Nationale ou l'INA. Il repose sur 3 principes clés : 
+ 
+ \begin{enumerate}
+ 	\item La dimension locale. L'outil ou processus est développés ou adaptée, dans le cas de l'utilisation d'un modèle \gls{ops}, en interne facilitant l'adaptation à des besoins, contextes et pratiques précises. Cela permet un hébergement local, c'est à dire interne à l'institution amenant les données à ne pas sortir de l'institution. On limite ainsi les risques de faille de sécurité par plus de contrôle sur l'ensemble du processus. 
+ 	
+ 	\item Le coût des infrastructures et des compétences. Si on développe, traite et stocke localement il faut alors avoir les compétences et infrastructures adaptées. Cela demande de disposer de professionnels spécialisés dans différents domaines \textit{(\gls{IA}, sécurité informatique, développement, etc)}. Ces derniers évoluent très rapidement et les compétences deviennent de plus en plus pointues, rares et coûteuses. Pour les infrastructures, les technologies sont de plus en plus lourde et demandeuse en puissance de calcul. Cela fait intervenir Il faut alors disposer de \gls{RAM}, \gls{VRAM}, \glspl{CPU} et \glspl{GPU} qui, avec les récents progrès technologiques, coûtent de plus en plus cher. Ajoutons que l'utilisations de ces composants informatique implique un coût électrique : plus la puissance disponible est importante, plus son côté potentiel augmente.
+ 	
+ 	\item Le coût des technologies et de leurs maintiens. L'installation lcoale des technologie demande de les développer ou alors d'en utiliser des préexistantes. L'\gls{ops} permet de récupérer différents modèles ou processus et de les installer dans son propre environement informatique. Cependant, ces technologies ne sont pas nécessairement gratuite : il peut être nécessaire de payer une licenceet de la renouveler afin de pouvoir utiliser la technologie dans le temps.
+ \end{enumerate}
+ 
+Ce modèle est bien plus flexible et intéressant dans un aspect de sécurité et de contrôle des processus, outils et données. Pouvoir disposer de ces technologies en local permet de mieux répondre aux besoins de traitement institutionnels. C'est une solution idéale. Cependant, les coûts financiers et humains très élevés réservent cette possibilité à une sélection d'institutions qui ne représentent pas la réalité du monde patrimonial. Les institutions et entreprises de plus petits envergures sont majoritaires : elles ont des besoins parfois aussi importants, mais des moyens bien plus limités.\newline
+ 
+On comprend dès lors qu'intégrer de l'\gls{IA}, peu importe la réalité technique désignée, c'est avant tout faire des choix politiques, économiques, structurels et infrastructurels. Cela amène à se placer dans un modèle ou un autre : donc face à certains enjeux qu'il faut choisir. 
+ 
+Cela amène les institutions à se retrouver dans des dilemmes. Pour le modèle sur abonnement, le dilemme a lieux entre le besoin de disposer de ces outils et le besoin de souveraineté sur ces données et outils. Aujourd'hui, il est au c\oe{ur} des ambitions de ces institutions de préserver leur souveraineté sur leurs données et outils. Pour le modèle local, c'est un dilemme de rationnalisation entre les coût engendrés, à court et long terme, et les performances nécessaires. Plus les performances recherchées sont élevées, plus le coût l'est également. Ce qui peut dès lors décourager la mise en place de ces solutions et rediriger vers le premier modèle, parfois inadapté aux besoins de traitement. 
+ 
+Cette réalité conduit les acteurs du monde patrimonial à introduire progressivement ces technologies sur des segments précis des collections. Autrement dit, en fonction des besoins de traitement et de communications au près d'un public cible, certains aspects de la collections serons plus rapidement traités par de l'\gls{IA} que d'autres. C'est une introduction progressive qui  entraîne une division du traitement des collections et données patrimoniales, ce qui peut créer  des dissonances et des disproportions de traitement au sein des collections patrimoniales. Cela pourrait remettre en question les tentatives actuelles d'homogénéisation des descriptions, devant ainsi prendre en compte une double réalité : les processus automatisés et ceux encore manuels. Chacun entraînant une qualité de données et des possibilités de gestions différentes.\newline
+
+
+Pour conclure, nous pouvons dire qu'il faut s'attendre à des évolutions lentes et sélectives dans le domaine de la gestion des collections. Cela amène tout de suite à réévaluer la valeur à accorder à l'implémentation de l'\gls{IA} dans la gestion des collections. Ce n'est pas une révolution, soudaine et absolue, mais une évolution progressive et nuancée qu'il faut accompagner.
+
+Les enjeux financiers, humains et politiques sont aujourd'hui encore trop grand pour que chaque institutions et entreprises puissent se doter de tels outils. Et encore moins d'outils sur mesure. La tendance institutionnel à reposer sur un modèle à abonnement peut aussi être une explication quant à l'intégration de ces outils dans des \gls{sgc} externe. Cela place ainsi les \glspl{sgc} au c\oe{ur} de l'évolution technologique en matière d'\gls{IA}. 
+
+

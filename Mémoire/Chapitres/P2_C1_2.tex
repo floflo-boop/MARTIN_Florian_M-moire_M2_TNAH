@@ -1,4 +1,4 @@
-% !TeX root = ../main.tex
+% !TeX root = ../document_maitre.tex
 
 Les deux axes d'améliorations, dû au \gls{NLP}, que nous venons de distinguer sont pensé en deux outils distincts. La \guillemet{recherche augmentée} consistant en une recherche assistée par \gls{IA} pour interroger le \gls{SRI} en langage naturel. Et un \guillemet{\gls{chatbot}} afin de converser avec l'utilisateur pour le guider dans l'application et dans son usage. Chaque outils possède sa propre interface bien qu'il s'agisse des mêmes technologies appartenant au \gls{NLP} qui alimentent finalement deux processus de traitements différents. En effet, parler d'outils différents ne revient pas systématiquement à parler de technologies différentes. En effet on parle le plus souvent de processus divergents afin de traiter des données, identiques ou différentes, de manière différenciée.
 
@@ -17,13 +17,13 @@ Le \gls{LLM} est un élément important car il est l'intermédiaire entre les do
 
 Le \gls{RAG} constitue le c\oe{ur} du processus. C'est un processus d'\gls{IA} employé pour fiabiliser et contextualiser les résultats. Son objectif premier est de limiter un phénomène récurrent avec les \gls{LLM} : les hallucinations. Dû à sa capacité de mémorisation, le modèle peut parfois être tenter de répondre à l'aide de ses propres \guillemet{connaissances}. Cela peu conduire à répondre en mélangeant \guillemet{connaissances} et données ce qui créer des éléments de réponses faussé.
 
-Le \gls{RAG} consiste à connecter un \gls{LLM} à une ou plusieurs bases de données afin de forcer l'utilisation de ces données comme éléments de réponses. On empêche le \gls{LLM} de s'appuyer sur ses propres connaissances en lui donnant des données vérifiées et validées par un opérateur humain. Cela ne l'empêche pas de faire preuve de réflexion : grâce au \gls{NLP} et \gls{DPL}, le modèle sera capable de reformuler et d'approfondir. Mais on vient nourrir ces actions avec des données externes servant de contexte et de connaissance que le \gls{LLM} doit analyser et formuler en réponse.\newline
+Le \gls{RAG} consiste à connecter un \gls{LLM} à une ou plusieurs bases de données afin de forcer l'utilisation de ces données comme éléments de réponses. On empêche le \gls{LLM} de s'appuyer sur ses propres connaissances en lui donnant des données vérifiées et validées par un opérateur humain. Cela ne l'empêche pas de faire preuve de réflexion : grâce au \gls{NLP} et \gls{DPL}, le modèle sera capable de reformuler et d'approfondir. Mais on vient nourrir ces actions avec des données externes servant de contexte et de connaissance que le \gls{LLM} doit analyser et formuler en réponse.\footnote{Pour plus d'informations sur le \gls{RAG} voir \pageref{rag}}\newline
 
 Les modèles \gls{NLP} basé sur des \gls{tfmrs} sont essentiels. Nous ne reviendrons pas sur les notions vus lors du chapitre 2. Les modèles utilisé sont spécialisé sur des tâches précises du \gls{NLP} tel que le \gls{POS}, \gls{NER} ou encore \gls{LEM} permettant ainsi deux éléments : une compréhension approfondie des requêtes utilisateurs afin de saisir le besoin profonds, et une meilleure compréhension des données stockée dans le \gls{RAG} permettant ainsi de mieux les vectoriser augmentant la qualité et la pertinence des réponses. 
 
 C'est la combinaison de ces deux éléments qui permet de créer la recherche intelligente, soit la capacité d'utiliser un \gls{LLM} pour répondre à des requêtes en langage naturel à l'aide de données certifiées et fiables. On peut distinguer deux temps dans la recherche intelligente. Le premier temps est une tâche de fond : un processus constamment en activité mais jamais visible par l'utilisateur. Nous l'appelons, ici, la phase d'analyse. En voici un schéma :
 
-\begin{figure}[H]
+\begin{figure}[H] \label{procrag}
 \centering
 \begin{tikzpicture}[
 node distance=1.2cm,
