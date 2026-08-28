@@ -25,18 +25,135 @@
 	
 \end{itemize}
 
+Aujourd'hui un constat se pose face à nous. La complexité des collections patrimoniales, leur demande croissante de gestion et la complexité natives des \gls{sgc} constituent aujourd'hui des difficultés, voir des freins, pour le monde professionnel agissant dans la gestion des collections. Or, notre état de l'art sur le \gls{NLP} au service des collections patrimoniale impose un constat : la mise en retrait des besoins professionnels. 
+
+Ce constat n'est pas isolé. Comme nous l'avons vu, la complexité même des systèmes de gestion de collections constitue déjà en elle-même une limite aux possibilités offertes aux professionnels. Un logiciel devenu trop complexe pour être pleinement exploité restreint autant les usages qu'il prétend permettre. De plus, la complexité et massivités croissantes des collections amènent aujourd'hui ces logiciels à leurs limites, notamment sur la question de leurs technologies. Les \gls{SRI} dit \guillemet{classique} devenant de plus en plus limité afin de répondre aux besoins professionnels. 
+
+Dès lors, l'implémentation de technologies d'intelligence artificielle au sein de ces systèmes ne répond pas à un enjeu isolé ou périphérique : elle s'attaque à cette même racine, celle d'une complexité qui, mal maîtrisée, finit par se retourner contre les usagers qu'elle est censée servir. C'est précisément cette logique qui a justifié notre choix d'explorer la recherche augmentée et le chatbot comme réponses possibles.
+
+De plus, durant notre état de l'art sur ces deux processus, nous avons rencontré deux cas de figures. Soit, la présence de projets et de travaux les sourçant mais orientés usage grand public avec deux grands enjeux : améliorer la découvrabilités des collections par le grands publics et simplifier son interraction avec les collections. C'est le cas de la recherche intelligente et de ces déclinaisons, inspirant ce qu'on appelle dans le logiciel SkinSoft la \guillemet{recherche augmentée}.
+
+Soit l'absence presque totale de projets et de travaux les sourçants sur le sujet, même dans une orientation vers le grands public. Ce qui nous alors fait comprendre que ce domaine est encore en pleine émergence et nous as amenés dans des questionnements théoriques pour le \gls{chatbot}
+
+Reste que ce manque, identifié dans la littérature, ne suffit pas à en mesurer la portée réelle : c'est à l'épreuve de l'implémentation, au sein d'un logiciel comme SkinSoft et de ses usages métier concrets, que se révèlent les arbitrages que ce manque impose. C'est cette épreuve que ce chapitre se propose d'examiner, technologie par technologie : quelle conception technique a finalement été retenue, quel parcours utilisateur en a découlé, et quels écarts sont apparus entre l'espoir de départ et la solution obtenue — et pourquoi. Nous commencerons par la recherche augmentée, avant d'aborder le cas du chatbot.
+
+
 \subsection{La recherche augmentée :}
 
-\subsubsection{Conception techniques finale}
+Une des limites principales des \gls{sgc} sont les \gls{SRI} sur lesquels reposent l'entiereté de leurs système de recherches. Rappelons les deux limites exploré : 
+
+\begin{enumerate}
+	\item D'abord la complexité de l'outil et de son utilisation. Sans aborder son fonctionnement, largement exploré\footnote{Voire page \pageref{fonction-SRI}}, rappelons que par nature ces logiciels propose différentes modalités de recherches\footnote{Voire page \pageref{modalités-recherches}}. Plus ou moins complexes, c'est à l'utilisateurs de juger laquelle utiliser et lesquels combiner. Bien que cela ai été conçu pour être un point fort, aujourd'hui cette conception de la recherche par accumulation manuelle des modalités n'est plus une pratique courante comme nous l'avons vus. 
+	
+	\item Ensuite, les limites techniques \footnote{Voire page \pageref{limites-SRI}} de ces \gls{SRI}. Le système de recherches sur mots clés offre des résultats d'une pertinence relative appliqué aux masses de données gérée car dénuée de compréhensions sémantique. L'absence de la notion de contexte de l'objet patrimonial, ce qui peut conduire à lui attribuer de mauvais clés ou à fausser sa \guillemet{pertinence} aux yeux de l'application.
+\end{enumerate}
+
+Ainsi, l'axe de conception est double. D'abord offrir à l'utilisateur à un outil plus simple, demandant moins de manipulation et \guillemet{jonglage} entre différentes modalités de recherches. Ensuite, permettre une meilleure \textit{recherchabilité}\footnote{Anglicisme couramment utilisé dans le milieu de l'informatique et provenant de \textit{searchability}. Désigne la capacité d'un contenu, d'un objet à être recherche correctement et facilement.} des objets par l'intégration de compréhension sémantique et contextuelles de ces derniers. 
+
+\subsubsection{Conception de l'outil}
+
+Lors de notre état de l'art, nous avons décrit trois processus différents : recherche intelligente, \gls{2SQL} et \gls{2NSQL}. Sans l'aborder dans cette partie, nous avons énoncé rapidement une quatrième possibilité dites hybrides\footnote{Voire page \pageref{hybride}} mêlant les \gls{SRI} aux \textit{pipelines} de types \gls{RAG} comme le \gls{2SQL}. C'est ce que l'on appelle l'approche\gls{2ES}\footcite{xueTexttoESBenchComprehensive} sur laquelle repose entièrement la structure de la \guillemet{recherche augmentée}. Voici un schéma de son fonctionnement : 
+
+
+
+Cette approche hybride permet d'associer les forces d'un \gls{SRI} à celles d'un \textit{pipeline} de type \gls{RAG} tout en gommant les faiblesse de chacun. En effet, associer ces deux éléments permet de : 
+
+\begin{enumerate}
+	\item Disposer d'une recherche exploitant toute la diversité du langage naturel, moins sensible aux imprécisions et aux flous. ElastiSearch fonctionne sur un système de mots-clés, on ne peut s'en affranchir. Son système d'origine est naïf, c'est à dire qu'il ne cherche que la correspondance typographique fixe sans notion de sémantique et linguistique. Deux mots sémantiquement proche, mais typographiquement différents seront écartés de même que le même mots avec des petites variations d'écriture comme la casse. 
+	
+	En intégrant à \gls{ES} le spectre technologiques du \gls{NLP} ont permet d'apporter de la sémantique et de l'analyse linguistique aux mots-clés. Ils passent de simple signaux à des marqueurs signifiant, porteur de sens. Cela rend les mots-clés moins rigide et plus ouvert à des liens sur la base du concept ou de l'appartenance à un même lemme. Ce qui augmente alors la pertinence de la recherche.
+	
+	\item S'affranchir de la rigidité du schéma tout en conservant une structure exploitable. Le SQL repose sur un schéma de base de données fixe et des requêtes exactes, qui échouent à la moindre imprécision. Or, les collections patrimoniales sont par nature très diversifiées : les objets qui les composent ne partagent pas systématiquement les mêmes informations, ce qui produit une variété de schémas incompatible avec la rigidité qu'impose le SQL.
+	
+	Cette réalité amène à un choix méthodologique : soit imposer un cadre rigide au risque de se dissocier de la diversité réelle des collections, soit épouser cette diversité en adoptant un cadre plus souple. C'est cette seconde option qui a été retenue, ce qui exclut d'office le SQL, et donc le pipeline \gls{2SQL}, comme approche viable.
+	
+	Reste alors à choisir le degré de souplesse. Le \gls{NSQL}, souvent solution par défaut face à cette diversité, pousse cette logique à l'extrême. Les documents y sont d'une hétérogénéité telle qu'il devient impossible d'en connaître exhaustivement tous les champs à l'avance. L'index Elasticsearch offre un entre-deux plus praticable : généré pour chaque \gls{table} de chaque application, il repose sur un schéma d'indexation précis et connu à l'avance, mais chaque objet indexé ne renseigne que certains des champs prévus par ce schéma, les autres restant absents. Autrement dit, il existe un schéma fixe et exhaustif, mais chaque document n'en occupe qu'une partie variable. Un \gls{LLM} disposant d'une connaissance de ce schéma d'indexation peut ainsi s'adapter à la diversité de chaque objet, sans pour autant renoncer à une structure exploitable — contrairement à un document \gls{NSQL} dont le schéma reste, par nature, imprévisible.
+	
+	\item Disposer de fonctions d'agrégations. En effet, comme le SQL, ElasticSearch dispose de fonction d'agrégation de manière native ce qui permet de répondre à cette attente scientifique. 
+	
+	Ce qui est intéressant, c'est que ces agrégations sont natives. Ce sont des fonctions propres à \gls{ES} qui, dès lors, sont utilisable facilement par le logiciel. Cela offre un appui supplémentaire : une recherche flous peut donner lieu tout de même à des calculs d'agrégations, du moment que la requête a été comprise. Le \gls{2NSQL} par exemple ne dispose pas de tels fonctions et le \gls{2SQL} n'est pas suffisament souple. Ici, on associe les deux, permettant, encore une fois, de créer une association des forces de chaque processus. 
+	
+\end{enumerate} 
+
+
+
+Voici un tableau de différence entre l'approche \gls{2SQL}, \gls{2NSQL} et \gls{2ES} : 
+
+\newpage
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{3.4cm}|p{3.6cm}|p{3.6cm}|p{3.6cm}|}
+		\hline
+		\textbf{Critère} & \textbf{\gls{2SQL}} & \textbf{\gls{2NSQL}} & \textbf{\gls{2ES}} \\
+		\hline
+		Recherche \& tolérance au langage naturel &
+		Correspondance exacte, requêtes qui échouent à la moindre imprécision &
+		Non traité comme un avantage propre dans le paragraphe &
+		Mots-clés enrichis par le \gls{NLP} : tolérance aux variations typographiques, liens sémantiques et lemmatisation \\
+		\hline
+		Structure \& schéma des données &
+		Schéma de base de données fixe et rigide, incompatible avec la diversité des collections patrimoniales &
+		Schéma inexistant ou totalement hétérogène : impossible de connaître exhaustivement tous les champs à l'avance &
+		Schéma d'indexation fixe et connu à l'avance, mais champs variables selon les objets indexés (entre-deux) \\
+		\hline
+		Fonctions d'agrégation &
+		Disponibles nativement, mais nécessitent des requêtes exactes &
+		Non disponibles nativement &
+		Disponibles nativement et combinables avec une recherche floue \\
+		\hline
+	\end{tabular}
+	\caption{Comparaison des trois approches}
+	\label{tab:text2query-hybride}
+\end{table}
+
+Au delà du processus à mettre en place, ce \textit{pipeline} \gls{2ES} permet de ne pas trop changer techniquement le \gls{sgc}. Prenons l'exemple d'un \textit{pipeline} \gls{2NSQL}, ce processus nécessite une connexion directe avec la base de donnée \gls{NSQL}. Or, dans notre configuration logiciel le \gls{SRI} constitue un intermédiaire entre l'application et la base de données, cette dernière n'étant jamais interrogée directement. 
+
+Mettre en place un tel \textit{pipeline} aurait forcément demandé à contourner ou demander à retirer le \gls{SRI}, composant logiciel essentiel. Ce qui aurait demandé de repenser entièrement la structure du logiciel, représentant un danger certains pour l'expérience utilisateur et des coûts financiers et de temps bien trop élevés. 
+
+Si nous nous concentrons sur l'expérience, ce processus est très intéressant dans l'aspect du respect de l'usage utilisateur. D'abord, en ne retirant pas le \gls{SRI} on permet de conserver un usage préexistant et de pouvoir ne pas le remplacer. L'outil de la \guillemet{Recherche augmentée} devient dès lors une alternatives, pour plus de précisions et de puissance, mais pas une obligation. De plus, cela permet de sauvegarder ce qui existe déjà en terme de modalité de recherches et d'aspect graphique.
+
+\subsubsection{Conception techniques}
+
+Avant toute choses, notons que la \guillemet{Recherche augmentée} mise en place au cours du stage n'est qu'expérimentale car construit dans l'idée d'une \textit{Proof of concept}. C'est à dire que le processus présenté n'en est qu'à un stade basique de développement, suffisant pour expérimenter et estimer que la fonctionnalité peu fonctionner. Des changements techniques, que ce soit dans l'architecture du processus où les composants techniques choisis, sont à prévoir avant diffusion.\newline
+
+Par conception technique, nous n'entendons pas la conception du processus, déjà vus, mais le choix des technologies utilisées. La capacité de traitement, leurs puissances et qualité, peut déterminer la fiabilité d'un outil. La notion de choix dépend de trois éléments : les besoins exprimés, ici la capacité à comprendre des données très hétérogènes et des requêtes complexes, les attentes que l'on a en terme de performance et les capacités financières et infrastructurelle. De plus, les technologies choisies et employées doivent être \gls{ops} et compatible avec la dimension commercial du produit.
+
+En ce qui concerne le \gls{LLM}, le choix c'est porté sur le modèle \gls{zsht} Gemma-4-31B de Google. Ce dernier est \gls{ops} : il est installé localement, stockant et traitant les données de cette manière ce qui est idéal pour la sécurité des données. Ce modèle peut comprendre jusqu'à 256 000 \textit{tokens} en même temps, ce qui permet de décrire des contextes longs et détaillé. Il compte plus de 31 milliards de paramètres afin d'ajuster ses calculs, ce qui permet de créer un modèle relativement léger mais capable de réflexion assez approfondie.\footcite{GoogleGemma431BitHugging2026} Il demande cependant plus de 65 go de \gls{VRAM} et rencontre des difficultés de génération lorsque le contexte à ingérer avoisine sa limite. 
+
+Pour l'architecture \gls{RAG}, l'attention se porte sur deux outils : le model de \gls{Vecsion} et le mode de calcul de similarité. Pour le premier, aujourd'hui deux models sont utilisé : \begin{enumerate}
+	\item \textit{intfloat/multilingual-e5-small} à 384 dimensions\footcite{IntfloatMultilinguale5smallHugging}. Ce modèle de \gls{Vecsion} spécialisé sur les données textuelles est multilingues : il peut s'appliquer à des données dans les langues les plus parlées \textit{(Anglais, Français, Allemand, ...)} avec un haut score de précisions. Le logiciel étant exporté à l'international et gérant différentes langues au sein d'un même c\oe{ur} applicatif, ce modèle y est tout à fait adapté. Ensuite, les 384 dimensions déterminent la complexité des vecteurs qu'il génère. Plus un modèle comporte de dimensions, plus les \gls{vcs} générés sont long et donc ils se distinguent plus facilement les uns des autres. Ce modèle dans sa version dite \textit{small} se situe dans une moyenne basse, ce qui lui permet en contre partie d'être léger et donc plus rapide.\footcite{wangMultilingualE5Text2024}
+	
+	\item \textit{intfloat/multilingual-e5-base}, même modèle que précédemment il est cependant plus importants et volumineux puisqu'il prend en charge 768 dimensions, ce qui constitue une moyenne.\footcite{wangConversationalAIEnhancedExploration2026} En général, les modèles de \gls{Vecsion} utilisé dans les tâches de traitement de données sur grand volume se basent plutôt sur cette valeur. Par exemple, le modèle d'\gls{IA} BERT qui révolutionné le \gls{NLP}\footcite{devlinBERTPretrainingDeep2019} et qui est aujourd'hui une valeur de référence, base ses calculs de \gls{vcs} sur 784 dimensions. 
+\end{enumerate}
+
+Ce second modèle est utilisé de manière conditionnelle. C'est à dire que sur les \gls{table} comprenant énormément d'objets et de données, l'utilisation d'un modèle de \gls{Vecsion} à 384 dimensions est assez risqués. Les risques de \gls{vcs} proches alors que les objets sont très différents est trop élevés. On vient donc complexifié le calcul afin de renforcer la qualité des résultats. Des \gls{vcs} plus précis limitant les risques de \guillemet{faux liens} et permettant de se recentrer sur les liens très proches, indiquant de vrais proximité sémantique. 
+
+En ce qui concerne le calcul de similarité. Ce processus mathématique et informatique consiste en un calcul basé sur les \gls{vcs}. Il existe différentes méthodes calculs mais ici, la méthode utilisée est la plus répandue : la similarité de cosinus basée sur une méthode dite KNN. 
+
+Très courante dans les modèles de \gls{NLP}, cette méthode consiste à représenter les \gls{vcs} dans leurs espaces multidimentionnel, défini par le nombre de dimensions calculées, et de calculer l'angle les séparants. En effet, dans cet espace multidimensionnels les \gls{vcs} vont, par définition, dans certaines directions. Au lieu de simplement calculé l'écart entre les directions, ce calculs permet de calculer un angle. Si cet angle est inférieur à 90°, les \gls{vcs} sont alors très proches et les similarités importantes. Si il est supérieur à 90°, alors il est fort à parié que ces \gls{vcs} n'ont aucune, ou très peu, de similarité.\footcite{QuestceQueLalgorithme} De cette manière, il tri et classe bien plus facilement la pertinence des \gls{vcs} par rapport à une requête vectorisée ou bien la similarité de documents vectorisé. \newline
+
+De cette manière, on s'assure un processus technique suffisamment fiable, souple, par la présence de deux modèles de \gls{Vecsion}, et léger par l'utilisation de technologie suffisante. Cela répond également à un enjeux financiers et infrastructurel : rien que le \gls{LLM} peut consommer à lui seul jusquà 65 go de \gls{VRAM}, ce qui coûte aujourd'hui plusieurs centaines d'euros. Les modèles de \gls{Vecsion} sont quant à eux assez lourds et gourmand également, mais nous ne disposons d'informations précises à transmettre. 
+
+Dans le cadre de SkinSoft, il faut penser que cette technologie risque d'être utilisée par différentes institutions et utilisateurs impliquant de répondre en simultannée à différentes requêtes, sur différents jeux de données. Nous n'avons pas encore de réponse à cette question, pour le moment le processus n'est qu'expérimental et n'est donc déployer que sur un serveur y étant dédié et stockant moins de données que beaucoup d'institutions. 
+
+Mais il serait réaliste de penser que ce processus va connaître des déclinaisons technologiques. Des processus léger, demandant des serveurs moins puissant, et donc moins gourmands correspondant aux besoins des bases de données les plus petites. Des processus plus importants, avec leurs serveurs dédiés, qui permettent des traiter des volumétries, hétérogénéités et flexibilité de données bien plus importantes avec la même efficacité et les mêmes résultats.
+
+En fonction de l'institutions et de ces données, la solution adaptées et donc le matériel adapté sera définis et utilisé. C'est une approche potentiel permettant de rationnaliser les coûts en s'adaptant aux besoins : on fournis toujours ce qu'il faut, jamais plus ce qui permet de rester dans des coûts \guillemet{acceptable}.
 
 \subsubsection{Conception du parcours utilisateurs final}
+
+Le parcours utilisateurs à été définis dans une spécifications rédigées lors du stages.
 
 \subsubsection{Analyse réflexive}
 
 \subsection{Le \gls{chatbot} :}
 
-\subsubsection{Conception techniques finale}
+\subsubsection{Conception de l'outil}
 
-\subsubsection{Conception du parcours utilisateurs final}
+\subsubsection{Conception technique }
+
+\subsubsection{Conception du parcours utilisateurs}
 
 \subsubsection{Analyse réflexive}

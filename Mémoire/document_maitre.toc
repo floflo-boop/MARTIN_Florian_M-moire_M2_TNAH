@@ -46,21 +46,23 @@
 \contentsline {section}{\numberline {III.}Enjeux utilisateurs}{98}{section.4.3}%
 \contentsline {part}{III\hspace {1em}Solutions élaborées et résultats obtenus}{101}{part.3}%
 \contentsline {chapter}{\numberline {5} Recherche Augmentée et “chatbot” : conception technique, conception utilisateur et résultat.}{103}{chapter.5}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{104}{subsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {a.}Conception techniques finale}{104}{subsubsection.5.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Conception du parcours utilisateurs final}{104}{subsubsection.5.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Analyse réflexive}{104}{subsubsection.5.0.1.3}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{104}{subsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Conception techniques finale}{104}{subsubsection.5.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Conception du parcours utilisateurs final}{104}{subsubsection.5.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Analyse réflexive}{104}{subsubsection.5.0.2.3}%
-\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{105}{chapter.6}%
-\contentsline {subsection}{\numberline {1.}Conception techniques finale}{106}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Conception du parcours utilisateurs final}{106}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Analyse réflexive}{106}{subsection.6.0.3}%
-\contentsline {subsubsection}{\numberline {a.}Analyse d'écart}{106}{subsubsection.6.0.3.1}%
-\contentsline {subsubsection}{\numberline {b.}Analyse de l'évolution du projet}{106}{subsubsection.6.0.3.2}%
-\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{107}{chapter.7}%
-\contentsline {chapter}{Conclusion}{111}{part*.15}%
-\contentsline {chapter}{\numberline {A}Titre court}{111}{appendix.A}%
-\contentsline {chapter}{\textfrench {Glossaire}}{113}{section*.16}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{105}{subsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{106}{subsubsection.5.0.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Conception techniques}{109}{subsubsection.5.0.1.2}%
+\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateurs final}{111}{subsubsection.5.0.1.3}%
+\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{111}{subsubsection.5.0.1.4}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{111}{subsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{111}{subsubsection.5.0.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Conception technique }{111}{subsubsection.5.0.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateurs}{111}{subsubsection.5.0.2.3}%
+\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{111}{subsubsection.5.0.2.4}%
+\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{113}{chapter.6}%
+\contentsline {subsection}{\numberline {1.}Conception techniques finale}{114}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {2.}Conception du parcours utilisateurs final}{114}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Analyse réflexive}{114}{subsection.6.0.3}%
+\contentsline {subsubsection}{\numberline {a.}Analyse d'écart}{114}{subsubsection.6.0.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Analyse de l'évolution du projet}{114}{subsubsection.6.0.3.2}%
+\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{115}{chapter.7}%
+\contentsline {chapter}{Conclusion}{119}{part*.16}%
+\contentsline {chapter}{\numberline {A}Titre court}{119}{appendix.A}%
+\contentsline {chapter}{\textfrench {Glossaire}}{121}{section*.17}%
