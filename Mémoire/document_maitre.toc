@@ -53,16 +53,16 @@
 \contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{114}{subsubsection.5.0.1.4}%
 \contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{115}{subsection.5.0.2}%
 \contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{115}{subsubsection.5.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Proposition technique }{116}{subsubsection.5.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{116}{subsubsection.5.0.2.3}%
-\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{116}{subsubsection.5.0.2.4}%
-\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{117}{chapter.6}%
-\contentsline {subsection}{\numberline {1.}Conception techniques finale}{118}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Conception du parcours utilisateurs final}{118}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Analyse réflexive}{118}{subsection.6.0.3}%
-\contentsline {subsubsection}{\numberline {a.}Analyse d'écart}{118}{subsubsection.6.0.3.1}%
-\contentsline {subsubsection}{\numberline {b.}Analyse de l'évolution du projet}{118}{subsubsection.6.0.3.2}%
-\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{119}{chapter.7}%
-\contentsline {chapter}{Conclusion}{123}{part*.18}%
-\contentsline {chapter}{\numberline {A}Titre court}{123}{appendix.A}%
-\contentsline {chapter}{\textfrench {Glossaire}}{125}{section*.19}%
+\contentsline {subsubsection}{\numberline {b.}Proposition technique }{117}{subsubsection.5.0.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{117}{subsubsection.5.0.2.3}%
+\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{117}{subsubsection.5.0.2.4}%
+\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{119}{chapter.6}%
+\contentsline {subsection}{\numberline {1.}Conception techniques finale}{120}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {2.}Conception du parcours utilisateurs final}{120}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Analyse réflexive}{120}{subsection.6.0.3}%
+\contentsline {subsubsection}{\numberline {a.}Analyse d'écart}{120}{subsubsection.6.0.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Analyse de l'évolution du projet}{120}{subsubsection.6.0.3.2}%
+\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{121}{chapter.7}%
+\contentsline {chapter}{Conclusion}{125}{part*.19}%
+\contentsline {chapter}{\numberline {A}Titre court}{125}{appendix.A}%
+\contentsline {chapter}{\textfrench {Glossaire}}{127}{section*.20}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  30 AUG 2026 16:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  30 AUG 2026 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1736,7 +1736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 [2]
 Chapitre 1.
 (./Chapitres/P1_C1_1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
@@ -1745,12 +1745,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
@@ -1764,12 +1764,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
@@ -1783,7 +1783,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
@@ -3215,11 +3215,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
 [115]
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
-
- []
-
+File: ./Schema/Chatbot.png Graphic file (type bmp)
+<./Schema/Chatbot.png>
 )
+Underfull \vbox (badness 5939) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3229,12 +3230,30 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
 [116]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.79024pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.79024pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
+
+[117]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.79024pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.79024pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
+
+[118
+
+]
 Chapitre 6.
 (./Chapitres/P3_C2.tex
 
-[117
-
-])
+[119])
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3243,30 +3262,30 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[118]
+[120]
 Chapitre 7.
 (./Chapitres/P3_C3.tex
 
-[119
+[121
 
 ])
 
-[120]
-
-[121
-
-]
-
 [122]
-Annexe A.
-
 
 [123
 
+]
+
+[124]
+Annexe A.
+
+
+[125
+
 
 ]
 
-[124
+[126
 
 ]
 runsystem(makeindex document_maitre.idx)...executed safely (allowed).
@@ -3278,14 +3297,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[125
+[127
 
 
 
 
 ]
 
-LaTeX Warning: Reference `chatbot' on page 126 undefined on input line 34.
+LaTeX Warning: Reference `chatbot' on page 128 undefined on input line 34.
 
 
 Overfull \hbox (8.40079pt too wide) in paragraph at lines 36--38
@@ -3294,6 +3313,8 @@ aines de l’[][]intelligence
  []
 
 
+
+[128]
 Overfull \hbox (0.77545pt too wide) in paragraph at lines 54--56
 []\TU/lmr/m/n/12 La \TU/lmr/m/it/12 computer vision\TU/lmr/m/n/12 , ou vision p
 ar ordinateur en français, est sous-domaine
@@ -3301,13 +3322,13 @@ ar ordinateur en français, est sous-domaine
 
 
 
-[126]
-
-[127]
-
-[128]
-
 [129]
+
+[130]
+
+[131]
+
+[132]
 
 Package biblatex Warning: Nested notes on input line 209.
 
@@ -3319,7 +3340,7 @@ ndants
 
 
 
-[130]
+[133]
 Overfull \hbox (2.84882pt too wide) in paragraph at lines 255--259
 []\TU/lmr/m/n/12 Technologie d’[][]intelligence artificielle[] composant une pa
 rtie du sous-domaine
@@ -3327,27 +3348,27 @@ rtie du sous-domaine
 
 
 
-[131]
+[134]
 
 Package biblatex Warning: Nested notes on input line 287.
 
 
 
-[132]
+[135]
+
+[136]
 
 Package biblatex Warning: Nested notes on input line 335.
 
 
 
-[133]
+[137]
 
-[134])
+[138]
 
-[135]
+[139])
 
-[136
-
-] (./document_maitre.lof
+[140] (./document_maitre.lof
 Overfull \hbox (18.47528pt too wide) in paragraph at lines 15--15
  [][] [][]\TU/lmr/m/n/12 Schéma du modèle WEMI implanté dans la solution S-Movi
 es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​ 
@@ -3359,21 +3380,23 @@ es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​
 
 
 
-[137]
+[141
 
-[138
+]
+
+[142
 
 ] (./document_maitre.toc
 
-[139]
+[143]
 
-[140])
+[144])
 \tf@toc=\write9
 \openout9 = `document_maitre.toc'.
 
 
 
-[141] (./document_maitre.aux)
+[145] (./document_maitre.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -3392,12 +3415,12 @@ Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50204 strings out of 468389
- 1058398 string characters out of 5440619
- 2193718 words of memory out of 5000000
- 78020 multiletter control sequences out of 15000+600000
+ 50215 strings out of 468389
+ 1058636 string characters out of 5440619
+ 2208402 words of memory out of 5000000
+ 78030 multiletter control sequences out of 15000+600000
  633381 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,117p,3045b,6656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (169 pages).
+Output written on document_maitre.pdf (173 pages).
