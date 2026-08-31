@@ -1,30 +1,5 @@
 % !TeX root = ../document_maitre.tex
 
-\begin{itemize}
-	\item Présentations des résultats obtenus pour chaque fonctionnalité/technologies implémentées. Ce n’est pas dit que je puisse avoir de résultats concrets à présenter, auquel cas je me concentrerais peut-être plus sur les résultats espérés et les premiers retours si jamais nous avons interrogé des usagers de la solution sur ce qu’ils attendent liées à ces fonctionnalités, ce qu'ils en attendent, etc. 
-	% \item  Présentations des fonctionnalités créées et le parcours pensé. 
-	% \item  Espoirs et réalités : quelles différences entre le point de départ de la réflexion sur ces fonctionnalités et ce qui a abouti ? Pourquoi ? 
-	% \item Résultats 
-	
-	\item \textbf{Plan :}
-	\subitem 1. La recherche augmentée 
-	\subsubitem 1.1 Présentation du processus technique imaginé et/ou établi, si on en est là, pour l'aspect recherche augmentée. Explication du point de départ, de l'angle de travail suivi, et de chaque décision
-	\subsubitem 1.2 Explication des défis relevés, en relation avec le Chapitre 3, et des solutions apportées aux points bloquants identifiés.
-	\subsubitem 1.3 Parcours utilisateurs pensés et en quoi ils respectent des principes d'UX design et à intégrer cette pensée pour faciliter l'usage.
-	\subsubitem 1.4 Retracer les différents changements importants, qu'ils soient techniques ou UX Design. Pourquoi ce changement ? Quelles solutions apportées ? Difficultés rencontrées dans l'établissement de la solution ? 
-	
-	\subitem 2. Le "Chatbot"
-	\subsubitem 2.1 Présentation du processus technique imaginé et/ou établi, si on en est là, pour l'aspect recherche augmentée. 
-	\subsubitem 2.2 Explication des défis relevés, en relation avec le Chapitre 4, et des solutions apportées aux points bloquants identifiés.
-	\subsubitem 2.3 Parcours utilisateurs pensés et en quoi ils respectent des principes d'UX design et à intégrer cette pensée pour faciliter l'usage.
-	\subsubitem 2.4 Retracer les différents changements importants, qu'ils soient techniques ou UX Design. Pourquoi ce changement ? Quelles solutions apportées ? Difficultés rencontrées dans l'établissement de la solution ?
-	
-	\subitem 3. Analyses d'écarts entre l'espoir d'origine, les besoins utilisateurs si exprimés, et la solution finale. Explications des différences et de leurs raisons d'êtres \textit{(relation avec les sections 2 et 3 du chapitre 2 de la partie 1)}
-	
-	\subitem 4. Retours utilisateurs et analyse des retours si possible. 
-	
-\end{itemize}
-
 Aujourd'hui un constat se pose face à nous. La complexité des collections patrimoniales, leur demande croissante de gestion et la complexité natives des \gls{sgc} constituent aujourd'hui des difficultés, voir des freins, pour le monde professionnel agissant dans la gestion des collections. Or, notre état de l'art sur le \gls{NLP} au service des collections patrimoniale impose un constat : la mise en retrait des besoins professionnels. 
 
 Ce constat n'est pas isolé. Comme nous l'avons vu, la complexité même des systèmes de gestion de collections constitue déjà en elle-même une limite aux possibilités offertes aux professionnels. Un logiciel devenu trop complexe pour être pleinement exploité restreint autant les usages qu'il prétend permettre. De plus, la complexité et massivités croissantes des collections amènent aujourd'hui ces logiciels à leurs limites, notamment sur la question de leurs technologies. Les \gls{SRI} dit \guillemet{classique} devenant de plus en plus limité afin de répondre aux besoins professionnels. 
@@ -192,15 +167,37 @@ Ce parcours hypothétique, souhaité mais non mis en place encore aujourd'hui, m
 
 \subsubsection{Analyse réflexive}
 
-Les difficultées rencontrées : 
+Ici, nous allons articuler deux éléments. D'abord les résultats obtenus lors du \textit{Proof of concept}. Ce sera l'opportunité d'apprécier l'apport et les limites de cet outil appliqué au logiciel SkinSoft. Ensuite, les différentes difficultés encore non résolue ainsi que différentes réflexions et évolutions qui ont déjà été menées. \newline
 
-- Compréhensions des dates. POur lui une date c'est une date.... Cool mais elles ont pas la même signification
+Le \textit{Proof of concept} a été mené uniquement sur une seule \gls{table} de l'application, celles des archives, et donc un seul index, sur un jeux de données fictif servant aux tests applicatif. On ignore ainsi encore son comportement sur plusieurs indexs ou plusieurs variétés d'un même index, en fonction de l'institutions en questions et de ces données.\newline
 
-- Le multilinguisme. C'est sympa tout ça mais SkinSoft prend en charge plein de langue. Bon faudra certainement penser à un processus dédié aux recherches multilingues, avec un LLM plus spécialisé permettant de traduire et faire des correspondances linguistique. 
+La première limite qui en ressort, c'est la compréhensions des dates. En effet, sur cette table archives il existe de multiples dates : dates de création de l'instrument de recherche, date de création de l'archives, date d'entrée dans les collections, etc. Quand on demande à la \guillemet{recherche augmentée} de recherche une archives avec une date d'entrée de collections et de création précises, il peut inverser les valeurs. Sur des requêtes plus simples, il arrive à ce qu'il ne reconnaisse pas le bon champs de dates à interroger. 
 
-- L'accumulation des filtres. Assez peu prouvée mais grosso modo y a une difficulté qui est que certains modes de recherches sont assez poreux. Par exemple la recherche plein texte ciblée on peut la faire avec une recherche avancée... ça redéfinis l'utilisation de cette fonctionnalité et de son utilité. 
+En somme, aux yeux du \gls{LLM} les champs de dates ne sont pas différencié. Ils ont la même valeurs et la même fonction sémantique, ce qui est déconnecté de la réalité des données. 
 
-- Réflexion sur le parcours utilisateurs : recherche augmentée bavarde ? Non on a estimé qu'il ne fallait pas car on pourrait considérer qu'elle génère des choses et ne redistribue de l'informations réelles. Distinguer de la barre de recherche classique ou alors complétement la remplacer ? Question encore en cours qui dépendra des usages et retours mais c'est le flous..
+Nous n'avons pas encore détecté l'origine de la confusion. Est ce l'index qui est trop flous à ce sujet ? Ou alors simplement un manque de compréhension de l'index pouvant provenir des \gls{vcs} généré, demandant donc un nouveau modèle de \gls{Vecsion}, ou de la capacité de compréhension du \gls{LLM} ? C'est encore assez flous. \newline
+
+La seconde limite de ce processus est l'utilisation de formulation trop longue et alambiquée. En effet, ces formulations génères des \gls{vcs} bien trop éloigné de ceux des champs présents dans l'index interrogé. Plus la requête est simple, exprimé avec des formules légères y compris avec du vocabulaire métier, plus le résultat est fiable. Malheureusement, pour le moment, aucun pourcentage de fiabilité n'a été créé.\newline
+
+La troisième limite, constituant une piste d'améliorations, est la prise en charge du multilinguisme. L'application gère les langues d'une manière particulière : chaque application peut disposer d'un certains nombre de langues souhaitées et remplir ces données dans chaque langue disposées. Imaginons une institutions souhaitant diposer de descriptions anglaise, française et allemande, elle peut posséder ces trois langues et remplir manuellement chaque champs dans chacune des trois langues. Le passage d'une langue à une autre se fait par un bouton de sélection, changeant la langue d'affichage. Par défaut, si une donnée n'existe pas dans une langue, car elle n'a pas été traduite par l'utilisateur, le logiciel affiche la données dans la langue définie comme principale. 
+
+Grâce à ses composants techniques, notre processus peut interroger différentes langues. Par exemple, une requête rédigée en Anglais interrogera les données disponible en anglais. Cependant, il ne gère les porosité linguistique : je ne peux pas écrire une requête en français pour chercher des données en Anglais. Cela peut cependant présenter un cas d'usage intéressant. 
+
+Cette problématique peut se résoudre avec la mise en place d'un autre processus permettant de créer cette porosité linguistique. Cependant, il demande de nouveaux composants techniques, notamment un \gls{LLM} capable de faire les correspondances linguistiques et un outil capable d'accéder aux données dans la langue précisée dans la requête. Ces outils risquent d'allourdir le processus et être plus gourmand en \gls{RAM}. \newline
+
+AU delà de ces limites techniques, cet outil pose un certains nombre de questionnement venant redéfinir le parcours utilisateurs ou certaines fonctionnalités. 
+
+Une première question qui s'est posé est celle des modalités de recherches. L'application en propose plusieurs\footnote{Voire page \pageref{modalités-recherches}} mais elles peuvent être assez poreuses. Par exemple, la recherche plein-texte ciblée permet d'interroger en texte des libres des champs de données. Cependant, nous pouvons faire la même chose à l'aide de la recherche avancée. Bien que nous n'ayons pas encore essayer d'inclure la recherche plein-texte ciblée à nos tests, nous nous demandons si cette dernière sera réellement utilisée par l'outil. Ce qui pose la question de l'usage de cette fonctionnalité à plus large échelle : est-elle vraiment utilisée ? Est-elle vraiment pertinente ?
+
+À court terme, des décisions devront être précises. Soit dissocier plus clairement la recherche avancée de la recherche plein-texte ciblée afin de conserver les deux. Soit supprimer la recherche plein-texte ciblée, totalement incorporée dans la recherche avancée, afin de correspondre à une réalité d'usage. 
+
+Cela montre également que la mise en place d'outil d'\gls{IA} est aussi un moyen de requestionner les acquis applicatifs et de rediscuter les usages réelles de certaines fonctionnalités. Penser la mobilisation de ces fonctionnalités par une \gls{IA} permet de mettre en évidence leurs fragilités et pousse alors à améliorer l'application sur d'autres aspects. \newline
+
+Finalement, la place et l'usage de cette application est encore assez flous. Le modèle de parcours utilisateurs proposé correspond à un idéal, mais n'a pas encore été éprouvé face aux pratiques réelles des utilisateurs de l'application. Par exemple, des questionnements subsiste encore quant à l'utilisation d'une même barre de recherche pour la recherche simple et la recherche augmentée. Ne faudrait-il pas les dissocier afin de mieux faire comprendre à l'utilisateur qu'il utilise l'\gls{IA} sur ces données, plutôt que de le submerger de message ? Ou bien encore, est-il pertinent de maintenir une fonctionnalité de recherche simple si la \guillemet{recherche augmentée} existe et prend place au même endroit ? À cette question nous pensons que oui car l'utilisateur doit avant tout avoir le choix d'utiliser l'\gls{IA} sur ces données, ou bien de ne pas le faire. 
+
+Un autre exemple de problématique liée à cette fonctionnalité, est celle de sa capacité à générer des résumé. C'est en effet sur ce principe que repose la recherche intelligente, et pendant un moment cette possibilité à été envisagée. Afin de ne pas créer de confusion avec le \gls{chatbot}, capable de générer des résumé, et de ne pas amener à penser que le processus n'utilise pas les données institutionnelles mais en génère, nous avons pris la décision de la rendre muette. Cependant, cela est-il le reflet d'une réalité d'usage souhaitée ?\newline
+
+Ainsi, c'est encore un outil au potentiel de développement important notamment dans des questions d'\gls{ux} et d'\gls{ui} difficile à cerner. La nouveauté de cette typologie d'outils dans les \gls{sgc} nous invitent à expérimenter et tatôner afin de trouver l'équilibre souhaité. Cela implique d'avoir recours à de multiple étapes de développement afin une présentation finale à l'utilisateur dans l'objectif de définir plus précisément toutes ces notions. 
 
 \subsection{Le \gls{chatbot} :}
 
@@ -218,9 +215,9 @@ Pour la \guillemet{recherche augmentée}, il s'agissait de pouvoir améliorer la
 
 Pour le \gls{chatbot}, son rôle premier est de guider l'utilisateur dans l'utilisation de l'application en répondant à ces questions sur l'utilisation. Ainsi, le \gls{chatbot} doit pouvoir disposer de documentations sur toutes les fonctionnalités de l'application et répondre avec ces données sous formes textuels. Ainsi par \guillemet{répondre avec les bonnes informations} nous entendons la génération d'un écrit permettant d'expliquer une fonctionnalité et de présenter des étapes à suivre pour son utilisation.
 
-Ajoutons que à terme, le \gls{chatbot} est pensé comme un assistant de production. Il devrait pouvoir avoir accès à différentes notices de l'application et vérifier la saisie des métas-données, leurs homogénéité, les liens entre notices et la propreté des thésaurus par exemple. Ce qui signifie que à terme, il doit avoir accès à des fonctionnalités et des documents applicatifs et institutionnels.
+Ajoutons que à terme, le \gls{chatbot} est pensé comme un assistant de production. Il devrait pouvoir avoir accès à différentes notices de l'application et vérifier la saisie des métas-données, leurs homogénéité, les liens entre notices et la propreté des thésaurus par exemple. Ce qui signifie que à terme, il doit avoir accès à des fonctionnalités et des documents applicatifs et institutionnels. 
 
-Voilà une représentation de ce processus : 
+Voici une représentation de ce processus : 
 
 \begin{figure}[H]
 	\centering
@@ -231,6 +228,73 @@ Voilà une représentation de ce processus :
 
 \subsubsection{Proposition technique }
 
+Ici, nous allons présenter un ensemble d'outils pour chaque besoins du processus imaginé. Ces outils sont sélectionné au regard des outils utilisés précédemment dans l'objectif de rester dans le même ordre de poids et coûts technologiques. \newline
+
+Notre processus doit pouvoir reconnaître le cas d'usage dans lequel la requête s'inscrit. Il faut d'abord pouvoir vectoriser la requête utilisateur : nous réutilisons alors \textit{intfloat/multilingual-e5-small} déjà utilisé pour la recherche augmentée. À partir de ces \gls{vcs}, des outils peuvent en retirer du sens et faire ce que l'on appel de la \gls{fctcall} : c'est à dire faire appel au bon processus et outils parmis ceux proposés. Nous proposons d'utiliser \textit{Semantic Router}, un outil d'\gls{IA} capable d'extraire du sens à partir des \gls{vcs} généré et d'effectueur un \gls{fctcall}. Il présente l'avantage d'être assez légé, local et fiable tout en nous permettant de réutiliser ce qui est déjà mis en place et fonctionnel. De plus, cet outil permet également de diriger vers le bon index à interroger le cas échéant.
+
+Si le cas définis est celui de l'usage applicatif : 
+
+\begin{enumerate}
+	\item En amont de la requête à eu lieu une étape de \gls{RAG} sur la documentation fournis par l'entreprise sur l'application. Pour cela on réutilise la même architecture : \textit{intfloat/multilingual-e5-small} ou \textit{intfloat/multilingual-e5-base}, le calcul de similarité KNN puis leurs injections dans un index \gls{ES} dédié. De cette manière, la documentation est pré-traitée est accessibles directement dans l'application, sans créer une surcharge. Cela permet au \gls{chatbot} de gagner en rapidité lors de l'interrogation des données, étant nativement présente dans l'application, et en même temps de ne pas rendre cette documentation visible par l'utilisateur. En effet, la documentation à fournir n'est pas encore déterminée mais cela peut inclure des documents sensible tels que des spécifications ou du code auxquels on ne souhaite pas donner accès à l'utilisateur.\newline
+	
+	\item Lors du requêtage, on se sert des vecteurs générés afin de les comparer à l'index dédié et de retrouver la bonne documentation. Ensuite, le modèle \textit{Gemma-4-31B} se charge de récupérer les passages, les analyser et formuler une réponse au près de l'utilisateur. 
+\end{enumerate}
+
+Si le cas définis est celui de l'assistance à la production alors le procédé change quelques peu. Le problème principal étant les données à traiter. En effet, il existe plusieurs centaines de thésaurus, plus ou moins volumineux, et un nombre exponentiel de notices de natures différentes très dépendante de l'institution. La volumétrie des données brutes à analyser est telle qu'une simple analyse par \gls{LLM} risque de saturer ce dernier, notre \gls{RAM} et notre \gls{VRAM}. Ce qui peut rendre le processus lent, imprécis et parfois inefficace. Il faut donc penser à un tout autre processus qui s'articule en un script python en 3 temps : 
+
+\begin{enumerate}
+	\item La librairie python \textit{Polars}. Pierre angulaire de ce processus, cette librairie permet deux choses : stockée les données dans un format colonaire en mémoire vive. Cela permet d'accélérer le traitement des données par la suite. Mais aussi, \textit{Polars} analyse les données et détecte les doublons, les manquent de données, les erreurs typographiques, etc. Par exemple, de cette manière il va pouvoir repérer l'existence d'un terme en double, orthographié de deux manière différentes et signifier laquelle est la bonne. C'est un outil intéressant notamment car il peut se connecter à l'API de \gls{ES} et interragir avec ces différents index. Nous n'avons pas à stocker la données différemment. 
+	
+	\item La librairie python \textit{Pydantic}. Elle reçoit les données générées par \textit{Polars} et les transforme en format \j. Le format \j étant un schéma fixe, cela pousse à reformuler les erreurs trouvées dans une forme standardisé où chaque champs à une signification. 
+	
+	\item Notre \gls{LLM} \textit{Gemma-4-31B} qui peut lire le \j généré, saisir le problème remonté par \textit{Polars} et le formuler dans un résumé. De cette manière, il communique l'erreur à l'utilisateur et lui permet de ce corriger. Par sa capacité de mémorisation et de contextualisation, il garde en mémoire les conversations avec chaque utilisateurs sans les mélanger.
+\end{enumerate}
+
+Ces deux processus techniques présentent un double avantage. D'abord, ils sont assez léger et souple, ce qui permet de proposer une rapidité de réponse assez satisfaisant. De plus, ils sont assez poreux avec ce qui a été fait précédemment dans la \guillemet{recherche augmentée} et ce qui est déjà présent dans l'application d'origine. De cette manière, on n'accumule pas les technologies et les défis d'implémentation. 
+
 \subsubsection{Proposition de parcours utilisateurs}
 
-\subsubsection{Analyse réflexive}
+Contrairement à la \guillemet{recherche augmentée} il s'agit ici d'inventer un tout nouveaux parcours utilisateurs. À savoir une nouvelle interface, qui doit bien s'intégrer dans l'interface globale déjà existante, et une nouvelle expérience. 
+
+La réponse à la construction de ces deux nouveaux éléments se trouvent, en réalité, dans ce qui préexiste au sein de l'application. En effet, afin de ne pas créer de confusion chez l'utilisateur il faut créer une continuité, une logique graphique et d'expérience. Pour cela, comme pour le procédé technique, il faut se baser au maximum sur ce qui préexiste dans l'application. \newline
+
+L'expérience est assez simpliste. Le \gls{chatbot} doit être un outil disponible à n'importe quel instant, n'importe où dans l'application et qui doit prendre en entrée une requête et afficher un texte en sortie. 
+
+Nous réutilisons la conception du \gls{chatbot} classique. Cette interface se divise en deux zones : une zone de requêtage avec un bouton d'envoie, et une zone permettant d'afficher les résultats. Cela constitue l'interface principale avec laquelle l'utilisateur va interragir. 
+
+L'affichage et l'activation de cette interface sont des questions aux réponses beaucoup moins définis. 
+
+Dans l'application, il existe une fonctionnalité intéressante : la saisie tabulaire qui permet de modifier directement les données dans la \gls{grdr}. Son fonctionnement est intéressant : l'activation d'un bouton active cette fonctionnalité et au clic sur une case, une interface se déplie sur la droite de l'écran permettant de modifier la donnée. L'affichage s'adapte à cette nouvelle interface qui se déploie afin de faire cohabiter les deux interfaces. Une première solution serait donc de s'en inspirer totalement : on créer un bouton dédié au \gls{chatbot} situé au même endroit que tous les autres boutons. A son activation, la même interface que pour la saisie tabulaire se déploie et on peut interragir avec son \gls{chatbot}. La problèmatique est que cela risque de créer une confusion entre la saisie tabulaire et le \gls{chatbot}. 
+
+Une autre piste d'interface serait d'implémenter une petite fenêtre flottante en bas à droite comme cela est d'usage aujourd'hui. Cela permettrait de conserver l'usage et les repère que l'utilisateur à créer vis à vis des \gls{chatbot} dans les autres sites. Cependant, cette fenêtre flottante pose des questions : une fois dépliée, recouvre-t-elle les éléments ? Ou est ce qu'on redimensionne ce qui existe ? Doit-on laisser un espace vide afin de laisser la place à ce déploiement et donc redimensionner toutes nos interfaces ? Ce sont des questions assez complexes qui mettent en jeux l'\gls{ux} et l'\gls{ui} de la fonctionnalité mais aussi de l'application. Cela peut donc sembler risqué. 
+
+Une dernière piste est de s'inspirer des \gls{ac} grand public comme ChatGPT. Ces derniers possèdent un site dédié : c'est une page entière causant ainsi aucun chevauchement d'éléments et aucune surcharge de données. Intégré à l'application, on pourrait considérer le \gls{chatbot} comme une \guillemet{notice} à ouvrir dans l'application. À l'ouverture, nous aurions ainsi une interface dédiée dans l'application et unique qui n'entrerais pas en conflit avec ce qui existe déjà dans l'application. Cependant, cela peut briser l'aspect assistant disponible dans l'application : il n'est pas constamment avec nous, il faut aller dans un endroit précis de l'application pour l'interroger. \newline
+
+Pour l'expérience, elle est déjà en partie définis par la technique. En fonction de la requête utilisateurs, le processus s'adapte et utilise certaines technologies dans un certains buts comme nous venons de le voir. 
+
+Ainsi, l'utilisateur n'a pas à jongler avec des paramètres ou interragir avec l'outil autrement que par requête. Le processus se charge d'interpréter et d'appliquer le traitement adapté. C'est une expérience assez intéressante, car elle permet de faciliter au maximum, par l'automatisation, l'utilisation de l'outil.
+
+Ajoutons que le \gls{chatbot} à une limite définie et importante pour l'expérience des utilisateurs : il ne modifie, supprime ou ne créer pas de la donnée directement dans la base de données institutionnelle. En effet, c'est \gls{IAG}, nous l'avons vus, sont sources de méfiances de la part des professionnels de la gestion des collections. Leurs capacités à générer de la données faussée et de l'inscrire durablement dans les bases institutionnelles et vus comme un danger à la rigueurs scientifique de cet univers métiers. 
+
+En limitant le \gls{chatbot} à un outil de redistribution de l'informations et de l'analyse de cette dernière, on place l'utilisateur au centre de la validation de la rigueurs scientifique. L'outil se contente de recommander et expliquer, et c'est l'utilisateur qui peu modifier, ou non, selon les recommandations, ou non. Cet aspect vise à mettre l'utilisateur dans une position de confiance vis à vis de l'outil. 
+
+\subsubsection{Perspective d'avenir}
+
+Au stade de réflexion actuel, le \gls{chatbot} voit son implémentation être assez mal définie. L'intégration d'un tel outil dans une solution préeexistante et dans des rapports entre l'utilisateur et l'application déjà solidement acquis représente finalement la partie la plus complexe et difficile à mettre en place. 
+
+Pour cette raison, les choix d'implémentations ne sont pas encore clairement définis. En réalité, il est même logique de penser que de l'acceptation de la \guillemet{recherche augmentée} par les utilisateurs dépend les choix d'implémentation du \gls{chatbot}. \newline
+
+Si l'accueil de la \guillemet{recherche augmentée} est favorable, cela amène à valider : le choix du \gls{LLM} et modèle de \gls{Vecsion} choisis, le choix d'une architecture technique locale, mais aussi la disposition des utilisateurs à faire confiance à l'\gls{IA} au sein de leurs environement de travail. Cependant, le rejet de la \guillemet{recherche augmentée} amène à reconsidéré l'implémentation du \gls{chatbot} dans un tel environement. 
+
+Comme nous ne disposons pas d'une expérience d'un \textit{Proof of concept} pour le \gls{chatbot}, nous ne pouvons pointer des difficultés techniques réelles. Nous ne pouvons qu'attirer l'attention sur des choix à effectuer et des défis techniques potentiels qu'il serait bon d'anticiper : 
+
+
+\begin{enumerate}
+	\item D'abord les défis d'infrastructure que cet outil représente. En effet, il mobilise finalement bien plus de ressources que la \guillemet{recherche augmentée} et peut amener une surexploitations des ressources. Il est ainsi crucial d'adapter son processus et \textit{pipeline} technologique à des contraintes d'infrastructures. C'est pour cela que ce processus est pensé pour éviter d'exploiter le \gls{LLM} dans des calculs lourds, sur d'énorme quantité bruts de données. 
+
+	\item Ensuite le défis de l'implémentation notamment au sujet de l'équilibre entre la visibilité de l'outil et la surcharge cognitive dûes à l'encombrement de l'espace de travail. La densité d'informations présente et présentée par un \gls{sgc} complexifie l'implémentation de cette technologique et rend tout choix d'implémentation très complexe. Plus que pour la \guillemet{recherche augmentée}, le \gls{chatbot} doit respecter l'\gls{ux} et l'\gls{ui} applicatif. 
+	
+	\item Enfin, le \gls{chatbot} souligne le défis de la recherche d'un équilibre entre l'apports de ces technologies \gls{IA} et les besoins scientifique de certains univers métiers. Cet équilibre doit amener à continueur de placer l'humain au centre de la rigueur scientifique. Il doit donc garder la charge de la décision afin que ce soit lui qui définisse la rigueur scientifique des collections dont il a la charge. Ces outils ne doivent être que de simples assistant. Tendre vers trop d'automatisation, c'est amener à retirer le facteur humain de son propre patrimoine et à corrompre certains éléments. 
+	
+	Au delà, cet équilibre passe par une question de sensation et de ressenti à l'usage. Ces outils doivent observer et conserver cet approche profondément humaine.
+\end{enumerate}
