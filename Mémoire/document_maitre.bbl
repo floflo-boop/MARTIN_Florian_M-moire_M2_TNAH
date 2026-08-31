@@ -6223,6 +6223,29 @@
       \verb https://memoriav.ch/fr/actualite/preparer-les-archives-pour-lere-de-lia
       \endverb
     \endentry
+    \entry{PresentationModeleGemma}{online}{}{}
+      \list{organization}{1}{%
+        {Google AI for Developers}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Présentation du modèle Gemma 4}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/KAVUYADW/core.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ai.google.dev/gemma/docs/core?hl=fr
+      \endverb
+      \verb{url}
+      \verb https://ai.google.dev/gemma/docs/core?hl=fr
+      \endverb
+    \endentry
     \entry{prieurTraitementAutomatiqueLangage2024}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6fc069e5f928d674840503a394c99e9b}{%
