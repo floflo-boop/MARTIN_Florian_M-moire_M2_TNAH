@@ -57,12 +57,10 @@
 \contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{117}{subsubsection.5.0.2.3}%
 \contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{119}{subsubsection.5.0.2.4}%
 \contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{121}{chapter.6}%
-\contentsline {subsection}{\numberline {1.}Conception techniques finale}{122}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Conception du parcours utilisateurs final}{122}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Analyse réflexive}{122}{subsection.6.0.3}%
-\contentsline {subsubsection}{\numberline {a.}Analyse d'écart}{122}{subsubsection.6.0.3.1}%
-\contentsline {subsubsection}{\numberline {b.}Analyse de l'évolution du projet}{122}{subsubsection.6.0.3.2}%
-\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{123}{chapter.7}%
-\contentsline {chapter}{Conclusion}{127}{part*.19}%
-\contentsline {chapter}{\numberline {A}Titre court}{127}{appendix.A}%
-\contentsline {chapter}{\textfrench {Glossaire}}{129}{section*.20}%
+\contentsline {subsection}{\numberline {1.}Conception de l'outil}{122}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{127}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{129}{subsection.6.0.3}%
+\contentsline {subsection}{\numberline {4.}Analyse réflexive}{131}{subsection.6.0.4}%
+\contentsline {chapter}{\numberline {7}Impact des outils sur les données et collections patrimoniales}{133}{chapter.7}%
+\contentsline {chapter}{Conclusion}{137}{part*.21}%
+\contentsline {chapter}{\textfrench {Glossaire}}{137}{section*.22}%

@@ -3500,6 +3500,30 @@
       \verb https://stm.cairn.info/longevite-de-l-information-numerique--9782759805099
       \endverb
     \endentry
+    \entry{HuggingFaceTBSmolVLM222BInstructHugging2024}{online}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We’re on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{day}{6}
+      \field{month}{5}
+      \field{title}{{{HuggingFaceTB}}/{{SmolVLM2-2}}.{{2B-Instruct}} · {{Hugging Face}}}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/R6NLRRQY/SmolVLM2-2.html
+      \endverb
+      \verb{urlraw}
+      \verb https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct
+      \endverb
+    \endentry
     \entry{hussonIndexationIconographiqueIntelligence2025}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d1542084df41de78edb36720873b03b}{%

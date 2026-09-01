@@ -625,18 +625,28 @@
 	description={Désigne la capacité accorder à un processus informatique de réutiliser un même bloc code afin d'effectuer une tâche définis, souvent répétitives. Dans l'\gls{IA}, le \gls{fctcall} amène aussi des notions de reconnaissance contextuelle et de prise de décisions de la part du \gls{mod} : il doit comprendre dans quel cas d'usage il est et appliqué le traitement approprié.}
 }
 
+\newglossaryentry{DAM}{
+	name={DAM},
+	sort={dam},
+	description={}
+}
+
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
 
 \newcommand{\terme}[1]{\textit{\textbf{#1}}} % Commande créée afin de mettre en évidence des termes techniques avec facilitée. Pour cela, je m'appuis sur textit pour la mise en italique et textbf pour la mise en gras. Cela m'évite de mutliplier les commandes
 
-\AtEveryCitekey{\clearfield{url}\clearfield{urldate}\clearfield{doi}} %pas une commande créée à proprement parlé. Lors de mes \footcite l'url et/ou le DOI apparaîssent systématiquement je ne voudrais pas les voirs figurer ici. J'ai donc rajouté cette ligne qui permet pour chaque \cite ou \footcite de ne pas afficher le contenu du champs "URL" ou "DOI" de mes entrées dans mon fichier .bib. 
+\AtEveryCitekey{\clearfield{url}\clearfield{urldate}\clearfield{doi}} %pas une commande créée à proprement parlé. Lors de mes \footcite l'url et/ou le DOI apparaîssent systématiquement je ne voudrais pas les voirs figurer ici. J'ai donc rajouté cette ligne qui permet pour chaque \cite ou \footcite de ne pas afficher le contenu du champs "URL" ou "DOI" de mes entrées stockées dans mon fichier .bib. 
 
-\newcommand{\J}{JSON} %commande créée pour un usage occassionnelle. Je me suis rendu compte que les majuscules étaient irrégulière dans mon écriture du terme. Afin de simplifier la relecture, j'ai créée cette commande.
+\newcommand{\J}{JSON } %commande créée pour un usage occassionnelle. Je me suis rendu compte que les majuscules étaient irrégulière dans mon écriture du terme. Afin de simplifier la relecture, j'ai créée cette commande.
 
 \newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright \space} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
 
-\newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~»}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre. 
+\newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre et \pageref{label} pour citer une page de référence. 
+
+\newcommand{\textref}[1]{chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}} %Variante de la commande précédente pour citation dans le corps de texte. L'italique ne s'y prête pas.
+
+\newcommand{\coeur}{c\oe{ur} } %Commande me permettant d'écrire plus rapidement le mot coeur en m'évitant de taper la commande \oe qui peut être pénible à placer.
 
 
  %%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE
@@ -862,8 +872,6 @@
 %%%%%%%%%%%%%%%%%%
 
 \appendix %Des appendices: tables figures, etc
-
-\chapter[Titre court]{Le titre très long de la première annexe}
 
 %\input{fichier.tex}
 
