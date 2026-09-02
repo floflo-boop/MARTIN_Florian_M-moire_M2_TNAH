@@ -439,7 +439,7 @@
 
 \newglossaryentry{table}{
 	name={table},
-	description={La table constitue la structure de base d'une base de données SQL. Constituée de colonne et de ligne, elles permet de contenir des ensemble de données struturées. On parle d'enregistrement pour la donnée située sur la ligne, et d'attribus pour les colonnes.}
+	description={La table constitue la structure de base d'une base de données SQL. Constituée de colonne et de ligne, elles permet de contenir des ensemble de données struturées. On parle d'enregistrement pour la donnée située sur la ligne, et d'attribus pour les colonnes. \newline Dans l'application SkinSoft, une table correspond à une unité thématiques de stockage de données. On parle par exemple de la \guillemet{table des archives}, car c'est dans cette partie de l'applicaiton que nous stockons les objets de collections que sont les archives. Ces tables sont rattachées à des index \gls{ES}, c'est à dire une struture de données particulières dédiée à l'objet concernés par la table.}
 }
 
 \newglossaryentry{grdr}{
@@ -631,6 +631,12 @@
 	description={}
 }
 
+\newglossaryentry{RGPD}{
+	name={RGPD},
+	sort={rgpd},
+	description={}
+}
+
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
 
@@ -640,7 +646,7 @@
 
 \newcommand{\J}{JSON } %commande créée pour un usage occassionnelle. Je me suis rendu compte que les majuscules étaient irrégulière dans mon écriture du terme. Afin de simplifier la relecture, j'ai créée cette commande.
 
-\newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright \space} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
+\newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
 
 \newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre et \pageref{label} pour citer une page de référence. 
 
@@ -727,7 +733,11 @@
 	
 	\chapter{Remerciements}
 	
-\lettrine{M}es remerciements vont tout d'abord à\dots
+\lettrine{M}es remerciements vont tout d'abord à ma directrice de mémoire, Madame Ségolène Albouy. Son encadrement, sa disponibilité et ses conseils ont sans aucune doute constitué les éléments porteurs de ce travail scientifique.\newline
+
+Mes remerciements vont également à l'entreprise SkinSoft et particulièrement à mes chères collègues de l'équipe métier. Ce stage a été particulièrement enrichissant et fondateur pour la suite de ma carrière.\newline
+
+Je souhaite également adresser des remerciements à mon entourage proche, et notamment ma compagne qui a été d'un soutien précieux et inconditionnel tout au long de cette rédaction.
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
@@ -852,7 +862,7 @@
 
 \newpage
 
-\chapter[Impact des outils sur les données et collections patrimoniales]{Les véritables enjeux de l’implémentation de ces fonctionnalités : fiabilisation des collections, homogénéisation des données et meilleure connaissance des collections.}
+\chapter{Impact potentiel des outils sur les données et collections patrimoniales}
 
 \input{./Chapitres/P3_C3.tex}
 

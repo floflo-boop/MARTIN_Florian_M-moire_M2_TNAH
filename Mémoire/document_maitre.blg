@@ -1,20 +1,20 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'document_maitre.blg'
-[31] biber:342> INFO - === Tue Sep  1, 2026, 14:19:03
-[39] Biber.pm:421> INFO - Reading 'document_maitre.bcf'
-[86] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[93] Biber.pm:4487> INFO - Processing section 0
-[98] Biber.pm:4678> INFO - Looking for bibtex file './biblio/memoire.bib' for section 0
+[37] biber:342> INFO - === Wed Sep  2, 2026, 15:35:25
+[46] Biber.pm:421> INFO - Reading 'document_maitre.bcf'
+[89] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[95] Biber.pm:4487> INFO - Processing section 0
+[100] Biber.pm:4678> INFO - Looking for bibtex file './biblio/memoire.bib' for section 0
 [105] bibtex.pm:1713> INFO - LaTeX decoding ...
-[202] bibtex.pm:1519> INFO - Found BibTeX data source './biblio/memoire.bib'
-[792] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[792] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[792] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[793] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[910] bbl.pm:676> INFO - Writing 'document_maitre.bbl' with encoding 'UTF-8'
-[958] bbl.pm:779> INFO - Output to document_maitre.bbl
-[958] Biber.pm:132> WARN - ISBN '978-2-37546-037-5 979-10-91281-01-0' in entry 'coqApprendreGererCollections2012' is invalid - run biber with '--validate_datamodel' for details.
-[958] Biber.pm:132> WARN - ISBN '978-2-11-091765-2 978-2-11-091636-5' in entry 'verdierSystemeDescriptifObjets1999' is invalid - run biber with '--validate_datamodel' for details.
-[958] Biber.pm:132> WARN - legacy year field '2013/déc./10' in entry 'brissaudLelaborationPrincipeDinalienabilite2013/dec./10' is not an integer - this will probably not sort properly.
-[958] Biber.pm:132> WARN - legacy year field '2017/déc./15' in entry 'stutzmannRecherchePleinTexte2017/dec./15' is not an integer - this will probably not sort properly.
-[958] Biber.pm:134> INFO - WARNINGS: 4
+[192] bibtex.pm:1519> INFO - Found BibTeX data source './biblio/memoire.bib'
+[745] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[745] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[745] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[745] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[853] bbl.pm:676> INFO - Writing 'document_maitre.bbl' with encoding 'UTF-8'
+[897] bbl.pm:779> INFO - Output to document_maitre.bbl
+[898] Biber.pm:132> WARN - legacy year field '2013/déc./10' in entry 'brissaudLelaborationPrincipeDinalienabilite2013/dec./10' is not an integer - this will probably not sort properly.
+[898] Biber.pm:132> WARN - legacy year field '2017/déc./15' in entry 'stutzmannRecherchePleinTexte2017/dec./15' is not an integer - this will probably not sort properly.
+[898] Biber.pm:132> WARN - ISBN '978-2-37546-037-5 979-10-91281-01-0' in entry 'coqApprendreGererCollections2012' is invalid - run biber with '--validate_datamodel' for details.
+[898] Biber.pm:132> WARN - ISBN '978-2-11-091765-2 978-2-11-091636-5' in entry 'verdierSystemeDescriptifObjets1999' is invalid - run biber with '--validate_datamodel' for details.
+[898] Biber.pm:134> INFO - WARNINGS: 4

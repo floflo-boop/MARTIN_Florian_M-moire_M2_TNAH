@@ -564,26 +564,6 @@
       \verb https://www.bar.admin.ch/fr/archipanion-pour-le-cine-journal-suisse
       \endverb
     \endentry
-    \entry{ArchivesMuseumInformatics}{online}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{title}{Archives \& {{Museum Informatics}}: {{Publishing}}:{{Archives}}: {{Functional Requirements}} for {{Collections Management Systems}}: {{Table}} of {{Contents}}}
-      \field{urlday}{18}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/florian/Zotero/storage/TFKYE7AX/bearman_col_mgmt_sys.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.archimuse.com/publishing/bearman_col_mgmt_sys.html
-      \endverb
-      \verb{url}
-      \verb https://www.archimuse.com/publishing/bearman_col_mgmt_sys.html
-      \endverb
-      \keyw{CMS,P1.C1.1}
-    \endentry
     \entry{directiondesarchivesdefranceNoteDinformationDITN2007}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6e052b2f30a7e54c9a725b31aff05272}{%
@@ -1023,6 +1003,43 @@
       \verb{file}
       \verb /home/florian/Zotero/storage/CBMWENEZ/Bastien and Scapin - Ergonomic criteria for the evaluation of human-computer interfaces.pdf
       \endverb
+    \endentry
+    \entry{ArchivesMuseumInformatics}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=230d2ed2142ce306bd6c098f56c93a2e}{%
+           family={Bearman},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{fullhash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{fullhashraw}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{bibnamehash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{authorbibnamehash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{authornamehash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{authorfullhash}{230d2ed2142ce306bd6c098f56c93a2e}
+      \strng{authorfullhashraw}{230d2ed2142ce306bd6c098f56c93a2e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Archives \& {{Museum Informatics}}: {{Publishing}}:{{Archives}}: {{Functional Requirements}} for {{Collections Management Systems}}: {{Table}} of {{Contents}}}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/TFKYE7AX/bearman_col_mgmt_sys.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.archimuse.com/publishing/bearman_col_mgmt_sys.html
+      \endverb
+      \verb{url}
+      \verb https://www.archimuse.com/publishing/bearman_col_mgmt_sys.html
+      \endverb
+      \keyw{CMS,P1.C1.1}
     \endentry
     \entry{belcicQuestceQueGeneration2025}{online}{}{}
       \name{author}{1}{}{%
@@ -1635,6 +1652,25 @@
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Audio and Speech Processing}
     \endentry
+    \entry{CodePatrimoineLegifrance}{online}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{Code Du Patrimoine - {{Légifrance}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/5A5UW7UQ/LEGITEXT000006074236.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074236/
+      \endverb
+      \verb{url}
+      \verb https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074236/
+      \endverb
+    \endentry
     \entry{CollectionsManagementCritical2024}{book}{}{}
       \list{publisher}{1}{%
         {UCL Press}%
@@ -1757,6 +1793,44 @@
       \verb https://imagesenbibliotheques.fr/formations/stages-sur-mesure/concevoir-et-gerer-une-collection-audiovisuelle
       \endverb
       \keyw{Cinéma}
+    \endentry
+    \entry{cookEvidenceMemoryIdentity2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3beadc08ebe577e3172f9f3cdfcaf988}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Canada}%
+      }
+      \strng{namehash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{fullhash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{fullhashraw}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{bibnamehash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{authorbibnamehash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{authornamehash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{authorfullhash}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \strng{authorfullhashraw}{3beadc08ebe577e3172f9f3cdfcaf988}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{journaltitle}{Archival Science}
+      \field{month}{6}
+      \field{shortjournal}{Arch. Sci.}
+      \field{title}{Evidence, Memory, Identity, and Community: Four Shifting Archival Paradigms}
+      \field{volume}{13}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{95\bibrangedash 120}
+      \range{pages}{26}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/DKRCHFY2/S02_Cook.pdf
+      \endverb
     \endentry
     \entry{coqApprendreGererCollections2012}{book}{}{}
       \name{editor}{1}{}{%
@@ -2448,6 +2522,66 @@
       \endverb
       \verb{url}
       \verb https://deux.io/definition-google-sge/
+      \endverb
+    \endentry
+    \entry{flinnWhoseMemoriesWhose2009}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c7618a6085d5798738ea756a6fb0f816}{%
+           family={Flinn},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd6608eee21a169b760f6b5cbabf3290}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63c472ca5cceff88be308404a1b22e89}{%
+           family={Shepherd},
+           familyi={S\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{fullhash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{fullhashraw}{d4cae2319982ae358f32310a3353ae79}
+      \strng{bibnamehash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{authorbibnamehash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{authornamehash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{authorfullhash}{d4cae2319982ae358f32310a3353ae79}
+      \strng{authorfullhashraw}{d4cae2319982ae358f32310a3353ae79}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1389-0166, 1573-7519}
+      \field{journaltitle}{Archival Science}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1--2}
+      \field{shortjournal}{Arch. Sci.}
+      \field{shorttitle}{Whose Memories, Whose Archives?}
+      \field{title}{Whose Memories, Whose Archives? {{Independent}} Community Archives, Autonomy and the Mainstream}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{71\bibrangedash 86}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10502-009-9105-2
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10502-009-9105-2
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10502-009-9105-2
       \endverb
     \endentry
     \entry{friesValorisationMediationPatrimoines2023}{thesis}{}{}
