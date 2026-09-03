@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  3 SEP 2026 15:10
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  3 SEP 2026 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,34 +1369,34 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre.aux)
 \openout1 = `document_maitre.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 664.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 66
-4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 695.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 69
+5.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 664.
-LaTeX Font Info:    ... okay on input line 664.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 695.
+LaTeX Font Info:    ... okay on input line 695.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1404,57 +1404,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 664.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 664.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 664.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 664.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 664.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 664.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 664.
-LaTeX Font Info:    Redeclaring math accent \check on input line 664.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 664.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 664.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 664.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 664.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 664.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 695.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 695.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 695.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 695.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 695.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 695.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 695.
+LaTeX Font Info:    Redeclaring math accent \check on input line 695.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 695.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 695.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 695.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 695.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 695.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 664.
+(Font)              `operators' in the math version `normal' on input line 695.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 664.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 695.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 664.
+(Font)              `operators' in the math version `bold' on input line 695.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 664.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 695.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 664.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 664.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 664.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 664.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 664.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 695.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 664.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 664.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 664.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 695.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 664.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 695.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
@@ -1495,16 +1495,9 @@ Package biblatex Warning: Biber reported the following issues
 re.bib): Invalid format '2024-12-09T14:59:12+0100' of date field 'date' - ignor
 ing.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                liuVideoSwinTransformer2021a
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
-Package biblatex Info: Reference section=0 on input line 664.
-Package biblatex Info: Reference segment=0 on input line 664.
+Package biblatex Info: Reference section=0 on input line 695.
+Package biblatex Info: Reference segment=0 on input line 695.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1549,7 +1542,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 664.
+Package hyperref Info: Link coloring OFF on input line 695.
 
 
 [1
@@ -1562,17 +1555,12 @@ Package hyperref Info: Link coloring OFF on input line 664.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
@@ -1589,14 +1577,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 734--735
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 742.
+(lettrine.sty)             reported on input line 771.
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 773--774
 
  []
 
@@ -1609,7 +1597,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 744--745
 [4
 
 ]
-Overfull \hbox (2.96442pt too wide) in paragraph at lines 752--752
+Overfull \hbox (2.96442pt too wide) in paragraph at lines 781--781
 []\TU/lmr/m/sc/12 Weld[]\TU/lmr/m/n/12 ​ (Dan), []\TU/lmr/m/sc/12 Vorvoreanu[]\
 TU/lmr/m/n/12 ​ (Mihaela), []\TU/lmr/m/sc/12 Fourney[]\TU/lmr/m/n/12 ​ (Adam), 
 []\TU/lmr/m/sc/12 Nushi[]\TU/lmr/m/n/12 ​ (Besmira), []\TU/lmr/m/sc/12 Collisso
@@ -1636,7 +1624,7 @@ ex-text;!
 [8]
 
 [9]
-Overfull \hbox (14.92871pt too wide) in paragraph at lines 752--752
+Overfull \hbox (14.92871pt too wide) in paragraph at lines 781--781
 [][][]\TU/lmr/m/sc/12 Poibeau[]\TU/lmr/m/n/12 ​ (Thierry), «  Le traitement aut
 omatique des langues pour les sciences sociales :Quelques
  []
@@ -1644,7 +1632,7 @@ omatique des langues pour les sciences sociales :Quelques
 
 
 [10]
-Overfull \hbox (0.74863pt too wide) in paragraph at lines 752--752
+Overfull \hbox (0.74863pt too wide) in paragraph at lines 781--781
 [][][]\TU/lmr/m/sc/12 Stutzmann[]\TU/lmr/m/n/12 ​ (Dominique), []\TU/lmr/m/sc/1
 2 Moufflet[]\TU/lmr/m/n/12 ​ (Jean-François) et []\TU/lmr/m/sc/12 Hamel[]\TU/lm
 r/m/n/12 ​ (Sébastien), «  La recherche
@@ -1653,13 +1641,13 @@ r/m/n/12 ​ (Sébastien), «  La recherche
 
 
 [11]
-Overfull \hbox (16.06882pt too wide) in paragraph at lines 752--752
+Overfull \hbox (16.06882pt too wide) in paragraph at lines 781--781
 [][][]\TU/lmr/m/n/12 Universal bibliographic control and international MARC pro
 gramme[]​ et []Fédération internationale
  []
 
 
-Overfull \hbox (17.96452pt too wide) in paragraph at lines 752--752
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 781--781
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
 (Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
@@ -1765,11 +1753,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1779,11 +1762,16 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-)
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1792,7 +1780,16 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[6] (./Chapitres/P1_C1_2.tex
+[6])
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[7] (./Chapitres/P1_C1_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
@@ -1811,7 +1808,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -1835,7 +1832,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[8]
+[9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 40.
@@ -1854,7 +1851,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[9])
+[10])
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1863,7 +1860,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[10] (./Chapitres/P1_C1_3.tex
+[11] (./Chapitres/P1_C1_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1880,7 +1877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -1892,14 +1889,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
 
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -1911,22 +1908,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
 
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 )
 
-[15]
-
-[16
-
-]
+[16]
 Chapitre 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 797.
+(hyperref)                removing `\glsfirst' on input line 826.
 
 (./Chapitres/P1_C2_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -1935,7 +1928,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
 
-[17]
+[17
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
@@ -1944,6 +1939,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsfirst' on input line 27.
 
 
 
@@ -1955,11 +1954,6 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [18]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 27.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1988,6 +1982,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 61.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1997,11 +1996,6 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2030,6 +2024,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2038,12 +2037,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-)
+[23])
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2177,6 +2171,15 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 ]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsfirst' on input line 847.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 847.
+
+
+
 [33]
 
 [34]
@@ -2215,6 +2218,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
  []
 
 
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+
 
 [39]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
@@ -2229,7 +2235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []
 
 
-Underfull \vbox (badness 1033) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2248,13 +2254,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
  []
 
 
-Underfull \vbox (badness 3128) has occurred while \output is active []
-
-
 
 [44])
 
-[45] (./Chapitres/P2_C1_2.tex
+[45]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 857.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 857.
+
+(./Chapitres/P2_C1_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2279,9 +2291,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 
 [47]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 62.
-
 
 [48]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
@@ -2330,12 +2339,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
  []
 
 
-
-[53]
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
+
+
+[53]
 File: ./Schema/Text-to-SQL.png Graphic file (type bmp)
 <./Schema/Text-to-SQL.png>
 
@@ -2515,12 +2525,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--402
 )
 
 [62]
-Overfull \hbox (9.4479pt too wide) in paragraph at lines 834--834
+Overfull \hbox (9.4479pt too wide) in paragraph at lines 863--863
 []\TU/lmr/bx/n/17.28 Enjeux utilisateurs : comment implémenter ces fonc-
  []
 
 
-Overfull \hbox (7.0568pt too wide) in paragraph at lines 834--834
+Overfull \hbox (7.0568pt too wide) in paragraph at lines 863--863
 \TU/lmr/bx/n/17.28 tionnalités en respectant l’utilisateur dans son usage
  []
 
@@ -2603,6 +2613,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+
 
 [67])
 
@@ -2610,18 +2623,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 Chapitre 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 838.
+(hyperref)                removing `\gls' on input line 867.
 
 (./Chapitres/P2_C2_1.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 7.
-
-
-Overfull \hbox (9.22952pt too wide) in paragraph at lines 11--12
-[]\TU/lmr/m/n/12 La «semi-automatisation» d’un tel processus repose sur l’utili
-sation d’outils d’[][]intelligence
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
@@ -2778,7 +2785,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 )
 
 [80]
-Overfull \hbox (39.8024pt too wide) in paragraph at lines 846--846
+Overfull \hbox (39.8024pt too wide) in paragraph at lines 875--875
 []\TU/lmr/bx/n/17.28 Les différentes réalités de l’indexation semi-automatisée 
 :
  []
@@ -2810,7 +2817,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
  []
 
 
-Underfull \vbox (badness 2020) has occurred while \output is active []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 
@@ -2855,13 +2862,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 90.
 
 
-
-[89]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
+
+[89]
 
 [90]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
@@ -2869,12 +2876,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
  []
 
 
-
-[91]
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
+
+
+[91]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\Gls' on input line 120.
@@ -2891,9 +2899,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
  []
 
 
-
-[93]
-
 Package biblatex Warning: Nested notes on input line 136.
 
 
@@ -2902,6 +2907,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
  []
 
 
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -2910,6 +2920,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2921,11 +2934,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
 
 [95]
-
-LaTeX Warning: Citation 'liuVideoSwinTransformer2021a' on page 96 undefined on 
-input line 166.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
@@ -2943,20 +2951,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
  []
 
 
-
-[97]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
 
-[98]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
+
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
@@ -2984,6 +2992,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--215
  []
 
 
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+
 
 [100]
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
@@ -2991,13 +3002,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
  []
 
 
-
-[101]
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
+
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
@@ -3018,13 +3029,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 240.
 
 
-
-[103]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 
+
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
@@ -3035,13 +3046,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
  []
 
 
-
-[104]
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
+
+[104]
 
 [105]
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
@@ -3049,13 +3060,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
  []
 
 )
-Underfull \vbox (badness 2020) has occurred while \output is active []
 
-
-
-[106]
-
-[107] (./Chapitres/P2_C2_3.tex
+[106] (./Chapitres/P2_C2_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -3072,9 +3078,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 
 
-[108]
+[107]
 
-[109]
+[108]
 Overfull \hbox (6.56958pt too wide) in paragraph at lines 30--31
 []\TU/lmr/m/n/12 Mais différents éléments relevant des logiques d’implémentatio
 ns et des questions d’usages
@@ -3087,14 +3093,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 )
 
-[110]
+[109]
 
-[111
+[110
 
 ]
 
+[111]
+
 [112]
 Chapitre 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 888.
+
 (./Chapitres/P3_C1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
@@ -3303,6 +3315,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3365,6 +3380,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3374,10 +3394,6 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
 [123]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 183.
@@ -3403,9 +3419,6 @@ File: ./Schema/Chatbot.png Graphic file (type bmp)
 Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
-
-
-Underfull \vbox (badness 5939) has occurred while \output is active []
 
 
 
@@ -3436,6 +3449,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3445,11 +3463,6 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
 [127]
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
@@ -3579,6 +3592,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 
+Overfull \hbox (17.71413pt too wide) in paragraph at lines 115--116
+[]\TU/lmr/m/n/12 Pour la première étape, nous utilisons PySceneDetect[][][], FF
+mpeg[][][] et le [][]VLM[] \TU/lmr/m/it/12 SmolVLM2-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3650,6 +3669,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3658,13 +3682,8 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[142]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 184--868
+[142])
+Underfull \hbox (badness 10000) in paragraph at lines 184--897
 
  []
 
@@ -3722,13 +3741,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
  []
 
 
-
-[147]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
+
+[147]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
@@ -3741,7 +3760,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
 ]
 
-[150]
+[150] (./Chapitres/conclusion.tex)
+
+[151]
+
+[152
+
+]
 runsystem(makeindex document_maitre.idx)...executed safely (allowed).
 
  (./document_maitre.ind) (./document_maitre.gls
@@ -3751,8 +3776,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[151
-
+[153
 
 
 
@@ -3760,71 +3784,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 
-LaTeX Warning: Reference `chatbot' on page 152 undefined on input line 34.
-
-
-Overfull \hbox (8.40079pt too wide) in paragraph at lines 36--38
-[]\TU/lmr/m/n/12 Procédé informatique fortement utilisé dans les différents dom
-aines de l’[][]intelligence
- []
+LaTeX Warning: Reference `chatbot' on page 154 undefined on input line 48.
 
 
 
-[152]
-Overfull \hbox (0.77545pt too wide) in paragraph at lines 54--56
+[154]
+Overfull \hbox (0.77545pt too wide) in paragraph at lines 74--76
 []\TU/lmr/m/n/12 La \TU/lmr/m/it/12 computer vision\TU/lmr/m/n/12 , ou vision p
 ar ordinateur en français, est sous-domaine
  []
 
 
 
-[153]
-
-[154]
-
 [155]
 
 [156]
 
-Package biblatex Warning: Nested notes on input line 209.
-
-
-Overfull \hbox (1.82079pt too wide) in paragraph at lines 209--226
-[]\TU/lmr/m/n/12 Désigne les modèles d’[][]intelligence artificielle[] correspo
-ndants
- []
-
-
-
 [157]
-Overfull \hbox (2.84882pt too wide) in paragraph at lines 255--259
-[]\TU/lmr/m/n/12 Technologie d’[][]intelligence artificielle[] composant une pa
-rtie du sous-domaine
- []
-
-
 
 [158]
 
-Package biblatex Warning: Nested notes on input line 287.
-
-
-
 [159]
+
+Package biblatex Warning: Nested notes on input line 321.
+
+
 
 [160]
 
-Package biblatex Warning: Nested notes on input line 335.
-
-
-
 [161]
+
+Package biblatex Warning: Nested notes on input line 423.
+
+
 
 [162]
 
-[163])
+[163]
 
-[164] (./document_maitre.lof
+Package biblatex Warning: Nested notes on input line 523.
+
+
+
+[164]
+
+[165])
+
+[166] (./document_maitre.lof
 Overfull \hbox (18.47528pt too wide) in paragraph at lines 15--15
  [][] [][]\TU/lmr/m/n/12 Schéma du modèle WEMI implanté dans la solution S-Movi
 es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​ 
@@ -3836,25 +3842,25 @@ es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​
 
 
 
-[165
+[167
 
 ]
 
-[166
+[168
 
 ] (./document_maitre.toc
 
-[167]
+[169]
 
-[168]
+[170]
 
-[169])
+[171])
 \tf@toc=\write9
 \openout9 = `document_maitre.toc'.
 
 
 
-[170] (./document_maitre.aux)
+[172] (./document_maitre.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -3863,17 +3869,22 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                document_maitre
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 \openout1 = `document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49990 strings out of 468389
- 1042997 string characters out of 5440619
- 2036846 words of memory out of 5000000
- 77803 multiletter control sequences out of 15000+600000
- 633381 words of font info for 96 fonts, out of 8000000 for 9000
+ 49998 strings out of 468389
+ 1043368 string characters out of 5440619
+ 2042388 words of memory out of 5000000
+ 77810 multiletter control sequences out of 15000+600000
+ 633373 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,117p,3045b,6654s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (192 pages).
+Output written on document_maitre.pdf (194 pages).

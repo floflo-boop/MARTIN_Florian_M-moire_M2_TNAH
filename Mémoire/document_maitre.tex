@@ -196,6 +196,8 @@
 
 \newglossaryentry{IA}{
 	name={intelligence artificielle},
+	text={IA},
+	first={intelligence artificielle},
 	plural={intelligences artificielles},
 	description={Ensemble vaste de technologies et procédés informatiques et d'ingénierie qui visent à permettre à l'ordinateur d'effectuer des tâches assimilés à l'intelligence humaines. Ses origines remontent aux travaux de John McCarthy en 1956 et qui voit ses premières expériences concluantes apparaître dans les années 1990}
 }
@@ -207,17 +209,26 @@
 }
 
 \newglossaryentry{OCR}{
-	name={OCR},
+	name={\textit{Optical Character Recognition}},
+	first={\textit{Optical Character Recognition}},
+	text={OCR},
+	sort={optical character recognition},
 	description={l'\textit{optical character recognition} créé par l'ingénieur Autrichien Gustave Tauschek, ou reconnaissance optique de caractère en français, désigne la capacité conféré à un sytsème informatique de reconnaître des mots typographiés. Le premier système à pouvoir le faire est la machine Gismo inventé en 1951 par David Shepard.}
 }
 
 \newglossaryentry{HTR}{
-	name={HTR},
-	description={ L'\textit{Handwritten Text Recognition} basé sur la même idée que l'OCR, la reconnaissance d'écriture manuscrite, ou HTR, applique le même principe à l'analyse des écritures manuscrites. On l'applique surtout aux documents anciens nécessitant des connaissance paléographiques.}
+	name={\textit{Handwritten Text Recognition}},
+	first={\textit{Handwritten Text Recognition}},
+	text={HTR},
+	sort={handwritten text recognition},
+	description={ L'\textit{Handwritten Text Recognition} est basé sur la même idée que l'OCR, la reconnaissance d'écriture manuscrite, ou HTR, applique le même principe à l'analyse des écritures manuscrites. On l'applique surtout aux documents anciens nécessitant des connaissance paléographiques.}
 }
 
 \newglossaryentry{NLP}{
-	name={NLP},
+	name={\textit{Natural Language Processing}},
+	first={\textit{Natural Language Processing}},
+	text={NLP},
+	sort={natural language processing},
 	description={ Le \textit{Natural Language Processing}, ou traitement automatique du langage naturel, est un sous-domaine multidsiciplinaire de l'intelligence artificielle, faisant notamment appelle à l'ingénierie informatique et la linguistique, baser sur l'utilisation du \gls{ML} pour conférer à un système informatique la capacité d'analyser, comprendre et communiquer dans ce que l'on appelle le langage naturel ou langage courant.}
 }
 
@@ -246,6 +257,8 @@
 
 \newglossaryentry{VLM}{
 	name={\textit{Vision Language Model}},
+	first={\textit{Vision Language Model}},
+	text={VLM},
 	sort={vision language model},
 	description={Modèles d'intelligence artificielle avec des capacitée multimodales. C'est à dire que ce modèle n'est plus limité à un champs d'action : il est capable de traiter l'image comme le texte en autonomie.}
 }
@@ -257,6 +270,8 @@
 
 \newglossaryentry{SRI}{
 	name={\textit{Information Retrieval System}},
+	first={\textit{Information Retrieval System}},
+	text={SRI},
 	sort={information retrieval system},
 	description={Logiciels spécialisés sur la recherche d'information dans des données non structurée. Le plus souvent, ces logiciels sont connectés à une base de données afin de stocker les données dans un index permettant de faciliter l'interrogation de volumes de données massifs. Ils fonctionnent comme un intermédiaire entre l'utilisateur et la base de données : il se charge de l'analyse des données, de les découpées en segment qu'il réparti ensuite dans des n\oe{uds} qu'il indexe.}
 }
@@ -291,12 +306,16 @@
 
 \newglossaryentry{POS}{
 	name={\textit{Part of Speech}},
+	first={\textit{Part of Speech}},
+	text={POS},
 	sort={part of speech},
 	description={Technologie d'\gls{IA} composant une partie du sous-domaine des technologies d'intelligence artificielle : le \gls{NLP}. Le \textit{Part of Speecg}, ou POS, c'est l'anlayse grammaticale d'une phrase qui aboutit à l'étiquetage du rôle de chaque mot dans une phrase. Chaque mot est analysé au sein de la phrase, son contexte, et est catégorisé dans l'une des classes grammaticales. La décomposition grammaticale permet ainsi d'en faire sortie le sens}
 }
 
 \newglossaryentry{NER}{
 	name={\textit{Name Entity Recognition}},
+	first={\textit{Name Entity Recognition}},
+	text={NER},
 	sort={name entity recognition},
 	description={Technologie d'\gls{IA} composant une partie du sous-domaine des technologies d'intelligence artificielle : le \gls{NLP}. Le \textit{Name Entity Recognition}, ou NER, est la capacité de reconnaître une chaîne de caractère signfiante comme un nom de personne, de lieux, de marque, d'événements ou encore les dates. }
 }
@@ -314,11 +333,15 @@
 \newglossaryentry{LLM}{
 	name={\textit{Large Language Model}},
 	sort={large language model},
+	first={\textit{Large Language Model}},
+	text={LLM},
 	description={Souvent abrégé par LLM, les \textit{Large Language Model}, ou grand modèles de langues en français, sont des \glspl{IA} basée sur des \gls{tfmrs}. Ils sont spécialisés dans la compréhension de requête, l'analyse de données textuelles, le raisonement et la génération de réponse. Pour cela, elles sont entraînées sur de très grandes quantités de données par \gls{DPL} afin de leurs conférer ces capacités. Ces \gls{IA} sont concentrées autour de l'alliance entre les technologies regroupées et développées au sein du \gls{NLP} afin de pouvoir effectuer de tel traitement.}
 }
 
 \newglossaryentry{RAG}{
 	name={\textit{Retrieval Augmented Generation}},
+	first={\textit{Retrieval Augmented Generation}},
+	text={RAG},
 	sort={retrieval augmented generation},
 	description={Ici nous parlons d'une manière d'utiliser l'\gls{IA} parce que l'on appelle un \textit{pipeline} ici appelé \gls{RAG}. Il consiste à consolider la base de connaissance d'un \gls{LLM} en le connectant à une source de données contrôlées sur laquelle se baser pour la génération de réponses suite à une requête. Il fonctionne en 3 étapes : l'étape de \textit{retrieval} qui consite en la recherche des données pertinentes afin de répondre à la question utilisateur. L'étape de l'\textit{augmented} qui consiste a enrichir la réponse générées en faisant référence directement aux sources utilisées et identifiées lors de l'étape précédente. Puis l'étape de \textit{génération} qui consiste en la rédaction d'une réponse prenant pour contexte la requête utilisateur.\footnote{Pour plus d'informations sur ce procédé, consulter \footcite{tuzaInterrogerMemoireDentreprise2025}}}
 }
@@ -398,6 +421,8 @@
 
 \newglossaryentry{FIAF}{
 	name={Fédération Internationale des Archives du Film},
+	first={Fédération Internationale des Archives du Film},
+	text={FIAF},
 	description={Fonder en 1938, fédération à portée internationale qui a pour objectif de protéger et d'assurer la préservation de la culture cinématographique, et plus largement de l'\gls{imgani}. Aujourd'hui, elle assume également un rôle de guide dans la standardisation et l'homogénéisation des pratiques dans la gestion des collections d'\gls{imgani}.}
 }
 
@@ -455,7 +480,7 @@
 
 \newglossaryentry{thesaurus}{
 	name={thésaurus},
-	description={Les thésaurus sont des hiérarchies de terme représentant des concepts rattachés à des domaines. De cette manière, ils constituent des listes de vocabulaires contrôlés fixant ainsi la terminologie utilisable pour décrire certains domaine. Particulièrement utilisé dans le monde patrimonial et les \terme{SGC} afin fixer la terminologie utilisée dans l'indexation.}
+	description={Les thésaurus sont des hiérarchies de terme représentant des concepts rattachés à des domaines. De cette manière, ils constituent des listes de vocabulaires contrôlés fixant ainsi la terminologie utilisable pour décrire certains domaine. Particulièrement utilisé dans le monde patrimonial et les \gls{sgc} afin fixer la terminologie utilisée dans l'indexation.}
 }
 
 \newglossaryentry{mmlts}{
@@ -497,6 +522,8 @@
 
 \newglossaryentry{CNN}{
 	name={réseau de neuronnes convultifs},
+	first={réseau de neuronnes convultifs},
+	text={CNN},
 	description={C'est un type de réseaux de neuronnes créer pour l'analyse d'image et de vidéos. Chaque couche de réseaux de neuronnes applique un traitement particulié à l'image ou à la bande vidéo traitée. Chaque couche est dédiée à un traitement, qui s'effectuent de manière successive. Nous avons généralement trois couches : la couche dite de \guillemet{convultion} qui déconstruit l'image en zone et en extrait des motifs simples d'abord et complexes ensuite. La couche de regroupement qui sert à compresser les données afin d'accélérer et simplifier le traitement. La couche de connexion qui détermine le résultat final. Ces modèles permettent de faire de la \gls{cl}, de la \gls{seg} et de la \gls{do}.}
 }
 
@@ -539,6 +566,8 @@
 
 \newglossaryentry{ALM}{
 	name={\textit{Audio Large Language Model}},
+	first={\textit{Audio Large Language Model}},
+	text={ALM},
 	sort={audio large language model},
 	description={Sous typoligie des \gls{mmlts}, elle est spécialisée sur le traitement du texte et des bandes sons. Elle permet d'analyser, transcrire, décrire une bande son.}
 }
@@ -563,6 +592,8 @@
 
 \newglossaryentry{IAG}{
 	name={intelligence artificielle générative},
+	first={intelligence artificielle générative},
+	text={IA générative},
 	plural={intelligences artificielles génératives},
 	description={Typologie de modèle d'\gls{IA}, généralement des \gls{LLM}, capable de générer, à partir d'une requête, du texte, des images, des vidéos ou du sons. Ils ne se contentent pas d'analyser des données, mais de générer quelques choses qu'on lui a demandé à partir de ces analyses. Ces modèles sont aujourd'hui extrêment répandus et utilisé dans plein de domaine. Les \gls{ac} publics comme ChatGPT, Mistral et Claude sont des \glspl{IAG}}
 }
@@ -640,11 +671,11 @@
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
 
-\newcommand{\terme}[1]{\textit{\textbf{#1}}} % Commande créée afin de mettre en évidence des termes techniques avec facilitée. Pour cela, je m'appuis sur textit pour la mise en italique et textbf pour la mise en gras. Cela m'évite de mutliplier les commandes
+%\newcommand{\terme}[1]{\textit{\textbf{#1}}} % Commande créée afin de mettre en évidence des termes techniques avec facilitée. Pour cela, je m'appuis sur textit pour la mise en italique et textbf pour la mise en gras. Cela m'évite de mutliplier les commandes. PLUS UTILISÉE MAIS GARDÉE POUR TRACE 	
 
 \AtEveryCitekey{\clearfield{url}\clearfield{urldate}\clearfield{doi}} %pas une commande créée à proprement parlé. Lors de mes \footcite l'url et/ou le DOI apparaîssent systématiquement je ne voudrais pas les voirs figurer ici. J'ai donc rajouté cette ligne qui permet pour chaque \cite ou \footcite de ne pas afficher le contenu du champs "URL" ou "DOI" de mes entrées stockées dans mon fichier .bib. 
 
-\newcommand{\J}{JSON } %commande créée pour un usage occassionnelle. Je me suis rendu compte que les majuscules étaient irrégulière dans mon écriture du terme. Afin de simplifier la relecture, j'ai créée cette commande.
+\newcommand{\J}{JSON } %commande créée pour simplifier l'écriture de ce terme
 
 \newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
 
@@ -723,13 +754,11 @@
 
 	\chapter{Résumé}
 \medskip
-	Ce mémoire s'inscrit dans un projet de conception d'outils basés sur l'\gls{IA} pour le \gls{sgc} SkinSoft. Il s'agit dès lors d'explorer les contraintes et possibilités techniques de la mise en place de trois outils : une recherche assistée par \gls{NLP}, un \gls{chatbot} et une indexation semi-automatisée des \glspl{imgani}.\newline
+	Ce travail à été réalisé dans le cadre d'un projet pour la conception d'outils d'intelligence artificielle pour le système de gestion des collections SkinSoft. L'objectif est d'explorer les contraintes et possibilités techniques liées au déploiement de trois fonctionnalités : une recherche assistée par \textit{Natural Language Processing}, un \gls{chatbot} interactif et un module d'indexation semi-automatisée des \glspl{imgani}.
 	
-	Ce projet nous conduit à explorer assez largement l'univers des \gls{sgc} avec pour cas d'étude la suite logiciel SkinSoft. Par différentes analyses, nous proposons de faire un état de l'art afin de retracer leurs évolutions, fonctionnement, défis et limite actuelles. En questionnant la pertinence de la conception d'outil d'\gls{IA} pour ces logiciels, nous mettons également les défis d'implémentations d'outils de cette nature dans ces logiciels et plus largement un contexte patrimonial. 
+	À travers l'analyse de la suite logicielle SkinSoft, ce travail veille à dresser un état de l'art de l'univers des systèmes de gestion des collections. L'occasion d'en retracer les évolutions, le fonctionnement, les défis et les limites actuelles. Nous y questionons la pertinence de l'intégration de l'intelligence artificielle sous diverses forme au sein de ces plateformes. De cette manière, nous pourrons mettre en lumière les enjeux d'implémentation propres à ces logiciels et au monde du patrimoine.
 	
-	Ce travail aboutit à la présentation de nos 3 outils précédemment cités. Nous ferons part des processus pensés, de l'intégration envisagées et de leurs limites diverses.\newline
-	
-	L'objectif est de pouvoir questionner l'impact potentiel de tels outils sur nos pratiques actuelles de gestion des collections et les défis rencontrer aujourd'hui dans ce domaine. 
+	La conception des trois outils développés cosntitue le point d'orgue de ce travail. Nous détaillerons les processus métiers modélisés, les modalités d'intégration envisagées ainsi que leurs limites respectives, y compris technologiques. Cela permet d'initier une réflexion globale sur l'impact potentiel de ces technologies émergentes dans le domaine du patrimoine.\newline
 	
 	\textbf{Mots-clés:} NLP; \textit{Computer Vision}; Gestion des collections, Intelligence Artificielle; \textit{UX-Design}; Système de gestion des collections.\newline
 	
@@ -794,9 +823,9 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 
 
-\chapter{L'\gls{IA} dans la gestion des collections patrimoniales : réalités techniques, attentes et enjeux}
+\chapter{L'\glsfirst{IA} dans la gestion des collections patrimoniales : réalités techniques, attentes et enjeux}
 
-\section[Réalités de l'IA dans le domaine patrimonial]{Définition de l'\gls{IA} appliqués à la gestion des collections patrimoniales}
+\section[Réalités de l'IA dans le domaine patrimonial]{Définition de l'\glsfirst{IA} appliqués à la gestion des collections patrimoniales}
 \label{1.2.1}
 
 \input{./Chapitres/P1_C2_1.tex}
@@ -815,7 +844,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 
 
-	\part{Implémenter l’IA dans un CMS : état des lieux et ambitions de SkinSoft.}
+	\part{Implémenter l’\glsfirst{IA} dans un \gls{sgc} : état des lieux et ambitions de SkinSoft.}
 	
 \chapter{Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}
 
@@ -825,7 +854,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 	
 \newpage
 	
-\section{Recherche augmentée et Chatbot/Agent IA : état de l'art.}
+\section{Recherche augmentée et \gls{chatbot}/\gls{AGIA} : état de l'art.}
 
 \input{./Chapitres/P2_C1_2.tex}
 
@@ -856,7 +885,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 	\part{Solutions élaborées et résultats obtenus}
 	
-\chapter{ Recherche Augmentée et “chatbot” : conception technique, conception utilisateur et résultat.}
+\chapter{ Recherche Augmentée et \gls{chatbot} : conception technique, conception utilisateur et résultat.}
 
 \input{./Chapitres/P3_C1.tex}
 
@@ -876,7 +905,11 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 	
 	
 	\part*{Conclusion}
+	\input{./Chapitres/conclusion.tex}
 	\addcontentsline{toc}{chapter}{Conclusion}
+	
+
+	
 \newpage{\pagestyle{empty}\cleardoublepage}
 	
 
