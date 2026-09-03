@@ -48,9 +48,13 @@ Le second est la génération de métadonnées sur chaque élément analysé afi
 \begin{enumerate}
 	
 	\item Notre première étape traite directement les bandes vidéos et sonores. Nous la découpons en \gls{pl}, donc à chaque rupture visuelle, et isolons les \gls{pl} de crédits. De cette manière, ont produit des unités de traitement plus petites et légères et on facilite l'extraction des données contenues dans le texte des crédits. Chaque plan est horodaté, c'est à dire qu'on indique à quel moment du film il se place.
+	
 	\item Dans la seconde étape, l'objectif est d'accélérer le traitement en déterminant une image et un extrait sonore clés par \gls{pl}. De cette manière, on \guillemet{résume} un plan en une image présentant le plus d'informations ce qui facilite le traitement. Au besoin, les images adajacentes reste traitable notamment pour mieux saisir les mouvements.
+	
 	\item Dans la troisième étape, l'objectif est d'identifier tout ce qui compose l'image clés. On génère ici les métadonnées en détectant les objets, les personnes, les personnages et les actions. Toutes ces méta-données sont consignées dans un fichier \J à la structure fixe de manière à toujours trouver les mêmes métadonnées au même endroit.
-	\item Notre quatrième étape est la plus importante. On récupère l'image clés, l'extrait audio et le fichier \J et nous les analysons. Cela produit une description qui viens enrichir notre corpus. Nous nous appuyons sur l'ensemble de ces 4 fichiers pour générer un \gls{vcs} par \gls{pl} représentés par son image clés.
+	
+	\item Notre quatrième étape est la plus importante. On récupère l'image clés, l'extrait audio et le fichier \J et nous les analysons. Cela produit une description qui viens enrichir notre corpus. Nous nous appuyons sur l'ensemble de ces 4 fichiers pour générer un \gls{vcs} par \gls{pl} représentés par son image clés. Ces métadonnées peuvent être générée avec un appuis sur les thésaurus et autoritées stockées dans l'application. Étant donné qu'\gls{ES} stocke ces informations, notre algorithme compare la données générées avec les index en question. Si des \gls{vcs} sont proches, alors il s'agit de la même notion et ce qui est stockées dans le thésaurus, par exemple, fait fois. Il utilisera donc ce terme.
+	
 	\item Pour notre cinquième étape, les \glspl{vcs} et horodatages de chaque plans sont utilisé pour recréer les scènes. Deux critères sont observés : la continuité temporelle et visuelle. Des \glspl{vcs} de \gls{pl} très proches indiquent une continuité des éléments visuels et sonore. On peut donc les rassembler en une \gls{sc}. La seule continuité visuelle ne suffit pas : on analyse la proximité temporelle grâce à l'horodatage. Ainsi, plus deux \glspl{pl} sont éloigné l'un de l'autre moins ils peuvent constituer une \gls{sc} malgré la proximité vectorielle. À l'issus de cette étape, nous avons nos \glspl{sc} reconstituée avec un horodatage indiquant son début et sa fin. Enfin, nous recalculons un \gls{vcs} pour chaque \gls{sc}.
 	
 	
@@ -74,6 +78,8 @@ Cependant, ce premier processus est assez lourd. Sans aborder la question techni
 	\item La reconstitution des \glspl{oe} reste expérimentale. Aucun travaux n'a été mené sur ce sujet, ainsi rien n'en garantit le fonctionnement.
 	
 	\item La génération de fichier \J est également problématique. En cas d'erreur d'analyse par nos outils, la correction manuelle demande à entrer et corriger le fichier \J. Il faut donc en connaître la structure afin de pouvoir se repérer et comprendre ce que l'on modifie. Cela peut demander des compétences techniques.
+	
+	\item Enfin, la génération des métadonnées en elle même pose certaines problématiques. Comme vus précédemment, ces métadonnées s'appuient sur des référentiels tels des thésaurus. Ici, il n'y a aucune garanti du respect de ces derniers car cela dépend des rapprochements que l'\gls{IA} sera capable de faire.
 
 \end{enumerate}
 

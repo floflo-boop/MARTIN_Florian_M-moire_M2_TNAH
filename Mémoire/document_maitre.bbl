@@ -2197,6 +2197,52 @@
       \verb https://interstices.info/stocker-les-donnees-la-piste-prometteuse-de-ladn/
       \endverb
     \endentry
+    \entry{jonkerQuestceQueLinteroperabilite2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2203b5d1f44477c5a43a7c68f164138}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={Alice\bibnamedelima Gomstyn},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           suffix={Alexandra},
+           suffixi={A\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{fullhash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{fullhashraw}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{bibnamehash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{authorbibnamehash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{authornamehash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{authorfullhash}{e2203b5d1f44477c5a43a7c68f164138}
+      \strng{authorfullhashraw}{e2203b5d1f44477c5a43a7c68f164138}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{L’interopérabilité des données est la capacité de différents systèmes à échanger, intégrer et utiliser efficacement les données de manière coordonnée.}
+      \field{day}{24}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{shorttitle}{Qu’est-ce que l’interopérabilité des données ?}
+      \field{title}{Qu’est-ce que l’interopérabilité des données ? | IBM}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/florian/Zotero/storage/ZMVGN9HR/data-interoperability.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-interoperability
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-interoperability
+      \endverb
+    \endentry
     \entry{jvcInterrogezEfficacementVos2022}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8d51fa7694573b4f6ba9fe32d89e048}{%

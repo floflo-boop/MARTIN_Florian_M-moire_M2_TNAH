@@ -1,17 +1,54 @@
 % !TeX root = ../document_maitre.tex
-
-\begin{itemize}
-	\item Quels sont les défis que doivent relever ces systèmes aujourd’hui afin de rester pertinents. Concentration sur la manière dont ces systèmes doivent s’adapter aux standards (EAD, RIC, EAC, MARC, UNIMARC) et aux modèles conceptuels/normes (ISAD(g), FIAF, FRBR, CIDOC CRM). Je vais me baser sur des lectures de cahier des charges (sans les citer) afin de faire un état des lieux des besoins des structures désireuses ou nécessiteuses de gérer des collections. 
-% \item  Les collections composites : gérer le physique et le numérique dans un même outil 
-% \item  Bigdata et collections numériques/numérisées 
-% \item  Standards, normes et modèle conceptuel au cœur des attentes. (S’attarder sur l’aspect musée)
-% \item  Focus particulier sur la gestion de l’image animée dans le monde patrimonial et privé. Bref historique de son traitement, les normes documentaires pour le traitement de l’image animée FRBR, FIAF, WEMI. Présentation des challenges propres. 
-
-\item \textbf{Plan :}
-\subitem 1. Les particularités du monde patrimonial : interopérabilité des données, masses de données, sensibilités des données, standards/normes/modèles conceptuels \textit{(Plus en détails que dans l'introduction)}
-\subitem 2. Besoins des infrastructures potentiellement intéressées par ce genre d'outils : gestion de thésaurus, connexion à d'autres infrastructures, visibilité des collections, s'adapter aux normes/standards et modèles en partant d'une base dite "maison" ou d'un logiciel qui n'est plus à la page. 
-\subitem 3. Cas pratiques : gestion de l'image animée dans le monde patrimonial. En prenant exemple sur cette typologie documentaire, l'idée est de mettre en exergue les enjeux et besoins précédemment cités comme ceux de la typologie en question.
-
-\end{itemize}
-
 \label{chap:défis-patrimoniaux}
+
+Aujourd'hui, les \gls{sgc} se basent sur une achitecture logicielle appliquant les principes décrits précédemment. Ils sont donc assez complexe, disposant de multiples entrées de données, fonctionnalités et manière d'accomplir des tâches précises. 
+
+Le \coeur de ces logiciels ce situe la notice. C'est à dire l'unité contenant toutes les informations en rapport avec un objet ou une ressource disponible dans l'application. Elles se basent sur les métadonnées, ces données générées par les professionnels afin de décrire et contextualiser des objets patrimoniaux. 
+
+Le monde patrimonial a développé une manière bien particulière de créer et gérer cette métadonnée. Il s'agit de tout un univers gravitant autour de principes, standards et modèles conceptuels de gestion. Des notions que nous avons en partie définies, mais qu'il convient d'examiner plus en détails.
+
+\subsection{La métadonnée dans le monde patrimonial : }
+
+Le patrimoine c'est toujours caractérisé par sa diversité. Elle est typologique mais aussi de l'ordre des pratiques professionnelles puisque la gestion et la description des biens patrimoniaux à toujours été hétérogènes. 
+
+D'une institution à une autre, les métadonnées pour les mêmes objets étaient rarement similaire. Les vocabulaires descriptifs, méthodes de descriptions et de gestion de même typologies ne connaissaient pas d'homogénéité.\newline
+
+L'informatique donne les moyens de créer un réseau d'information patrimonial. Cependant les différences de gestions et de descriptions constituaient des freins trop important. 
+
+Pour cette raison, il y a eu des efforts internationaux d'homogénéisation des pratiques de descriptions et de gestion. Cela afin de mettre en place et respecter un but unique : \gls{intero}.\footcite{jonkerQuestceQueLinteroperabilite2026} Il s'agit de permettre à des systèmes informatiques de s'échanger des données, et de les interpréter de la même manière. Cela sous-entends que les données doivent pouvoir être identique et stockée dans un schéma fixe lisible par tous systèmes.\newline
+
+Selon ce principe, plusieurs outils ont été mis en place afin d'homogénéiser un maximum les métadonnées. 
+
+D'abord, des référentiels de métadonnées afin d'utiliser les mêmes éléments pour parler de la même entité. Aussi bien sur le champs du vocabulaire, grâce aux \gls{thesaurus}, c'est à dire de classement de mots en liste hiérarchique, que de référentiels plus large comme les autorités. 
+
+Ensuite, des normes descriptives tels que l'ISAD(G) pour les archives ou la norme MPEG-7 pour les documents multimédias, comme les \glspl{imgani}. Ces normes ont pour objectif d'établir : ce qu'il faut décrire, où trouver l'information et où la restituer dans un schéma descriptif. Si les référentiels permettent de normaliser la terminologie des métadonnées, les normes descriptives visent à normaliser leur structure. Elles ont été rapidement traduites dans des standards d'encodage contraignant au respect de la hiérarchie informationnelle définie dans la norme. C'est le cas du standard EAD pour les archives, selon la norme ISAD(G), via l'utilisation du langage XML dont on peut contraindre la structuration. 
+
+Ces éléments sont valables pour toutes les typologies patrimoniales conservées. Ainsi, elles possèdent parfois leurs propres référentiels, normes et standards d'encodage. Cela a donc homogénéiser les pratiques descriptives, mais aussi amené à plus de distinction entre les typologies patrimoniales.\newline
+
+L'apparition de séparation plus nette entre les typologies et de standards descriptifs n'ont constitué qu'une première étape. Dans le même temps, un constat de changement des attentes du public et des besoins de gestion des collections patrimoniales conduit à une nouvelle évolution. 
+
+C'est l'apparition de modèles conceptuels de gestion des collections. Ils ont pour objectif d'apporter de nouvelles conception de gestion afin de mieux répondre aux enjeux de conservation et attentes du public. Nous avons déjà cité le modèle CIDOC-CRM du \gls{CIDOC} et le FRBR de l'\gls{IFLA}. Nous explorerons d'ailleurs ce dernier plus en profondeurs par la suite\footnote{\fullref{FRBR-WEMI}}
+
+Il est important de retenir qu'aujourd'hui ces modèles permettent de créer une stabilité de gestion des collections. Cela créé plus de liens entre les institutions ainsi qu'une stabilité des éléments nécessaires pour retrouver les bonnes informations.\newline
+
+Les efforts de normalisation à différentes échelles sont aujourd'hui plus que nécessaire. L'explosion des moyens informatiques et des créations du patrimoine numérique ont amplifiés la masse de métadonnées produites. C'est le phénomène de \gls{bgdt}.
+
+Aujourd'hui, les institutions conservatrices gèrent des quantités impressionnantes de métadonnées descriptives. Les enjeux volumétrique rendent plus difficile l'application de ces standards et normes.
+
+Ensuite par leurs diversifications. En effet, cette massification des métadonnées a demandées de nouveaux moyens de gestinos et de tansmitions. Les fichiers XML étant assez lourds et verbeux, d'autres formats de fichier sont apprus : c'est le cas du \J. Sans redéfinir les normes, son apparition impact les formats d'échanges de données entre institutions. Par exemple, les sites internets institutionnels se dotent de système d'échanges de données, souvent basés sur le format \J : ce sont les APIs. Cela implique donc de pouvoir transformer, par exemple, un encodage EAD en un fichier \J puis inversemment pour conservation.\newline
+
+\subsection{La place des \glspl{sgc} :}
+
+L'organisme du \textit{Collection Trust} impose le respect de ces principes concernant aux \gls{sgc}. Leurs missions est finalement de constituer un terrain d'entente entre les besoins insitutionnels et les efforts de normalisations. À ce titre, le logiciel SkinSoft respecte chaque normes, standards et modèles conceptuel attribué à chaque typologie. En même temps d'assurer des connexions directes avec des référentiels externes.\newline
+
+Cependant, ce n'est pas choses aisés. En effet, ces efforts de normalisations sont aujourd'hui en pleine application. Au moment de l'essor de l'informatisation, les institutions ont souvent constituée leurs propres bases de données selon leurs propres conception de gestion de la métadonnée. Ces bases dites \guillemet{maisons} sont d'une relativement fidèles aux normes. La structuration de la donnée leurs est propre : les métadonnées sont saisie selon des standards internes et l'architecture de la base de données est souvent unique.
+
+C'est alors un premier rôle attribué aux \gls{sgc} que de permettre cette transition d'une base de données \guillemet{maison} vers un système normalisé. Il faut pouvoir assurer la bonne transition de la données et des pratiques de saisies. Cela implique une notion de migration de données et d'accompagnement au changement.
+
+De plus, les \glspl{sgc} sont en premières lignes face aux défis de la \gls{bgdt}. Tout en respectant ces normes, standards et modèles conceptuels, il faut pouvoir gérer de manière homogènes cette masse de données. Traiter ce volume croissant et évolutif constitue un défi d'infrastructure, mais aussi un enjeu face à cette homogénéisation. 
+
+Cette massification de la données et cette mise en danger de l'homogénéisation des métadonnées impose à ces logiciels de mettre en place des moyens suffisant pour conserver et perpétuer ce principe. Ainsi, ce logiciel n'est plus un outil de gestion avec une dimension stratégique. Mais un outil destiné à faciliter l'application de l'\gls{intero} et de l'homogénéité des métadonnées.
+
+En conclusion, les \gls{sgc} comme SkinSoft ne sont plus aujourd'hui de simple logiciels d'applications de normes et de contraintes à appliquer. Ils doivent être de véritable moteurs et appuis de l'évolution du patrimoine, notamment dans sa dimensions numérique. 
+
+Aujourd'hui, ils ont pour enjeu de concilier les volontés d'homogénisation à la réalité d'hétérogénéité massive. Cela les amènent à côtoyer leurs limites et donc à se diriger vers des solutions d'\gls{IA} pour faciliter cette mision par des processus automatisé ou semi-automatisé. 

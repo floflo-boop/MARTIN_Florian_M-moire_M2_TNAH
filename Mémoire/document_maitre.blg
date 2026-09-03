@@ -1,21 +1,21 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'document_maitre.blg'
-[38] biber:342> INFO - === Thu Sep  3, 2026, 10:22:53
+[38] biber:342> INFO - === Thu Sep  3, 2026, 13:13:09
 [46] Biber.pm:421> INFO - Reading 'document_maitre.bcf'
-[89] Biber.pm:1002> INFO - Found 98 citekeys in bib section 0
-[95] Biber.pm:4487> INFO - Processing section 0
-[100] Biber.pm:4678> INFO - Looking for bibtex file './biblio/memoire.bib' for section 0
-[105] bibtex.pm:1713> INFO - LaTeX decoding ...
-[192] bibtex.pm:1519> INFO - Found BibTeX data source './biblio/memoire.bib'
-[493] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[493] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[493] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[493] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[548] bbl.pm:676> INFO - Writing 'document_maitre.bbl' with encoding 'UTF-8'
-[571] bbl.pm:779> INFO - Output to document_maitre.bbl
-[572] Biber.pm:132> WARN - legacy year field '2013/déc./10' in entry 'brissaudLelaborationPrincipeDinalienabilite2013/dec./10' is not an integer - this will probably not sort properly.
-[572] Biber.pm:132> WARN - ISBN '978-2-11-091765-2 978-2-11-091636-5' in entry 'verdierSystemeDescriptifObjets1999' is invalid - run biber with '--validate_datamodel' for details.
-[572] Biber.pm:132> WARN - legacy year field '2017/déc./15' in entry 'stutzmannRecherchePleinTexte2017/dec./15' is not an integer - this will probably not sort properly.
-[572] Biber.pm:132> WARN - online entry 'DroitDauteurINPI2024' (./biblio/memoire.bib): Invalid format '2024-12-09T14:59:12+0100' of date field 'date' - ignoring
-[572] Biber.pm:132> WARN - I didn't find a database entry for 'liuVideoSwinTransformer2021a' (section 0)
-[572] Biber.pm:134> INFO - WARNINGS: 5
+[90] Biber.pm:1002> INFO - Found 99 citekeys in bib section 0
+[97] Biber.pm:4487> INFO - Processing section 0
+[101] Biber.pm:4678> INFO - Looking for bibtex file './biblio/memoire.bib' for section 0
+[107] bibtex.pm:1713> INFO - LaTeX decoding ...
+[197] bibtex.pm:1519> INFO - Found BibTeX data source './biblio/memoire.bib'
+[505] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[505] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[505] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[505] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[561] bbl.pm:676> INFO - Writing 'document_maitre.bbl' with encoding 'UTF-8'
+[584] bbl.pm:779> INFO - Output to document_maitre.bbl
+[584] Biber.pm:132> WARN - legacy year field '2013/déc./10' in entry 'brissaudLelaborationPrincipeDinalienabilite2013/dec./10' is not an integer - this will probably not sort properly.
+[584] Biber.pm:132> WARN - ISBN '978-2-11-091765-2 978-2-11-091636-5' in entry 'verdierSystemeDescriptifObjets1999' is invalid - run biber with '--validate_datamodel' for details.
+[584] Biber.pm:132> WARN - legacy year field '2017/déc./15' in entry 'stutzmannRecherchePleinTexte2017/dec./15' is not an integer - this will probably not sort properly.
+[584] Biber.pm:132> WARN - online entry 'DroitDauteurINPI2024' (./biblio/memoire.bib): Invalid format '2024-12-09T14:59:12+0100' of date field 'date' - ignoring
+[584] Biber.pm:132> WARN - I didn't find a database entry for 'liuVideoSwinTransformer2021a' (section 0)
+[584] Biber.pm:134> INFO - WARNINGS: 5
