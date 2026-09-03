@@ -2,17 +2,38 @@
 
 \label{juridique}
 
-\begin{itemize}
-	  \item L’idée est de présenter le cadre juridique dans lequel doit s’inscrire la solution basée sur de l’IA. Au contact de données sensibles, à caractère non communicable ou autre, il faut forcément respecter des contraintes juridiques. La position de SkinSoft est intéressante, c’est une entreprise qui intervient sur les données patrimoniales ou d’autres entreprises. Donc en tant que fournisseur logiciel, comment on compose avec ce cadre juridique ? 
-	
-	% \item Enjeux juridiques dans le monde patrimonial et privé
-	% \item Quelles positions/responsabilités attendre du fournisseur de la solution ?
-	
-	\item \textbf{Plan :}
-	\subitem Présentations des collections patrimoniales privées et publiques sous un aspect juridique. Sensibilité des données, respect des délais de communication, contact avec l'utilisateur qui demande des données personnelles, documents non communicables, etc.
-	\subitem Description de différents appareils juridiques mis en place pour contrôler et limiter l'IA sur des données sensibles, comme les données patrimoniales. Articles et textes de lois à l'appui 
-	\subitem Interrogation sur la position d'un fournisseur de \terme{CMS} vis-à-vis de tout cela. Il doit être conforme aux lois, mais aussi aux politiques internes de chaque institution et garantir le respect de leurs volontés. Montrer la complexité de la position. 
-	
-\end{itemize}
+Les nombreux enjeux techniques de l'\gls{IA} ne constituent qu'une partie des points d'attentions à connaître autre de ces outils. Leurs capacités d'entraînement et de traitement de données en masses à entraîner une très vive popularité de ces outils dans toutes les sphères de notre société. Ainsi, chaque jour ces outils reçoivent, traite et s'entraîne sur des milliers de données variées. 
 
-\label{juri}
+Cette dimensions mêlée à leurs opacités amène aujourd'hui à définir un cadre législatif national et/ou international. Ce dernier est en plein essor aujourd'hui et viens fusionner avec le cadre juridique patrimonial afin de normer et contraindre les outils que nous envisageons dans leurs conceptions et traitement. Nous nous devons de connaître ces particularités.
+
+\subsection{Cadre juridique du patrimoine et des données patrimoniales :}
+
+Le patrimoine est basé sur des documents et objets comprenant des informations au sens large, issues d'institutions publique comme de production privée et impliquant des personnes. L'enjeu réside dans le sens de ces informations, pouvant être de nature sensible comme une adresse ou encore des informations soumises à confidentialités. Ce caractère particuliers \guillemet{s'oppose} à l'obligation de communication du patrimoine. 
+
+Ainsi, les textes juridiques cherchent à créer un cadre légal pour équilibrer cette diffusion du patrimoine avec la protection des informations sensibles d'ordre publics et privés. En France, le \textit{Code du Patrimoine}\footcite{CodePatrimoineLegifrance} est la pierre angulaire du cadre juridique. 
+
+Ce code impose, par exemple, un délais de communication des documents en fonctions de leur typologie et contenus.\footcite[Article 213.1 à 213.3]{CodePatrimoineLegifrance} Il régit aussi les conditions de dépôt et de communication des archives et patrimoines privés, presque sur mesure en fonction des cas.\footcite[Article 213-6]{CodePatrimoineLegifrance}
+
+Ce code est complété par le \textit{Code de la propriété intellectuelle} avec notamment le droit d'auteur.\footcite{DroitDauteurINPI2024} Le créateur d'une \oe{uvre} possède dès lors des droits moraux\footcite[Article 121-1 à 121-9]{DroitDauteurINPI2024}, protégeant le lien entre l'\oe{uvre} et son créateur, et des droits patrimoniaux, disons d'exploitation de l'\oe{uvre}\footcite[Article 122-1 à 122-12]{DroitDauteurINPI2024}.\newline
+
+L'informatisation des collections patrimoniales à amené à compléter l'appareil juridique patrimonial avec un volet spécialisé sur les données informatiques.
+
+En effet, avec une diffusion par internat il est bien plus facile de diffuser des données, de les réutiliser et de se les réapproprier. Pour cette raison, le patrimoine ce dote assez vite d'un cadre juridique compétent sur l'aspect informatique. On peut penser au \textit{Code des relations entre le public et l'administation}. Ce dernier encadre la réutilisation des documents informatisés à des fins de diffusions, de traitement algorithmique et d'entraînement de \glspl{mod} d'\gls{IA}.\footcite{LivreIIILACCES}
+
+Mais surtout au texte européen : \textit{Réglement général sur la protection des données}\footcite{ReglementGeneralProtection}, ou RGPD. Il est particulièrement intéressant dans notre position. Il définit les obligations qui incombent aux entreprises comme SkinSoft qui stocke des données dont elles ne sont pas propriétaires. Les données sont classées par catégories de sensibilités auxquelles sont associés des traitements à effectuer avant diffusions ou conservation. Cette dernière est également contrôlée dans sa forme et sa durée.
+
+Ainsi, les fournisseurs de \gls{sgc} ont la position de \guillemet{sous-traitant}.\footcite[Article 28]{ReglementGeneralProtection} C'est à dire que l'entreprise n'a pas de droits sur les données conservées. De cette manière, tout traitement à effectuer doit être approuvé par l'institutions, entreprise ou personnes propriétaires des données. Il y a également une garantie d'accès aux données et de leurs manipulations par les propriétaires.\newline
+
+Cette brève description du paysage juridique patrimonial permet d'apprécier une législation complexe et contraignante. Notamment sur l'aspect des données patrimoniales, où les droits et possibilité d'actions d'entreprises \guillemet{sous-traitante} sont extrêmement encadrée. 
+
+L'inclusion de l'\gls{IA} dans ce cadre juridique demande quelques précisions et redéfinitions. 
+
+\subsection{Contrainte juridique de l'\gls{IA} :}
+
+Le cadre juridique et législatif est encore émergent, notamment avec le texte fondateur promulguée par l'Union Européenne en 2024 : \textit{l'AI Act}\footcite{LoiEuropeenneLintelligence}. Il impose des principes généraux sur ces outils. À savoir : la transparence des jeux d'entraînement, des traitements et du stockage des données ou encore le droit d'opposition accordé aux propriétaires des données. L'objectif est de sécuriser l'utilisation d'outils d'\gls{IA} sur les données. En fonction de la sensibilité des données et du traitement appliqué, un niveau de risque de l'outil est déterminé. Ce dernier impose des principes et conditions de sécurités.
+
+La \guillemet{recherche augmentée}, le \gls{chatbot} et l'indexation semi-atuomatisée relèvent du risque limité. Cela impose une transparence de l'entreprise dans l'utilisation, le traitement et le stockage des données des institutions tout en respectant le droit d'opposition. 
+
+Cela s'ajoute au respect du \textit{Code du patrimoine} et du \textit{RGPD} précédemment cité. Ainsi, les outils envisagés doivent : respecter les délais de communications, traiter les données sensibles dans l'anonymat, ne pas diffuser les données sans accords des propriétaires et être transparent sur les traitements ainsi que la conservation des données. Tout cela doit être encadré par une infrastructure sécurisée. \newline
+
+Notons que ce cadre juridique est hautement évolutif. Aujourd'hui, nous ne sommes qu'à un stade précoce de construction de ce cadre. L'\textit{AI Act} est fondateur car il impose des principes de fonds, à mettre en relation avec l'appareil juridique patrimonial. Sur ces principes fondamentaux vont certainement s'élever de nouveaux textes et principes. Ainsi, la conformité juridique en matière d'\gls{IA} est une question évolutive. Et il incombe à des structures comme SkinSoft, si le projet de créations d'outils d'\gls{IA} aboutit, d'évoluer avec ce cadre. 

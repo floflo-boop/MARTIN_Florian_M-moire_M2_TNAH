@@ -1,7 +1,7 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Introduction}{xxi}{chapter*.4}%
+\contentsline {chapter}{Introduction}{xv}{chapter*.4}%
 \contentsline {part}{I\hspace {1em}La gestion numérique de collections composites dans le monde patrimonial et le secteur privé. }{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Système de gestion de collection et suite SkinSoft}{3}{chapter.1}%
 \contentsline {section}{\numberline {I.}Qu’est ce qu’un système de gestion de collections à l’heure des collections doublement hétérogènes }{3}{section.1.1}%
@@ -17,57 +17,59 @@
 \contentsline {subsection}{\numberline {3.}le \gls {RAG} : définition}{18}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {4.}Apports des outils et état des lieux de leur application dans la gestion des collections}{19}{subsection.2.1.4}%
 \contentsline {section}{\numberline {II.}Les enjeux techniques :}{21}{section.2.2}%
-\contentsline {section}{\numberline {III.}Les enjeux juridiques publics et privés :}{25}{section.2.3}%
-\contentsline {part}{II\hspace {1em}Implémenter l’IA dans un CMS : état des lieux et ambitions de SkinSoft.}{27}{part.2}%
-\contentsline {chapter}{\numberline {3}Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}{29}{chapter.3}%
-\contentsline {section}{\numberline {I.}La recherche et l’utilisation de la solution dans le logiciel SkinSoft }{29}{section.3.1}%
-\contentsline {section}{\numberline {II.}Recherche augmentée et Chatbot/Agent IA : état de l'art.}{40}{section.3.2}%
-\contentsline {subsection}{\numberline {1.}La \guillemetleft {recherche augmentée} \guillemetright : }{40}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {a.}La recherche intelligente :}{40}{subsubsection.3.2.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Les processus \gls {2SQL} et \gls {2NSQL} : }{46}{subsubsection.3.2.1.2}%
-\contentsline {subsection}{\numberline {2.}Le \guillemetleft {chatbot} \guillemetright :}{52}{subsection.3.2.2}%
-\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{57}{section.3.3}%
-\contentsline {subsection}{\numberline {1.}\gls {ux} et \gls {ui} dans les \glspl {sgc} :}{58}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {2.}Les outils d'\gls {IA} :}{60}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.}\gls {IA} et \gls {sgc} : des attentes \gls {ux} et \gls {ui} particulières}{61}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {4.}Conclusion}{62}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}Traitement et indexation de l'\gls {imgani}}{63}{chapter.4}%
-\contentsline {section}{\numberline {I.}Dans le logiciel Skinsoft}{63}{section.4.1}%
-\contentsline {subsection}{\numberline {1.}Définition de l'indexation et de l'\gls {imgani} : }{63}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {2.}Le \gls {FRBR} et le \gls {WEMI}}{66}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {3.}La gestion de l'\gls {imgani} dans l'application SkinSoft}{70}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.}Complexité et limite de l'indexation des \glspl {imgani} : }{73}{subsection.4.1.4}%
-\contentsline {section}{\numberline {II.}Outils et réalité technique}{75}{section.4.2}%
-\contentsline {subsection}{\numberline {1.}Manipulation de l'image et des \glspl {pl}}{83}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {2.}\Gls {seg} d'une \gls {imgani}}{86}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3.}La compréhension des sous-titres}{88}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.}La reconnaissance de lieux et de personnes}{89}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {5.}Les \gls {VLM}}{93}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {6.}Le traitement des pistes audios}{95}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {7.}Vers une révolution des \gls {mmlts} : les \gls {NVM} ?}{97}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {8.}Conclusion}{99}{subsection.4.2.8}%
-\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{102}{section.4.3}%
-\contentsline {part}{III\hspace {1em}Solutions élaborées et résultats obtenus}{105}{part.3}%
-\contentsline {chapter}{\numberline {5} Recherche Augmentée et “chatbot” : conception technique, conception utilisateur et résultat.}{107}{chapter.5}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{108}{subsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{109}{subsubsection.5.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{113}{subsubsection.5.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{115}{subsubsection.5.0.1.3}%
-\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{116}{subsubsection.5.0.1.4}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{118}{subsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{118}{subsubsection.5.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Proposition technique }{120}{subsubsection.5.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{121}{subsubsection.5.0.2.3}%
-\contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{123}{subsubsection.5.0.2.4}%
-\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{125}{chapter.6}%
-\contentsline {subsection}{\numberline {1.}Conception de l'outil}{126}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{131}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{133}{subsection.6.0.3}%
-\contentsline {subsection}{\numberline {4.}Apports et limites}{135}{subsection.6.0.4}%
-\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{137}{chapter.7}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée}{138}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{138}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{139}{subsection.7.0.3}%
-\contentsline {subsection}{\numberline {4.}Conclusion}{140}{subsection.7.0.4}%
-\contentsline {chapter}{Conclusion}{143}{part*.21}%
-\contentsline {chapter}{\textfrench {Glossaire}}{143}{section*.22}%
+\contentsline {section}{\numberline {III.}Le cadre juridique :}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {1.}Cadre juridique du patrimoine et des données patrimoniales :}{25}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.}Contrainte juridique de l'\gls {IA} :}{26}{subsection.2.3.2}%
+\contentsline {part}{II\hspace {1em}Implémenter l’IA dans un CMS : état des lieux et ambitions de SkinSoft.}{29}{part.2}%
+\contentsline {chapter}{\numberline {3}Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}{31}{chapter.3}%
+\contentsline {section}{\numberline {I.}La recherche et l’utilisation de la solution dans le logiciel SkinSoft }{31}{section.3.1}%
+\contentsline {section}{\numberline {II.}Recherche augmentée et Chatbot/Agent IA : état de l'art.}{42}{section.3.2}%
+\contentsline {subsection}{\numberline {1.}La \guillemetleft {recherche augmentée} \guillemetright : }{42}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {a.}La recherche intelligente :}{42}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Les processus \gls {2SQL} et \gls {2NSQL} : }{48}{subsubsection.3.2.1.2}%
+\contentsline {subsection}{\numberline {2.}Le \guillemetleft {chatbot} \guillemetright :}{54}{subsection.3.2.2}%
+\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{59}{section.3.3}%
+\contentsline {subsection}{\numberline {1.}\gls {ux} et \gls {ui} dans les \glspl {sgc} :}{60}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {2.}Les outils d'\gls {IA} :}{62}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.}\gls {IA} et \gls {sgc} : des attentes \gls {ux} et \gls {ui} particulières}{63}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {4.}Conclusion}{64}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}Traitement et indexation de l'\gls {imgani}}{65}{chapter.4}%
+\contentsline {section}{\numberline {I.}Dans le logiciel Skinsoft}{65}{section.4.1}%
+\contentsline {subsection}{\numberline {1.}Définition de l'indexation et de l'\gls {imgani} : }{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {2.}Le \gls {FRBR} et le \gls {WEMI}}{68}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {3.}La gestion de l'\gls {imgani} dans l'application SkinSoft}{72}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.}Complexité et limite de l'indexation des \glspl {imgani} : }{75}{subsection.4.1.4}%
+\contentsline {section}{\numberline {II.}Outils et réalité technique}{77}{section.4.2}%
+\contentsline {subsection}{\numberline {1.}Manipulation de l'image et des \glspl {pl}}{85}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2.}\Gls {seg} d'une \gls {imgani}}{88}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3.}La compréhension des sous-titres}{90}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.}La reconnaissance de lieux et de personnes}{91}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {5.}Les \gls {VLM}}{95}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {6.}Le traitement des pistes audios}{97}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {7.}Vers une révolution des \gls {mmlts} : les \gls {NVM} ?}{99}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {8.}Conclusion}{101}{subsection.4.2.8}%
+\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{104}{section.4.3}%
+\contentsline {part}{III\hspace {1em}Solutions élaborées et résultats obtenus}{107}{part.3}%
+\contentsline {chapter}{\numberline {5} Recherche Augmentée et “chatbot” : conception technique, conception utilisateur et résultat.}{109}{chapter.5}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{110}{subsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{111}{subsubsection.5.0.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{115}{subsubsection.5.0.1.2}%
+\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{117}{subsubsection.5.0.1.3}%
+\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{118}{subsubsection.5.0.1.4}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{120}{subsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{120}{subsubsection.5.0.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Proposition technique }{122}{subsubsection.5.0.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{123}{subsubsection.5.0.2.3}%
+\contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{125}{subsubsection.5.0.2.4}%
+\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{127}{chapter.6}%
+\contentsline {subsection}{\numberline {1.}Conception de l'outil}{128}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{133}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{135}{subsection.6.0.3}%
+\contentsline {subsection}{\numberline {4.}Apports et limites}{137}{subsection.6.0.4}%
+\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{139}{chapter.7}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée}{140}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{140}{subsection.7.0.2}%
+\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{141}{subsection.7.0.3}%
+\contentsline {subsection}{\numberline {4.}Conclusion}{142}{subsection.7.0.4}%
+\contentsline {chapter}{Conclusion}{145}{part*.21}%
+\contentsline {chapter}{\textfrench {Glossaire}}{145}{section*.22}%
