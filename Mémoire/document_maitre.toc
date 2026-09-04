@@ -55,8 +55,8 @@
 \contentsline {chapter}{\numberline {5} Recherche Augmentée et \gls {chatbot} : conception technique, conception utilisateur et résultat.}{113}{chapter.5}%
 \contentsline {subsection}{\numberline {1.}La recherche augmentée :}{114}{subsection.5.0.1}%
 \contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{114}{subsubsection.5.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{119}{subsubsection.5.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{121}{subsubsection.5.0.1.3}%
+\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{118}{subsubsection.5.0.1.2}%
+\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{120}{subsubsection.5.0.1.3}%
 \contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{122}{subsubsection.5.0.1.4}%
 \contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{124}{subsection.5.0.2}%
 \contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{124}{subsubsection.5.0.2.1}%
@@ -65,13 +65,14 @@
 \contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{128}{subsubsection.5.0.2.4}%
 \contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{131}{chapter.6}%
 \contentsline {subsection}{\numberline {1.}Conception de l'outil}{132}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{138}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{140}{subsection.6.0.3}%
-\contentsline {subsection}{\numberline {4.}Apports et limites}{142}{subsection.6.0.4}%
-\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{145}{chapter.7}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée}{146}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{146}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{147}{subsection.7.0.3}%
-\contentsline {subsection}{\numberline {4.}Conclusion}{148}{subsection.7.0.4}%
-\contentsline {chapter}{Conclusion}{151}{part*.21}%
-\contentsline {chapter}{\textfrench {Glossaire}}{153}{section*.22}%
+\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{137}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{139}{subsection.6.0.3}%
+\contentsline {subsection}{\numberline {4.}Apports et limites}{141}{subsection.6.0.4}%
+\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{143}{chapter.7}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée}{144}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{144}{subsection.7.0.2}%
+\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{145}{subsection.7.0.3}%
+\contentsline {subsection}{\numberline {4.}Conclusion}{146}{subsection.7.0.4}%
+\contentsline {chapter}{Conclusion}{152}{part*.21}%
+\contentsline {chapter}{\numberline {A}Github des livrables techniques}{153}{appendix.A}%
+\contentsline {chapter}{\textfrench {Glossaire}}{155}{section*.22}%

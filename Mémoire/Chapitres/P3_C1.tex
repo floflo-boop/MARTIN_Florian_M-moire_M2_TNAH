@@ -87,13 +87,13 @@ Ainsi, la \guillemet{recherche augmentée} est pensée comme un assistant de req
 
 Cette fonctionnalité est limitée à chaque \gls{table} de l'application. Les index \gls{ES} sont générés par \gls{table} présente dans l'application en fonction des \guillemet{documents} y étant rattaché et des champs utilisés. De cette manière, récupère le bon index, servant de contexte pour la \guillemet{compréhension} de la structure des données. 
 
-Pour la compréhensions des besoins institutionnels, ce la se fait par la possibilité dans l'application d'inscrire des informations complémentaire pour chaque champs. Elle permettant d'indiquer aux utilisateurs l'utilisation souhaitée d'un champs selon l'institution. Cela permet de modifier la valeur sémantique d'un champs pour chaque table et index. Le processus de \gls{RAG} se base autant sur l'index \gls{ES} \footnote{Autre livrable technique avec ce mémoire.} de la \gls{table} interrogées, que sur ces informations institutionnelles complémentaires. De cette manière, l'institution peut modifier la \guillemet{compréhension} d'un champs en lui attribuant une nouvelle valeur sémantique. 
+Pour la compréhensions des besoins institutionnels, ce la se fait par la possibilité dans l'application d'inscrire des informations complémentaire pour chaque champs. Elle permettant d'indiquer aux utilisateurs l'utilisation souhaitée d'un champs selon l'institution. Cela permet de modifier la valeur sémantique d'un champs pour chaque table et index. Le processus de \gls{RAG} se base autant sur l'index \gls{ES} \footnote{{Voir le livrable technique \textit{index.pdf} diponible sur le dépôt github : \url{https://github.com/floflo-boop/Livrable-technique}}} de la \gls{table} interrogées, que sur ces informations institutionnelles complémentaires. De cette manière, l'institution peut modifier la \guillemet{compréhension} d'un champs en lui attribuant une nouvelle valeur sémantique. 
 
 Voici un schéma du processus : \newpage
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{./Schema/RechercheAugmentee.png}
+	\includegraphics[width=0.9\textwidth]{./Schema/RechercheAugmentee.png}
 	\caption{Schéma du processus de \guillemet{recherche augmentée}.}
 	\label{fig:Recherche Augmentée}
 \end{figure}
@@ -126,7 +126,7 @@ Mais il est réaliste de penser que ce processus va connaître des déclinaisons
 
 \subsubsection{Conception du parcours utilisateur final}
 
-Le parcours utilisateur n'est pas nettement défini. Une spécification à été rédigée afin d'établir les lignes directrices du parcours utilisateurs.\footnote{Cette spécification constitue le livrable technique de notre travail.} Il n'y a donc pas de visuel à l'appuis et il s'agira ici de balayer une possibilité d'implémentation avec sa raison d'être. 
+Le parcours utilisateur n'est pas nettement défini. Une spécification à été rédigée afin d'établir les lignes directrices du parcours utilisateurs.\footnote{Voir le livrable technique \textit{spécification.pdf} diponible sur le dépôt github : \url{https://github.com/floflo-boop/Livrable-technique}} Il n'y a donc pas de visuel à l'appuis et il s'agira ici de balayer une possibilité d'implémentation avec sa raison d'être. 
 
 Il s'agit de la modification d'une fonctionnalité préexistante de recherche et non de la création d'une nouvelle fonctionnalité. Pour ne pas perturber l'utilisateur, il faut trouver l'équilibre permettant de différencier la recherche simple de la \guillemet{recherche augmentée} sans les opposer. Elles composent la même grande fonctionnalités : la recherche.
 
