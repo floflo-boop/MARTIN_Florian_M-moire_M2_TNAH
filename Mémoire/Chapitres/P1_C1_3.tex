@@ -1,83 +1,77 @@
 % !TeX root = ../document_maitre.tex
 
-Aujourd'hui, les \glspl{sgc} sont essentiels aux institutions patrimoniales. Ils constituent le moyen le plus simple de gérer sa collection patrimonial en accord avec les modèles conceptuels et standards de gestion. Ainsi que de permettre le pilotage stratégique de l'activité instititutionnel.\footnote{Voir l'examen mené au \fullref{SGC?}}
+De nos jours, les \glspl{sgc} sont essentiels aux institutions patrimoniales. Ils constituent le moyen le plus simple de gérer sa collection patrimoniale en accord avec les modèles conceptuels et standards de gestion. Tout en permettant le pilotage stratégique de l'activité instititutionnelle.\footnote{Voir l'examen mené au \fullref{SGC?}}
 
-Ils constituent aujourd'hui un véritable marché concurrentiel international en expansion. Bien que pour être catégorisé de \gls{sgc}, il doit être approuvé par la \textit{Collection trusts}\footnote{Pour rappel, la liste est trouvable ici  : \url{https://collectionstrust.org.uk/software/}}, il n'existe pas vraiment de structure logiciel. Ainsi, il existe une myriade de logiciels aux fonctionnements et principes divergeants sur certains points.\newline
+C'est un véritable marché concurrentiel international en expansion. Bien que pour être catégorisé comme \gls{sgc}, il doit être approuvé par le \textit{Collection trusts}\footnote{Pour rappel, la liste est trouvable ici  : \url{https://collectionstrust.org.uk/software/}}, il n'existe pas vraiment de structure logicielle. Ainsi, il existe une myriade de logiciels aux fonctionnements et principes divergents sur certains points.
 
-Cette dimension internationale est importante. L'effort d'homogénéisation des pratiques de description et de gestion n'est pas parfaite. Par exemple, la norme SPECTRUM est particulièrement suivie aux Royaume-Unis, quand en France c'est le Code du Patrimoine qui domine.\footcite{CodePatrimoineLegifrance} Cela entraîne des différences de gestions, en plus des différents standards et modèles conceptuels\footnote{Voir la présentation faite au \fullref{chap:défis-patrimoniaux}}, auxquelles ces logiciels doivent s'adapter.
+Cette dimension internationale est importante. L'effort d'homogénéisation des pratiques de description et de gestion n'est pas parfait. Par exemple, la norme \textit{SPECTRUM} est particulièrement suivie au Royaume-Uni, tandis qu'en France c'est le \textit{Code du Patrimoine} qui domine.\footcite{CodePatrimoineLegifrance} Cela entraîne des différences de gestion, en plus des différents standards et modèles conceptuels\footnote{Voir la présentation faite au \fullref{chap:défis-patrimoniaux}}, auxquels ces logiciels doivent s'adapter.
 
-Aujourd'hui l'enjeu est donc le respect de multiple cadres juridiques, normes, standards et modèles conceptuels, sans cadre technique global.\newline
+Aujourd'hui l'enjeu est donc le respect de multiples cadres juridiques, normes, standards et modèles conceptuels, sans cadre technique global.\newline
 
 Dans cette partie, nous souhaitons présenter la solution logicielle SkinSoft afin d'amener une compréhension globale de cette dernière avant d'aller plus loin dans notre travail.
 
-Nous allons aborder les aspects fonctionnels et techniques de l'application.\footnote{Pour des raisons de confidentialités, nous resterons en surface sur certains éléments trop précis} L'objectif étant d'avoir une compréhension globale du cadre dans lequel cette étude s'inscrit, et du fonctionnement concret d'un \gls{sgc}.
+Nous allons aborder les aspects fonctionnels et techniques de l'application.\footnote{Pour des raisons de confidentialité, nous resterons en surface sur certains éléments} L'objectif étant d'avoir une compréhension globale du cadre dans lequel cette étude s'inscrit, et du fonctionnement concret d'un \gls{sgc}.
 
 \subsection{Principe de la solution SkinSoft}
 
-Traditionnellement, les différentes typologies patrimoniales sont gérées dans des logiciels dédiés. Par exemple, le fournisseur de \gls{sgc} Axiell propose Micromusée pour les musées, SNBase pour les musées d'histoire naturelle et V-Smart pour les bibliothèques.\footnote{Voir \url{https://www.axiell.com/fr/solutions/}}
+Traditionnellement, les différentes typologies patrimoniales sont gérées dans des logiciels dédiés. Par exemple, l'entreprise Axiell propose Micromusée pour les musées, SNBase pour les musées d'histoire naturelle et V-Smart pour les bibliothèques.\footnote{Voir \url{https://www.axiell.com/fr/solutions/}}
 
-Il y a aujourd'hui une volonté de simplification en permettant à un seul logiciel de gérer toute les particularités. C'est dans cette approche que réside la particularité de la solution SkinSoft.\newline
+SkinSoft propose un logiciel permettant de gérer toutes les particularités de chaque typologie en un seul logiciel.
 
-La suite logicielle SkinSoft est une solution \textit{full-web} reposant sur un système de module.\label{module} Il existe un socle logiciel qui permet de gérer plusieurs aspects communs. D'abord, les outils de descriptions tels que les \gls{thesaurus}, les autorités et les localisations. Ensuite, la vie des collections avec les médias, entrées, dépôts, acquisitions, prêts, expositions ou encore les opérations de récollements. Et finalement, les paramètre de l'application : paramètres de configurations, gestion des permissions, gestion des \glspl{table}.\footnote{Unité de stockage thématique d'informations.}\newline
+La suite logicielle SkinSoft est une solution \textit{full-web} reposant sur un système de modules.\label{module} Il existe un socle logiciel qui permet de gérer plusieurs aspects communs. D'abord, les outils de description tels que les \gls{thesaurus}, les autorités et les localisations. Ensuite, la vie des collections avec les médias, entrées, dépôts, acquisitions, prêts, expositions ou encore les opérations de récollements. Et finalement, les paramètres de l'application : configuration, permissions, gestion des \glspl{table}.\footnote{Unité de stockage thématique d'informations.}
 
-Le module est dédiée à la gestion d'une typologie patrimoniale et vient compléter le socle logiciel. Chaque module apporte la gestion d'une typologie de collections, avec ces propres \glspl{table}, standards et modèles conceptuels, et des fonctionnalités supplémentaires dédiées. Les modules principaux sont :
+Chaque module est dédié à la gestion d'une typologie patrimoniale et vient compléter le socle logiciel. Chaque module apporte la gestion d'une typologie de collections, avec ses propres \glspl{table}, standards et modèles conceptuels, et des fonctionnalités supplémentaires dédiées. Les modules principaux sont :
 
-\begin{itemize}
+\begin{multicols}{2}
+	\begin{itemize}
 	\item S-Museum pour la gestion des objets de musées 
 	\item S-Movies pour la gestion de l'\gls{imgani}\footnote{Pour une description de S-Movies, voir \fullref{S-Movies}}
-	\item S-Archéo pour la gestion des mobiliers et opérations archéologiques \item Skin-Archives pour la gestion des archives
+	\item S-Archéo pour la gestion du mobilier et opérations archéologiques \item Skin-Archives pour la gestion des archives
 	\item Skin-Libris pour la gestion des collections des bibliothèques 
 	\item S-Specimen pour la gestion des collections d'histoire naturelle. 
 \end{itemize}
 
-Par exemple, avec Skin-Archives il est possible de gérer des fonds, séries et unités d'archives. La description de ces éléments se fait selon la structure de l'ISAD(G) et respecte l'encodage en EAD. Avec S-Specimen, il ne sera possible de gérer ces éléments. Cependant, nous pourrons gérer notre classification taxonomique et nos specimens selon les normes en vigueurs. Ce qui ne sera pas possible dans Skin-Archives. 
+\end{multicols}
+Par exemple, avec Skin-Archives il est possible de gérer des fonds et archives selon la structure de l'ISAD(G) et du standard EAD. Avec S-Movies, la norme appliquée est le \gls{FRBR} et nous propose de gérer plus finement nos \glspl{imgani}.
 
-Cela peux paraître contradictoire avec le principe d'hétérogénéité des collections vus en introduction. Notons que les modules repose sur la même architecture logiciel et sont ainsi cumulable permettant à institution d'en disposer de plusieurs. Par l'accumulation de module, une institution deviens capable de gérer chaque typologie selon sa propre norme et son propre standards au sein d'un logiciel unique.
+Notons que les modules reposent sur la même architecture logicielle et sont ainsi cumulables permettant à une institution d'en disposer de plusieurs. Par l'accumulation de modules, une institution devient capable de gérer chaque typologie selon sa propre norme et son propre standard au sein d'un logiciel unique.
 
-Rajoutons que ces modules peuvent communiquer entre eux. Un objet conservé dans S-Museum peut être relié à une archives stockée dans Skin-Archives. Il est également possible d'utiliser la fonctionnalité de recherche fédérée permettant de rechercher à travers tous les modules.\newline
+Rajoutons que ces modules communiquent entre eux. Un objet conservé dans S-Museum peut être relié à une archive stockée dans Skin-Archives. Il existe également une recherche fédérée permettant de rechercher à travers tous les modules.
 
-Une autre particularité de ce logiciel est la personnalisation offerte. Les standards sont une première contrainte de description et de gestion à laquelle s'ajoute les politiques institutionnelles. 
+Une autre particularité de ce logiciel est la personnalisation offerte. Les standards sont une première contrainte de description et de gestion auxquelle s'ajoutent les politiques institutionnelles.
 
-La description d'un objet de collections dépend toujours d'un contexte et d'une politique institutionnelle.\footcites{flinnWhoseMemoriesWhose2009}{cookEvidenceMemoryIdentity2012} Deux institutions différentes conservant la même typologie d'objet n'ont pas les mêmes besoins de descriptions et de communications. Dans l'application, cela signifie que certains champs de données ne seront jamais remplis ou alors de manière particulière. Et cela, pour chaque application.
+La description d'un objet de collections dépend toujours d'un contexte et d'une politique institutionnelle.\footcites{flinnWhoseMemoriesWhose2009}{cookEvidenceMemoryIdentity2012} Deux institutions différentes conservant la même typologie d'objet n'ont pas les mêmes besoins de description et de communication. Dans l'application, cela signifie que certains champs de données ne seront jamais remplis ou alors de manière particulière. Et cela, pour chaque application.
 
-Ainsi, il existe une infinité de champs mobilisable dans ce que l'on appelle des masque de saisie, c'est à dire des formulaires permettant d'inscrire de la données dans chaque champs. L'institution à la main sur cette partie afin de remplir les données qu'elle souhaite.
+Ainsi, il existe une infinité de champs mobilisables dans ce que l'on appelle des masques de saisie, c'est-à-dire des formulaires permettant d'inscrire de la donnée dans chaque champ. L'institution à la main sur cette partie afin de remplir les données qu'elle souhaite.
 
 \subsection{Composition techniques}
 
-L'architecture du socle logiciel est intéressante et déterminante pour la suite de notre travail. L'hétérogénéité des collections et la diversité offertes par l'application ne correspondent pas à la plus part des réalités technologiques. 
-
-Jusqu'à présent, le langage SQL domine le domaine de la structuration des données. Les bases de données SQL sont structurée selon un schéma fixe, spécifié par un langage spécifique : la \gls{DDL}. Elles se composent de \glspl{table} à la structure extrêmement rigide : elles sont composées de lignes, représentant les objets, et de colonnes, qui sont les caractéristiques des objets. il peut exister un nombre presque illimité de colonne, cependant elles ne peuvent être vide. 
+L'architecture du socle logiciel est intéressante car représentative de la nécessaire évolutions de ces logiciels. Jusqu'à présent, le langage SQL domine le domaine de la structuration des données grâce à l'utilisation de schémas fixes. L'unité fondamentale est la \glspl{table} : elles représentent une thématique et contiennt tous les objets y appartenant. Les lignes représente les objets, et les colonnes déterminent les caractéristiques de chaque objet. Il peut exister un nombre presque illimité de colonnes, cependant elles ne peuvent être laissées vides. 
 
 Cela ne correspond pas à la réalité patrimoniale. En fonctions des possibilités et besoins descriptifs, certaines colonnes devraient être laissée vide.\newline
 
-Afin de permettre une certaine souplesse, l'application stocke les données dans une base \gls{NSQL}. Le \gls{NSQL} est un langage permettant de structurer et interroger des bases de données. Ce dernier se déleste de la rigidité des \glspl{table} SQL. 
+Afin de permettre une certaine souplesse, l'application stocke les données dans une base \gls{NSQL}. Le \gls{NSQL} est un langage permettant de structurer et interroger des bases de données sans la rigidité des \glspl{table} SQL. 
 
-En effet, il n'y a pas de schéma rigide et commun à tous les objets conservés. Ils sont tous leurs propre schéma, avec leurs propres champs et données, même au sein d'une même \gls{table}. Ainsi deux objets d'une même typologie peuvent être décrits de deux manière différentes. 
+En effet, il n'y a pas de schéma rigide et commun à tous les objets conservés. Ils ont tous leur propre schéma, avec leurs propres champs et données, même au sein d'une même \gls{table}. Ainsi deux objets d'une même typologie peuvent être décrits de deux manières différentes. 
 
-De cette manière, SkinSoft exploite cela pour sa logique modulaire. Chaque besoin descriptif peuvent coexister au sein d'une même base sans conflit. Cela permet de répondre à la diversité des besoins descriptifs institutionnels.\footnote{Pour plus d'informations sur les bases \gls{NSQL}, voir \fullref{NoSQl}} \newline
+De cette manière, SkinSoft exploite cela pour sa logique modulaire. Chaque besoin descriptif peut coexister au sein d'une même base sans conflit. Cela permet de répondre à la diversité des besoins descriptifs institutionnels.\footnote{Pour plus d'informations sur les bases \gls{NSQL}, voir \fullref{NoSQl}} \newline
 
-L'application n'interragit pas directement avec la base \gls{NSQL} institutionnelle. En effet, elles sont assez complexes à requêter ce qui entraînerais une trop grande complexité informatique. Pour cela, l'application utilise un intermédiaire : \gls{ES}. 
+L'application n'interagit pas directement avec la base \gls{NSQL} institutionnelle. En effet, elles sont assez complexes à requêter ce qui entraînerait une trop grande complexité informatique. Pour cela, l'application utilise un intermédiaire : \gls{ES}. Il facilite la manipulation et la recherche des données stockées grâce à son système de recherche.\footnote{Pour plus d'informations sur \gls{ES}, voir \fullref{SRI-ES}}
 
-\gls{ES} est ce que l'on appelle un \gls{SRI}, c'est à dire un système spécialisé pour la recherche des données dans de grandes volumétries. Il est spécialisé sur l'interrogation des bases \gls{NSQL} et s'adapte à la modularité de l'application. 
+\gls{ES} est ce que l'on appelle un \gls{SRI}, c'est-à-dire un système spécialisé pour la recherche des données dans de grandes volumétries. Il est spécialisé sur l'interrogation des bases \gls{NSQL} et s'adapte à la modularité de l'application. 
 
-Il parcourt la base de données \gls{NSQL} et construit ce que l'on appel des \guillemet{index} pour chaque \gls{table} applicative : ils contiennent les objets et leurs données dans des champs dédiées. l'utilisateur interragit directement avec ces index. 
-
-De cette manière, l'utilisateur n'interragit jamais de manière directe avec sa base de données. Un intermédiaire permet de faciliter la manipulation de cette dernière, et la recherche des données stockées grâce à son système de recherche.\footnote{Pour plus d'informations sur \gls{ES}, voir \fullref{SRI-ES}}
+Il parcourt la base de données \gls{NSQL} et construit ce que l'on appel des \guillemet{index} pour chaque \gls{table} applicative : ils contiennent les objets et leurs données dans des champs dédiés. L'utilisateur interagit directement avec ces index. 
 
 \subsection{Limites et défis}
 
 Les particularités de cette solution lui permettent de se démarquer et de proposer une modalité de gestion des collections originale. 
 
-On peut voir en cette architecture une réponse aux besoins de respect des différentes modalités de gestions et de descriptions pour chaque typologies d'objets patrimoniaux. Avec l'attention portée à la personnalisation de l'outil, cela ouvre une nouvelle dimensions : celle de la manipulation de ces standards et modèles selon les besoins institutionnelles.\newline
+On peut voir en cette architecture une réponse aux besoins de respect des différentes modalités de gestions et de descriptions pour chaque typologie patrimoniale. Avec l'attention portée à la personnalisation de l'outil, cela ouvre une nouvelle dimension : l'adaptation des standards et modèles aux besoins institutionnels.\newline
 
-Cependant, cette architecture ne répond toujours pas à deux problèmes majeurs : la gestion de collections massives et la difficultés d'usage des \glspl{sgc}. 
+Cependant, cette architecture ne répond toujours pas aux problèmes de gestion des collections massives et la difficulté d'usage des \glspl{sgc}. 
 
-Pour le premier point, l'aspect modulaire et personnalisble n'offrent pas de solutions. Quelques fonctionnalités permettent les traitements de masses : le traitement par lots, la sélection multiple et la saisie tabulaire. Cette dernière permet de modifier des données sans entrer dans les fiches des objets. Ils sont utiles pour traiter les masses déjà stockées dans la base, mais pas pour accélérer le traitement des objets à intégrer dans la base. Ainsi, ce logiciel rencontre une certaine difficulté à faciliter le traitement des collections non traitées. C'est en réalité une difficultés assez générale dans le domaine des \glspl{sgc}. 
+Pour le premier point, l'aspect modulaire et personnalisable n'offre pas de solutions. Quelques fonctionnalités permettent les traitements de masse comme le traitement par lots. C'est utile pour traiter les masses déjà stockées dans la base, mais pas pour accélérer le traitement des objets à intégrer. Ainsi, il y a une certaine difficulté à faciliter le traitement des collections non traitées. C'est en réalité une difficulté assez générale dans le domaine des \glspl{sgc}. 
 
-Pour le second point, nous avons vu précédemment la complexité de ces logiciels.\footnote{Voir \fullref{SGC?}} Elle se répercute sur des questions d'usages et de gestion des informations. On navigue difficilement au sein des divers flux de données et on a du mal à se repérer au sein de la structure logiciel. L'aspect modulaire de l'application peu rajouter une complexité d'usage car il peut parfois être complexe de comprendre dans quel module nous nous situons. Dans le cas de l'utilisation de la recherche fédérée, il est parfois difficile de comprendre dans quel module sont conservés certains objets.\newline
+Pour le second point, nous avons vu précédemment la complexité de ces logiciels.\footnote{Voir \fullref{SGC?}} Elle se répercute sur des questions d'usages et de gestion des informations. Les flux de données sont nombreux et la strucuture logicielle labyrinthique. Et l'aspect modulaire peut rajouter une difficulté, notamment lors de la recherche fédérée dans laquelle il est compliqué d'identifier le module de provenance de chaque objet.\newline
 
-L'\gls{IA} est aujourd'hui pensée comme la solution à ces deux problématiques. L'implémentation de tels outils représente aujourd'hui un défi autant sur des aspects techniques, qu'éthique et d'usage. C'est ce que nous allons aborder par la suite.
-
-
-
-
+L'\gls{IA} est aujourd'hui pensée comme la solution à ces deux problématiques. L'implémentation de tels outils représente aujourd'hui un défi autant sur l'aspect techniques qu'éthique et d'usage. C'est ce que nous allons aborder par la suite.
