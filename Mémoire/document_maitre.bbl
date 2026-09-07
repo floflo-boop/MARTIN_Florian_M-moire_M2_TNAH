@@ -951,6 +951,7 @@
       \verb{url}
       \verb https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074236/
       \endverb
+      \keyw{juridique}
     \endentry
     \entry{CommentObtenirCode}{online}{}{}
       \list{organization}{1}{%
@@ -2598,6 +2599,7 @@
       \verb{url}
       \verb https://www.inpi.fr/ressources/propriete-intellectuelle/droit-dauteur
       \endverb
+      \keyw{juridique}
       \warn{\item online entry 'DroitDauteurINPI2024' (./biblio/memoire.bib): Invalid format '2024-12-09T14:59:12+0100' of date field 'date' - ignoring}
     \endentry
     \entry{ReglementGeneralProtection}{online}{}{}
@@ -2620,6 +2622,7 @@
       \verb{url}
       \verb https://www.cnil.fr/fr/reglement-europeen-protection-donnees
       \endverb
+      \keyw{juridique}
     \endentry
     \entry{lewisImpactHumanDecisionMaking2025}{article}{}{}
       \name{author}{6}{}{%
@@ -2909,6 +2912,7 @@
       \verb{url}
       \verb https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000031367685/?anchor=LEGIARTI000031367687#LEGIARTI000031367687
       \endverb
+      \keyw{juridique}
     \endentry
     \entry{LoiEuropeenneLintelligence}{online}{}{}
       \list{organization}{1}{%
@@ -2933,6 +2937,7 @@
       \verb{url}
       \verb https://artificialintelligenceact.eu/ai-act-explorer/
       \endverb
+      \keyw{juridique}
     \endentry
     \entry{mellotConfiscationsRevolutionnairesHistoire2019}{article}{}{}
       \name{author}{1}{}{%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  5 SEP 2026 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  7 SEP 2026 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2034,70 +2034,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 [31
 
 ]
-
-[32]
 File: ./Schema/ElasticSearch.pdf Graphic file (type pdf)
 <./Schema/ElasticSearch.pdf>
 
 
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \vbox (badness 2065) has occurred while \output is active []
 
 
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[37]
+[37])
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-
-[40])
-
-[41]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 859.
@@ -2107,264 +2100,187 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 859.
 
 (./Chapitres/P2_C1_2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
 
+[39]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 48.
+
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 266.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 266.
 
 
 
 [43]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+File: ./Schema/Text-to-SQL.png Graphic file (type bmp)
+<./Schema/Text-to-SQL.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 
 
 [45]
-Overfull \hbox (10.6072pt too wide) in paragraph at lines 254--255
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
  []
 
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Recherche séman-
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Hallucinations, opa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Fiabilité des ré-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 sultats, prises en
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 324--324
+\TU/lmr/m/it/10.95 definition language[]\TU/lmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 requêtes vites com-
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 plexes et sclabilité
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Traduction de re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 quête en langage
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 naturel en [][]pipeline
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Souplesse face aux
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 structures des don-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\TU/lmr/m/n/10.95 Fonctionne sur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 échantillonnage,
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 324--324
+\TU/lmr/m/n/10.95 absence de schéma
  []
 
 
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 272.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
 
 [49]
-File: ./Schema/Text-to-SQL.png Graphic file (type bmp)
-<./Schema/Text-to-SQL.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
-
-Underfull \vbox (badness 4792) has occurred while \output is active []
-
-
-
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-
- []
-
-
-
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Indexation vecto-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 rielle du langage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Recherche séman-
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Hallucinations, opa-
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Fiabilité des résul-
- []
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 nées structurées et
- []
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 336--336
-\TU/lmr/m/it/10.95 definition language[]\TU/lmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 requêtes imbriquées
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Traduction de re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 quêtes en langage
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 naturel en pipeline
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Souplesse face
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 aux structures
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 JSON/Documents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 évolutives, haute
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\TU/lmr/m/n/10.95 Fonctionne sur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 échantillonnage,
- []
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 336--336
-\TU/lmr/m/n/10.95 absence de schéma
- []
-
-
-
-[53]
-
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-
-
-[55]
 Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
- []
+[50])
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
-
- []
-
-
-
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
-
- []
-
-
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
- []
-
-)
-
-[58]
+[51]
 Overfull \hbox (9.4479pt too wide) in paragraph at lines 865--865
 []\TU/lmr/bx/n/17.28 Enjeux utilisateurs : comment implémenter ces fonc-
  []
@@ -2386,7 +2302,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 
 
-[59]
+[52]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 18.
@@ -2401,7 +2317,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[60]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -2413,7 +2329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 
 
-[61]
+[54]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 35.
@@ -2430,7 +2346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 
 
-[62]
+[55]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 47.
@@ -2457,9 +2373,13 @@ Underfull \vbox (badness 2245) has occurred while \output is active []
 
 
 
-[63])
+[56])
 
-[64]
+[57]
+
+[58
+
+]
 Chapitre 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2477,9 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-[65
-
-]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -2491,7 +2409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
 
-[66]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -2508,7 +2426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 
 
-[67]
+[61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 25.
@@ -2530,12 +2448,12 @@ d’informations.[][][] D’abord
 
 
 
-[68]
+[62]
 File: ./Schema/WEMI.pdf Graphic file (type pdf)
 <./Schema/WEMI.pdf>
 
 
-[69]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
@@ -2547,7 +2465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
 
 
-[70]
+[64]
 File: ./Schema/frbrComplet.png Graphic file (type bmp)
 <./Schema/frbrComplet.png>
 
@@ -2562,7 +2480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
 
 
-[71]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
@@ -2575,12 +2493,12 @@ File: ./Schema/frbrSmovies.png Graphic file (type bmp)
 <./Schema/frbrSmovies.png>
 
 
-[72]
+[66]
 Overfull \vbox (8.1278pt too high) has occurred while \output is active []
 
 
 
-[73]
+[67]
 
 Package biblatex Warning: Nested notes on input line 110.
 
@@ -2601,7 +2519,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 
 
-[74]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
@@ -2617,14 +2535,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
 
 
-[75]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 )
 
-[76]
+[70]
 Overfull \hbox (39.8024pt too wide) in paragraph at lines 877--877
 []\TU/lmr/bx/n/17.28 Les différentes réalités de l’indexation semi-automatisée 
 :
@@ -2637,21 +2555,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-[77]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
 
-[78]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
 
-[79]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -2661,7 +2579,7 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 
-[80]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -2673,26 +2591,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
 
 
-[81]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
 
-[82]
+[76]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
 
-[83]
+[77]
 File: ./Schema/vitrivr.png Graphic file (type bmp)
 <./Schema/vitrivr.png>
 
 
-[84]
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -2708,9 +2626,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
 
 
-[85]
+[79]
 
-[86]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
@@ -2722,7 +2640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 
 
-[87]
+[81]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\Gls' on input line 120.
@@ -2733,7 +2651,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[88]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -2751,7 +2669,7 @@ Underfull \vbox (badness 1389) has occurred while \output is active []
 
 
 
-[89]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -2766,21 +2684,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[90]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
 
-[91]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
 
-[92]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -2797,14 +2715,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
 
 
-[93]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
 
-[94]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
@@ -2821,7 +2739,7 @@ on sémantique d’[][]images
 
 
 
-[95]
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
@@ -2836,7 +2754,7 @@ Underfull \vbox (badness 1383) has occurred while \output is active []
 
 
 
-[96]
+[90]
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
@@ -2848,14 +2766,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
 
 
-[97]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
 
-[98]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
@@ -2875,7 +2793,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
 
 
-[99]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
@@ -2892,16 +2810,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
 
 
-[100]
+[94]
 
-[101]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 )
 
-[102] (./Chapitres/P2_C2_3.tex
+[96] (./Chapitres/P2_C2_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2918,9 +2836,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 
 
-[103]
+[97]
 
-[104]
+[98]
 Overfull \hbox (6.56958pt too wide) in paragraph at lines 30--31
 []\TU/lmr/m/n/12 Mais différents éléments relevant des logiques d’implémentatio
 ns et des questions d’usages
@@ -2933,15 +2851,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 )
 
-[105]
+[99]
 
-[106
+[100
 
 ]
 
-[107]
+[101]
 
-[108]
+[102]
 Chapitre 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2954,9 +2872,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-[109
+[103
 
 ]
+
+LaTeX Warning: Reference `fonction-SRI' on page 104 undefined on input line 21.
+
+
+
+LaTeX Warning: Reference `fonction-SRI' on page 104 undefined on input line 21.
+
+
+
+LaTeX Warning: Reference `fonction-SRI' on page 104 undefined on input line 21.
+
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2965,7 +2896,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[110]
+[104]
 File: ./Schema/Text2ES.png Graphic file (type bmp)
 <./Schema/Text2ES.png>
 
@@ -2977,7 +2908,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[111]
+[105]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|[][]\TU/lmr/bx/it/12 Text-to-
  []
@@ -3106,7 +3037,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[112]
+[106]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3115,7 +3046,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[113]
+[107]
 File: ./Schema/RechercheAugmentee.png Graphic file (type bmp)
 <./Schema/RechercheAugmentee.png>
 
@@ -3132,7 +3063,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[114]
+[108]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3141,7 +3072,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[115]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -3160,7 +3091,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[116]
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
@@ -3179,7 +3110,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[117]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
@@ -3208,7 +3139,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[118]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
@@ -3227,7 +3158,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[119]
+[113]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 183.
@@ -3248,7 +3179,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[120]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
@@ -3262,7 +3193,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[121]
+[115]
 Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
@@ -3276,7 +3207,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[122]
+[116]
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
@@ -3295,7 +3226,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[123]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
@@ -3309,7 +3240,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[124])
+[118])
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3318,7 +3249,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[125]
+[119]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3327,7 +3258,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[126
+[120
 
 ]
 Chapitre 6.
@@ -3338,7 +3269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
 
-[127]
+[121]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -3352,7 +3283,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[128]
+[122]
 File: ./Schema/Indexation.png Graphic file (type bmp)
 <./Schema/Indexation.png>
 
@@ -3364,7 +3295,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[129]
+[123]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3373,7 +3304,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[130]
+[124]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3382,7 +3313,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[131]
+[125]
 File: ./Schema/Intégration.png Graphic file (type bmp)
 <./Schema/Intégration.png>
 
@@ -3394,7 +3325,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[132]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -3424,7 +3355,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[133]
+[127]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3433,7 +3364,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[134]
+[128]
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
@@ -3452,7 +3383,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[135]
+[129]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
@@ -3481,7 +3412,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[136]
+[130]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -3500,7 +3431,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[137])
+[131])
 Underfull \hbox (badness 10000) in paragraph at lines 184--899
 
  []
@@ -3514,7 +3445,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
-[138]
+[132]
 Chapitre 7.
 (./Chapitres/P3_C3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -3526,7 +3457,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[139
+[133
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -3539,7 +3470,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[140]
+[134]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glspl' on input line 39.
@@ -3556,27 +3487,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
 
 
-[141]
+[135]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 )
 
-[142]
+[136]
 
-[143
+[137
 
 ]
 
-[144] (./Chapitres/conclusion.tex
+[138] (./Chapitres/conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
 
-[145]
+[139]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -3586,7 +3517,7 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 
-[146]
+[140]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -3601,9 +3532,9 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 
-[147])
+[141])
 
-[148]
+[142]
 Annexe A.
 (./Chapitres/annexe.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -3622,12 +3553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 )
 
-[149
+[143
 
 
 ]
 
-[150
+[144
 
 ]
 runsystem(makeindex document_maitre.idx)...executed safely (allowed).
@@ -3639,18 +3570,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[151
+[145
 
 
 
 
 ]
 
-LaTeX Warning: Reference `chatbot' on page 152 undefined on input line 48.
+LaTeX Warning: Reference `chatbot' on page 146 undefined on input line 48.
 
 
 
-[152]
+[146]
 Overfull \hbox (0.77545pt too wide) in paragraph at lines 74--76
 []\TU/lmr/m/n/12 La \TU/lmr/m/it/12 computer vision\TU/lmr/m/n/12 , ou vision p
 ar ordinateur en français, est sous-domaine
@@ -3658,41 +3589,41 @@ ar ordinateur en français, est sous-domaine
 
 
 
-[153]
+[147]
 
-[154]
+[148]
 
-[155]
+[149]
 
-[156]
+[150]
 
-[157]
+[151]
 
 Package biblatex Warning: Nested notes on input line 321.
 
 
 
-[158]
+[152]
 
-[159]
+[153]
 
 Package biblatex Warning: Nested notes on input line 423.
 
 
 
-[160]
+[154]
 
-[161]
+[155]
 
 Package biblatex Warning: Nested notes on input line 523.
 
 
 
-[162]
+[156]
 
-[163])
+[157])
 
-[164] (./document_maitre.lof
+[158] (./document_maitre.lof
 Overfull \hbox (18.47528pt too wide) in paragraph at lines 15--15
  [][] [][]\TU/lmr/m/n/12 Schéma du modèle WEMI implanté dans la solution S-Movi
 es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​ 
@@ -3704,23 +3635,23 @@ es. Source : []\TU/lmr/m/sc/12 Fairbairn[]\TU/lmr/m/n/12 ​
 
 
 
-[165
+[159
 
 ]
 
-[166
+[160
 
 ] (./document_maitre.toc
 
-[167]
+[161]
 
-[168])
+[162])
 \tf@toc=\write9
 \openout9 = `document_maitre.toc'.
 
 
 
-[169] (./document_maitre.aux)
+[163] (./document_maitre.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -3739,12 +3670,12 @@ Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50005 strings out of 468389
- 1043552 string characters out of 5440619
- 2042458 words of memory out of 5000000
- 77814 multiletter control sequences out of 15000+600000
- 633373 words of font info for 95 fonts, out of 8000000 for 9000
+ 50009 strings out of 468389
+ 1043651 string characters out of 5440619
+ 2042602 words of memory out of 5000000
+ 77816 multiletter control sequences out of 15000+600000
+ 633381 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,117p,3045b,6654s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (191 pages).
+Output written on document_maitre.pdf (185 pages).
