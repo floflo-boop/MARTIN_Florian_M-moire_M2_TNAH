@@ -42,37 +42,37 @@
 \contentsline {subsection}{\numberline {3.}La gestion de l'\gls {imgani} dans l'application SkinSoft}{61}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.}Complexité et limite de l'indexation des \glspl {imgani}}{64}{subsection.4.1.4}%
 \contentsline {section}{\numberline {II.}Outils et réalité technique}{65}{section.4.2}%
-\contentsline {subsection}{\numberline {1.}Manipulation de l'image et des \glspl {pl}}{71}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {2.}\Gls {seg} d'une \gls {imgani}}{74}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3.}La compréhension des sous-titres}{76}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.}La reconnaissance de lieux et de personnes}{76}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {5.}Les \gls {VLM}}{81}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {6.}Le traitement des pistes audios}{82}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {7.}Vers une révolution des \gls {mmlts} : les \gls {NVM} ?}{85}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {8.}Conclusion}{87}{subsection.4.2.8}%
-\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{89}{section.4.3}%
-\contentsline {part}{III\hspace {1em}Solutions élaborées et résultats obtenus}{93}{part.3}%
-\contentsline {chapter}{\numberline {5} Recherche Augmentée et \gls {chatbot} : conception technique, conception utilisateur et résultat.}{95}{chapter.5}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{96}{subsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{96}{subsubsection.5.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{100}{subsubsection.5.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{102}{subsubsection.5.0.1.3}%
-\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{104}{subsubsection.5.0.1.4}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{106}{subsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{106}{subsubsection.5.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Proposition technique }{107}{subsubsection.5.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{109}{subsubsection.5.0.2.3}%
-\contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{110}{subsubsection.5.0.2.4}%
-\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{113}{chapter.6}%
-\contentsline {subsection}{\numberline {1.}Conception de l'outil}{114}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{119}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{121}{subsection.6.0.3}%
-\contentsline {subsection}{\numberline {4.}Apports et limites}{123}{subsection.6.0.4}%
-\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{125}{chapter.7}%
-\contentsline {subsection}{\numberline {1.}La recherche augmentée}{126}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{126}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{127}{subsection.7.0.3}%
-\contentsline {subsection}{\numberline {4.}Conclusion}{128}{subsection.7.0.4}%
-\contentsline {chapter}{Conclusion}{134}{part*.21}%
-\contentsline {chapter}{\numberline {A}Github des livrables techniques}{135}{appendix.A}%
-\contentsline {chapter}{\textfrench {Glossaire}}{137}{section*.22}%
+\contentsline {subsection}{\numberline {1.}Manipulation de l'image et des \glspl {pl}}{70}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2.}\Gls {seg} d'une \gls {imgani}}{72}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3.}La compréhension des sous-titres}{74}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.}La reconnaissance de lieux et de personnes}{74}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {5.}Les \glsfirst {VLM}}{77}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {6.}Le traitement des pistes audios}{78}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {7.}Vers une révolution des \gls {mmlts} : le \gls {NVM} ?}{80}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {8.}Conclusion}{82}{subsection.4.2.8}%
+\contentsline {section}{\numberline {III.}Enjeux utilisateurs}{83}{section.4.3}%
+\contentsline {part}{III\hspace {1em}Solutions élaborées et résultats obtenus}{87}{part.3}%
+\contentsline {chapter}{\numberline {5} Recherche Augmentée et \gls {chatbot} : conception technique, conception utilisateur et résultat.}{89}{chapter.5}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée :}{90}{subsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{90}{subsubsection.5.0.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Choix des composants techniques}{94}{subsubsection.5.0.1.2}%
+\contentsline {subsubsection}{\numberline {c.}Conception du parcours utilisateur final}{96}{subsubsection.5.0.1.3}%
+\contentsline {subsubsection}{\numberline {d.}Analyse réflexive}{98}{subsubsection.5.0.1.4}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot} :}{100}{subsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {a.}Conception de l'outil}{100}{subsubsection.5.0.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Proposition technique }{101}{subsubsection.5.0.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Proposition de parcours utilisateurs}{103}{subsubsection.5.0.2.3}%
+\contentsline {subsubsection}{\numberline {d.}Perspective d'avenir}{104}{subsubsection.5.0.2.4}%
+\contentsline {chapter}{\numberline {6}Indexation semi-automatique : conception technique, conception utilisateur et résultat.}{107}{chapter.6}%
+\contentsline {subsection}{\numberline {1.}Conception de l'outil}{108}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {2.}Proposition de conception technique}{113}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {3.}Proposition de conception du parcours utilisateurs}{115}{subsection.6.0.3}%
+\contentsline {subsection}{\numberline {4.}Apports et limites}{117}{subsection.6.0.4}%
+\contentsline {chapter}{\numberline {7}Impact potentiel des outils sur les données et collections patrimoniales}{119}{chapter.7}%
+\contentsline {subsection}{\numberline {1.}La recherche augmentée}{120}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {2.}Le \gls {chatbot}}{120}{subsection.7.0.2}%
+\contentsline {subsection}{\numberline {3.}L'indexation semi-automatisée des \glspl {imgani}}{121}{subsection.7.0.3}%
+\contentsline {subsection}{\numberline {4.}Conclusion}{122}{subsection.7.0.4}%
+\contentsline {chapter}{Conclusion}{128}{part*.21}%
+\contentsline {chapter}{\numberline {A}Github des livrables techniques}{129}{appendix.A}%
+\contentsline {chapter}{\textfrench {Glossaire}}{131}{section*.22}%
