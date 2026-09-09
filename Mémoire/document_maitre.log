@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  9 SEP 2026 20:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  9 SEP 2026 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3114,14 +3114,19 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 ]
 Chapitre 6.
 (./Chapitres/P3_C2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
 
 [105]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
@@ -3156,6 +3161,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [108]
+File: ./Schema/Intégration.png Graphic file (type bmp)
+<./Schema/Intégration.png>
+
+Underfull \vbox (badness 1635) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -3165,8 +3176,8 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [109]
-File: ./Schema/Intégration.png Graphic file (type bmp)
-<./Schema/Intégration.png>
+Overfull \vbox (33.32849pt too high) has occurred while \output is active []
+
 
 
 
@@ -3177,22 +3188,17 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [110]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Overfull \hbox (17.71413pt too wide) in paragraph at lines 115--116
+Overfull \hbox (17.71413pt too wide) in paragraph at lines 96--97
 []\TU/lmr/m/n/12 Pour la première étape, nous utilisons PySceneDetect[][][], FF
 mpeg[][][] et le [][]VLM[] \TU/lmr/m/it/12 SmolVLM2-
  []
@@ -3216,12 +3222,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [112]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
@@ -3235,24 +3241,22 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [113]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 
@@ -3264,12 +3268,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [114]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
@@ -3283,7 +3287,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [115])
-Underfull \hbox (badness 10000) in paragraph at lines 184--899
+Underfull \hbox (badness 10000) in paragraph at lines 157--899
 
  []
 
