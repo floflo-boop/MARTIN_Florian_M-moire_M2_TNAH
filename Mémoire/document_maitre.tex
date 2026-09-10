@@ -38,10 +38,10 @@
 
  \usepackage{graphicx} %Paquets ajouté pour inclure des figures, schémas, images, etc
  \usepackage{caption} %Paquets ajouté afin de créer des légendes pour les figures, schémas, etc.
- \usepackage{float} %Paquets utilisé afin de résoudre un bug. Lors de l'insertion d'une figure, tout texte écrit après ce mettais au dessus de la figure. Ce package offre une option [H] a rajouté après environement [figure] qui résoud le problème.
+ \usepackage{float} %Paquets utilisé afin de résoudre un bug. Lors de l'insertion d'une figure, tout texte écrit après ce met au dessus de la figure. Ce package offre une option [H] a rajouté après environement [figure] qui résoud le problème. 
  \usepackage{tabularx} %package permettant d'ajuster les colonnes d'un tableau LaTeX avec plus de précisions et de souplesse
  \usepackage{booktabs} %package pour un intérêt purement graphique : permet plus de choix dans les séparateurs. 
- \usepackage{tikz}%Package permettant de créer des schémas. Utiliser pour créer le schéma Page ??
+ \usepackage{tikz}%Package permettant de créer des schémas. Utiliser pour créer certains schémas.
  \usetikzlibrary{positioning, arrows.meta, shapes.geometric, fit, shadows, calc} %Ajout de librairie supplémentaire au package tikz afin de créer plus de variétées de schéma.
  \usepackage{xurl} % Package qui permet de couper automatiquement les URL si elles sont trop longues tout en gardant la possibilité de cliquer dessus. 
  
@@ -152,523 +152,10 @@
 \makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
 
-%mettre les entrées du glossaire ici ou les mettre dans un fichier à part que l'on appelle ici par \loadglsentries{nom_du_fichier.tex}
+\loadglsentries{./Chapitres/glossaire.tex} %permet de faire le lien avec mon document de glossaire et de l'utiliser.
 
 
-\newglossaryentry{ina}{
-	name={inaliéniable},
-	description={En terme juridique, cela désigne ce qui ne peut être retiré, altéré ni même vendu ou donné. Un droit inaléniable est un droit qui ne peut être modifié}
-}
 
-\newglossaryentry{inv}{
-	name={inviolable},
-	description={ En terme juridique, désigne un caractère protégé qu'on ne peut enfreindre. Un droit inviolable ne peut être enfrein et si il est associé à un objet, cela rend ce dernier également inviolable. }
-}
-
-\newglossaryentry{rec}{
-	name={Récolement décennale},
-	description={ Mesure imposée par l'Etat français contraignant les musées de France à vérifier l'état de leurs collections tous les dix ans. C'est une opération de vérifications des pièces présentes, absentes, de leurs états, localisations, son marquage et sa conformité vis à vis de son inscriptions à l'inventaire. }
-}
-
-\newglossaryentry{vand}{
-	name={vandalisme},
-	description={Inventé par l'Abbé Grégoire en 1792\footcite{sprigathVandalismeRevolutionnaire179217941980a} à l'occasion de son étude sur l'impact révolutionnaire sur les biens culturels français, il a assez peu changé depuis. Le vandalisme se définit comme tout acte de destruction ou de dégradation volontaire d'\oe{uvres} d'arts, de monuments ou de matériel}
-}
-
-\newglossaryentry{imgani}{
-	name={image animée},
-	plural={images animées},
-	description={ce terme désigne tout objet constitué par une suite d'image capturée par différents procédé et dont la diffusion à la chaîne créer du mouvement. Par image animée, on désigne bien souvient les documents audivisuels comme les films, les séries, les documentaires, vidéos que ce soit amateur ou professionnel}
-}
-
-\newglossaryentry{BNF}{
-	name={BNF},
-	description={Successeure de la Bibliothèque Royale, la Bibliothèque Nationale de France, ou BNF, est l'institution en charge de la collecte, l'archivage et la préservation de l'édition en France notamment à travers le dépôt légal dont elle est la seule responsable. Elle a également à charge une des plus grandes collections patrimoniale française}
-}
-
-\newglossaryentry{IFLA}{
-	name={IFLA},
-	description={La Fédération internationale des associations et institutions de bibliothèques est une organisation internationale représentant les bibliothèques mondiale. Cette organisation se charge de défendre les intérêts de ces institutions et de développement la gestion des collections de bibliothèques de manière commune.\footnote{ Pour plus d'informations voir \url{https://www.ifla.org/}}}
-}
-
-\newglossaryentry{CIDOC}{
-	name={CIDOC},
-	description={Le Comité international pour la documentation est un comité international représentant les musées à l'échelle mondiale. Ce comité ce spécialise dans la rédaction et l'application de normes pour la gestion et description des collections des musées.\footnote{Pour plus d'informations voir \url{https://cidoc.mini.icom.museum/}}}
-}
-
-\newglossaryentry{IA}{
-	name={intelligence artificielle},
-	text={IA},
-	first={intelligence artificielle},
-	plural={intelligences artificielles},
-	description={Ensemble vaste de technologies et procédés informatiques et d'ingénierie qui visent à permettre à l'ordinateur d'effectuer des tâches assimilés à l'intelligence humaines. Ses origines remontent aux travaux de John McCarthy en 1956 et qui voit ses premières expériences concluantes apparaître dans les années 1990}
-}
-
-\newglossaryentry{bgdt}{
-	name={\textit{Big Data}},
-	sort={big data},
-	description={Phénomène d'augmentation quantitative importantes de la données dans tous les domaines à l'échelles mondiale à partir de 2010. On utilise se terme pour faire références aux nouvelles techniques de traitement de la données mis en place afin de répondre aux défis poser par ce phénomène}
-}
-
-\newglossaryentry{OCR}{
-	name={\textit{Optical Character Recognition}},
-	first={\textit{Optical Character Recognition}},
-	text={OCR},
-	sort={optical character recognition},
-	description={l'\textit{optical character recognition} créé par l'ingénieur Autrichien Gustave Tauschek, ou reconnaissance optique de caractère en français, désigne la capacité conféré à un sytsème informatique de reconnaître des mots typographiés. Le premier système à pouvoir le faire est la machine Gismo inventé en 1951 par David Shepard.}
-}
-
-\newglossaryentry{HTR}{
-	name={\textit{Handwritten Text Recognition}},
-	first={\textit{Handwritten Text Recognition}},
-	text={HTR},
-	sort={handwritten text recognition},
-	description={ L'\textit{Handwritten Text Recognition} est basé sur la même idée que l'OCR, la reconnaissance d'écriture manuscrite, ou HTR, applique le même principe à l'analyse des écritures manuscrites. On l'applique surtout aux documents anciens nécessitant des connaissance paléographiques.}
-}
-
-\newglossaryentry{NLP}{
-	name={\textit{Natural Language Processing}},
-	first={\textit{Natural Language Processing}},
-	text={NLP},
-	sort={natural language processing},
-	description={ Le \textit{Natural Language Processing}, ou traitement automatique du langage naturel, est un sous-domaine multidsiciplinaire de l'intelligence artificielle, faisant notamment appelle à l'ingénierie informatique et la linguistique, baser sur l'utilisation du \gls{ML} pour conférer à un système informatique la capacité d'analyser, comprendre et communiquer dans ce que l'on appelle le langage naturel ou langage courant.}
-}
-
-\newglossaryentry{CV}{
-	name={\textit{computer vision}},
-	sort={computer vision},
-	description={La \textit{computer vision}, ou vision par ordinateur en français, est sous-domaine multidsiciplinaire de l'\gls{IA}, cela désigne la capacité d'analyse et d'interprétation des images donnée à un ordinateur ou système informatique.}
-}
-
-\newglossaryentry{ML}{
-	name={\textit{machine learning}},
-	sort={machine learning},
-	description={Domaine d'étude de l'intelligence artificielle qui vise à permettre à un système informatique basé, généralement, sur des réseaux de neurones artificielles d'apprendre. Ce domaine se consacre à développer de nouvelles manière de conférer à l'intelligence artificielle des moyens d'apprendre de différentes manières.} 
-}
-
-\newglossaryentry{UNESCO}{
-	name={UNESCO},
-	description={L'Organisation des Nations unies pour l'éducation, la science et la culture est une organisation internationale créée en 1945 qui a pour but de promulguer la coopération internationale autour des champs de l'éducation, de la culture, de la science et de la communication. Ces missions sont pluriels, mais elle est très largement connus pour ses initiatives sur le patrimoine : reconnaissance du patrimoine immatérielle en 2003 et la construction d'un patrimoine mondial commencé en 1972.} 
-}
-
-\newglossaryentry{DPL}{
-	name={\textit{Deep Learning}},
-	sort={deep learning},
-	description={ Branche du \gls{ML}, il désigne à la fois un modèle d'architecture de réseaux neuronaux d'\gls{IA} et une méthode d'entraîner les technologies basée sur cette architecture. Désigne tout outil d'\gls{IA} reposant sur une architecture en couche successive de réseaux neuronnaux artificiels, conçu pour imiter le cerveau humain. Cette architecture est ensuite entraînée en autonomie, ou presque, sur de grandes quantités de données. De cette manière, ces outils se spécialisent et développent la capacité de traiter de nouvelles données.}
-}
-
-\newglossaryentry{VLM}{
-	name={\textit{Vision Language Model}},
-	first={\textit{Vision Language Model}},
-	text={VLM},
-	sort={vision language model},
-	description={Modèles d'intelligence artificielle avec des capacitée multimodales. C'est à dire que ce modèle n'est plus limité à un champs d'action : il est capable de traiter l'image comme le texte en autonomie.}
-}
-
-\newglossaryentry{intero}{
-	name={interopérabilité des données}, 
-	description={Désigne la capacité à rendre les données d'un systèmes compréhensibles, utilisable et échangeable avec un autre système sans intervention humaine. Cela repose sur des normes et standards permettant de structurer les données de manière uniforme.}
-}
-
-\newglossaryentry{SRI}{
-	name={\textit{Information Retrieval System}},
-	first={\textit{Information Retrieval System}},
-	text={SRI},
-	sort={information retrieval system},
-	description={Logiciels spécialisés sur la recherche d'information dans des données non structurée. Le plus souvent, ces logiciels sont connectés à une base de données afin de stocker les données dans un index permettant de faciliter l'interrogation de volumes de données massifs. Ils fonctionnent comme un intermédiaire entre l'utilisateur et la base de données : il se charge de l'analyse des données, de les découpées en segment qu'il réparti ensuite dans des n\oe{uds} qu'il indexe.}
-}
-
-\newglossaryentry{col}{
-	name={collections},
-	description={Propre aux bases de données No-SQL orienté documents, comme MongoDB, les collections sont un équivalents des tables SQL. On y stocke des documents, c'est à dire des données, de même nature sans schéma particuliers ce qui permet donc une grande souplesse et élasticité.}
-}
-
-\newglossaryentry{chps}{
-	name={champs},
-	description={Dans une base de données No-SQL, le champs est l'unité de bases du documents. Un champs c'est une clés, un intitulé, qui contient un ensemble de valeur concernant le document et qui ont toutes le même rôle, la même valeur sémantique. Un champs "dates" contiendra, par exemple, toutes les dates. Chaque documents possède plusieurs champs, en fonction des différentes données qu'il stocke. La particuralité du champs dans une base de données No-SQL est qu'il est rattaché au document et non à la collection, ainsi plusieurs documents d'une même collections peuvent ne pas avoir exactement les mêmes champs.}
-}
-
-\newglossaryentry{ac}{
-	name={agent conversationnel},
-	plural={agents conversationnels},
-	description={L'agent conversationnel n'est pas une technologies mais un outils. Ce mot fait référence à la forme que peut prendre un programme avec lequel interagir sur le principe de l'envoie d'une requête et d'une génération de réponse. En somme, on désigne l'interface par lequel on interragit avec le programme, qui peut être un \gls{chatbot} ou un \gls{LLM}, que le programme en lui même. Il y a cependant aujourd'hui une confusion claire dans le langage courant entre \gls{ac} et \gls{LLM}.}
-}
-
-\newglossaryentry{ux}{
-	name={\textit{User Experience Design}},
-	sort={user experience design},
-	description={Domaine dans la conception de logiciel informatique visant à rendre l'usage de l'application intuitif, facile et accessible pour tout humain. Ce domaine défini un ensemble de règle et de méthodes à utiliser pour remettre l'humain au centre du logiciel}
-}
-
-\newglossaryentry{ui}{
-	name={\textit{User Interface Design}},
-	sort={user interface design},
-	description={Domaine dans la conception de logiciel informatique visant à rendre l'interface générale de l'application simple et attractifs afin d'en simplifier l'usage applicatif par un humain. Cela s'accompagne d'un ensemble de règle et de méthode évolutive afin de créer des interfaces utilisable.}
-}
-
-\newglossaryentry{POS}{
-	name={\textit{Part of Speech}},
-	first={\textit{Part of Speech}},
-	text={POS},
-	sort={part of speech},
-	description={Technologie d'\gls{IA} composant une partie du sous-domaine des technologies d'intelligence artificielle : le \gls{NLP}. Le \textit{Part of Speecg}, ou POS, c'est l'anlayse grammaticale d'une phrase qui aboutit à l'étiquetage du rôle de chaque mot dans une phrase. Chaque mot est analysé au sein de la phrase, son contexte, et est catégorisé dans l'une des classes grammaticales. La décomposition grammaticale permet ainsi d'en faire sortie le sens}
-}
-
-\newglossaryentry{NER}{
-	name={\textit{Name Entity Recognition}},
-	first={\textit{Name Entity Recognition}},
-	text={NER},
-	sort={name entity recognition},
-	description={Technologie d'\gls{IA} composant une partie du sous-domaine des technologies d'intelligence artificielle : le \gls{NLP}. Le \textit{Name Entity Recognition}, ou NER, est la capacité de reconnaître une chaîne de caractère signfiante comme un nom de personne, de lieux, de marque, d'événements ou encore les dates. }
-}
-
-\newglossaryentry{Vecsion}{
-	name={vectorisation},
-	description={Méthode informatique de calcul et d'attribution d'un identifiant informatique unique à une données en fonction de certains facteurs clés. C'est à dire qu'en amont du processus nous allons lui donner une données, comme un mot, et en sortie nous allons obtenir un identifiant unique sous forme de suite décimales. De cette manière, nous évitons toutes confusion entre des données similaires mais non identiques.}
-}
-
-\newglossaryentry{vcs}{
-	name={vecteur},
-	description={Issus d'une vectorisation, le vecteur est une suite décimale unique calculés à partir des caractéristiques uniques d'une données. Ils peuvent être plus ou moins complexes et donc éviter des confusions. Ces vecteurs calculés sont ensuite stockés dans une base de données vectorielles permettant la comparaison des vecteurs.}
-}
-
-\newglossaryentry{LLM}{
-	name={\textit{Large Language Model}},
-	sort={large language model},
-	first={\textit{Large Language Model}},
-	text={LLM},
-	description={Souvent abrégé par LLM, les \textit{Large Language Model}, ou grand modèles de langues en français, sont des \glspl{IA} basée sur des \gls{tfmrs}. Ils sont spécialisés dans la compréhension de requête, l'analyse de données textuelles, le raisonement et la génération de réponse. Pour cela, elles sont entraînées sur de très grandes quantités de données par \gls{DPL} afin de leurs conférer ces capacités. Ces \gls{IA} sont concentrées autour de l'alliance entre les technologies regroupées et développées au sein du \gls{NLP} afin de pouvoir effectuer de tel traitement.}
-}
-
-\newglossaryentry{RAG}{
-	name={\textit{Retrieval Augmented Generation}},
-	first={\textit{Retrieval Augmented Generation}},
-	text={RAG},
-	sort={retrieval augmented generation},
-	description={Ici nous parlons d'une manière d'utiliser l'\gls{IA} parce que l'on appelle un \textit{pipeline} ici appelé \gls{RAG}. Il consiste à consolider la base de connaissance d'un \gls{LLM} en le connectant à une source de données contrôlées sur laquelle se baser pour la génération de réponses suite à une requête. Il fonctionne en 3 étapes : l'étape de \textit{retrieval} qui consite en la recherche des données pertinentes afin de répondre à la question utilisateur. L'étape de l'\textit{augmented} qui consiste a enrichir la réponse générées en faisant référence directement aux sources utilisées et identifiées lors de l'étape précédente. Puis l'étape de \textit{génération} qui consiste en la rédaction d'une réponse prenant pour contexte la requête utilisateur.\footnote{Pour plus d'informations sur ce procédé, consulter \footcite{tuzaInterrogerMemoireDentreprise2025}}}
-}
-
-\newglossaryentry{chck}{
-	name={\textit{Chunking}},
-	sort={chunking},
-	description={Procédé informatique fortement utilisé dans les différents domaines de l'\gls{IA}, qui consiste à diviser une informations en unité plus petites afin de la stocker plus facilement et d'être plus précis notamment dans des processus de \gls{RAG}.}
-}
-
-\newglossaryentry{RR}{
-	name={\textit{Re-Ranking}},
-	sort={re-ranking},
-	description={Procédé informatique s'appuyant sur une \gls{IA} généralement placée à la fin d'un processus de type \gls{RAG}. Il permet de réévaluer et réorganiser les résultats obtenus à l'issus du traitement avant transmission à l'utilisateur afin de s'assurer de leurs pertinences.}
-}
-
-\newglossaryentry{tk}{
-	name={\textit{token}},
-	sort={token},
-	description={En informatique, le \gls{tk} désigne une unité de stockage destiné à contenir une information de taille variable. En \gls{IA}, on s'en sert notamment afin de contenir des mots ou des morceaux de mots et de phrases. Ils désignent ainsi aussi bien ce qui est envoyé par l'utilisateurs lors d'une requête que ce qui est généré par l'\gls{IA}.}
-}
-
-\newglossaryentry{pipagreg}{
-	name={pipeline d'agrégation},
-	plural={pipelines d'agrégation},
-	description={Spécifique au langage \gls{NSQL}, notament le système MongoDB, désigne les étapes successives de traitement effectués sur les données afin de retourner à l'utilisateur les bonnes données. Il peut s'agir de calculs, de filtres ou bien de modification afin d'homogéniser le traitement et le résultat.}
-}
-
-\newglossaryentry{LEM}{
-	name={lemmatiser},
-	description={Procédé appliqué dans le domaine du \gls{NLP}, il désigne le fait ramener un mot conjugués, accorder ou décliner à son état de base que l'on appel le lemme. Un verbe conjuguer sera ainsi ramené à son infinitif par exemple. On l'utilise afin d'épurer le texte et d'en faciliter sa \guillemet{compréhension} sémantique}
-}
-
-\newglossaryentry{tfmrs}{
-	name={transformers},
-	description={Désigne une architecture neuronale développée par Google en 2017 et mise très tôt en application dans le domaine du \gls{NLP}\footcite{devlinBERTPretrainingDeep2019}. Ce modèle permet ce que l'on appelle l'\gls{autat} afin de saisir le sens global d'une phrase, d'un texte, et permet la parallélision des tâches ce qui accélère le traitement et les tâches d'apprentissage. Il vient remplacer les modèles basé sur \gls{CNN} dans le domaine du \gls{NLP} par son net avantage technologiques permettant de fiabiliser les résultats.}
-}
-
-\newglossaryentry{2SQL}{
-	name={\textit{Text-to-SQL}},
-	sort={text-to-sql},
-	description={Procédé informatique basé sur l'\gls{IA}, le \gls{RAG} et la recherche intelligente. Il consiste faciliter l'interrogation d'une base de données SQL par l'utilisateur à travers l'usage d'un \gls{LLM}. Il fonctionne en deux temps : d'abord la phase de compréhension de la base de données, permettant de construire le \gls{RAG} puis la phase de requêtage. L'idée générale est d'augmenter l'interrogeabilité de la base de données par la compréhension de la base de données et des requêtes lui étant adressé notamment grâces aux \gls{vcs}. \footnote{Pour plus d'informations, voir \footcite{TexttoSQLInterrogerVos2026}}}
-}
-
-\newglossaryentry{2NSQL}{
-	name={\textit{Text-to-NoSQL}},
-	sort={text-to-nosql},
-	description={Adaptation du procédé \gls{2SQL} aux particularité du langage et des bases de données \gls{NSQL}. Encore en développement, l'objectif et de permettre de conférer à un \gls{LLM} la capacité de comprendre et d'interragir avec une base de données \gls{NSQL} et ses particularités comme les \glspl{pipagreg} et la semi-structuration du langage. Il se base lui aussi sur un \gls{RAG}.}
-}
-
-\newglossaryentry{AGSQL}{
-	name={agent SQL},
-	description={Désigne un \gls{LLM}, souvent sous forme d'un \gls{ac}, capable de comprendre, interragir et générer du code SQL et de bases SQL. Dans des processus de \gls{2SQL}, il permet notamment de générer et vérifier la requête SQL générée avant de l'exécuter.}
-}
-
-\newglossaryentry{DDL}{
-	name={\textit{data definition language}},
-	sort={data definition language},
-	description={C'est un composant du langage SQL constituant à lui seul un langage à part entière. C'est part ce langage que l'on peut créer une base de données SQL ou en modifier sa structure par différentes opérations appelées CRUD pour \textit{Create}, \textit{Read}, \textit{Update} et \textit{Delete}}
-}
-
-\newglossaryentry{NSQL}{
-	name={NoSQL},
-	description={Acronyme de \textit{Not Only SQL}, désigne un ensemble de base de données, de typologies variées, ne fonctionnant pas sur un système de table comme le SQL. Ces bases de données ont leurs propres manière de structurer la données, de manière beaucoup plus souple puis que variable, et ont leurs propres manière d'interroger les données stockées. Les différentes typologies sont : les bases clés-valeurs comme Redis, les bases orientés documents comme MongoDB, les bases orientées colonnes comme Cassandra et les bases orientées graphes comme Neo4j.}
-}
-
-\newglossaryentry{chatbot}{
-	name={chatbot},
-	description={Désigne tout d'abord une réalité technique : un programme informatique conçus= sur un système de règles permettant de répondre à un utilisateur avec des réponses pré-définies. Se base sur les premières expérimentations de \gls{NLP}, ne correspondant plus à la réalité technique actuelle. Aujourd'hui, ce terme voit un nouvel usage, plus large, puisque désignant tout programme, \gls{IA} ou non, permettant d'interragir avec l'utilisateur par le texte. \footnote{Pour plus d'informations sur cette transition, consulter : \pageref{chatbot}}}
-}
-
-\newglossaryentry{AGIA}{
-	name={agent IA},
-	plural={agents IA},
-	description={Contrairement à l'\gls{ac}, l'\gls{AGIA} est un programme basé sur l'\gls{IA} capable d'interragir avec son environement informatique. Il est capable de prendre des décisions mais aussi d'utilisé des outils informatiques qui lui sont mis à disposition afin d'exécuter des tâches comme la manipulation de données.}
-}
-
-\newglossaryentry{FIAF}{
-	name={Fédération Internationale des Archives du Film},
-	first={Fédération Internationale des Archives du Film},
-	text={FIAF},
-	description={Fonder en 1938, fédération à portée internationale qui a pour objectif de protéger et d'assurer la préservation de la culture cinématographique, et plus largement de l'\gls{imgani}. Aujourd'hui, elle assume également un rôle de guide dans la standardisation et l'homogénéisation des pratiques dans la gestion des collections d'\gls{imgani}.}
-}
-
-\newglossaryentry{FRBR}{
-	name={FRBR},
-	description={Définis par l'\gls{IFLA} en 1997, c'est un modèle conceptuel conçu pour améliorer la gestion des collections bibliographiques dans les bibliothèques. Cela s'inscrit dans le mouvement de transition numérique de la gestion des collections et insiste sur la création de liens entre les exemplaires. Il repose essentiellement sur une architecture précise : le \gls{WEMI}. Depuis, ce modèle est adopté par de plus en plus d'institution notamment celles conservant des \glspl{imgani}.}
-}
-
-\newglossaryentry{WEMI}{
-	name={WEMI},
-	description={Fondement du modèle \gls{FRBR}, il s'agit d'un découpage en 4 entités d'une \oe{uvre} artistique y compris littéraire. On y distingue le \gls{oe}, \textit{Work}, qui désigne le concept. L'\gls{exp} qui caractérise une réalisation de ce concept sous une forme définie comme une pièce de théâtre, ou un film. La \gls{man} qui désigne toute production découlant de l'\gls{exp}. Puis l'\gls{it} qui désigne l'exemplaire que l'on conserve. Cette descontruction en 4 entités permet de créer plus de liens au sein des catalogues et donc des recherches transversales.}
-}
-
-\newglossaryentry{ont}{
-	name={ontologie},
-	plural={ontologies},
-	description={Désigne un moyen informatique d'organisation d'un domaine de connaissance, utilisé dans le Web Sémantique afin de créer des liens. L'ontologie se divise en plusieurs entités : la classe qui regroupent les objets et idées du domaine de connaissance choisi. La propriété qui est une caractérisitique attribué à une classe. Des relations qui sont caractérisé permettant de faire des liens entre les concepts et d'en explique la nature. Et des axiomes qui sont des ensembles de règles pour précisions du sens des termes.}
-}
-
-\newglossaryentry{vrt}{
-	name={variante},
-	description={Notion propre au monde de l'\gls{imgani} qui désigne une version divergente d'une \oe{uvre} originale sans constituer une \oe{uvre} à part entière. Introduit par la \gls{FIAF} dans le \gls{WEMI}, il permet de conscrire les modifications que peut vivre une \oe{uvre} cinématographique durant son cycle de vie qui viennent en modifier la structure ou le contenu sans que cela soit drastique.}
-}
-
-\newglossaryentry{sq}{
-	name={séquence},
-	description={Dans le milieu de l'\gls{imgani}, désigne un regroupement de \gls{sc} dans une unité de temps basée sur le partage d'une thématique commune, de sujet commun et contribuant à l'avancer d'un même point d'une intrigue. Notion surtout utilisée dans le domaine cinématographique, appartenant à la structure basique d'un film.}
-}
-
-\newglossaryentry{sc}{
-	name={scène},
-	description={Dans le milieu de l'\gls{imgani}, désigne l'unité la plus importante, notamment, d'un film. Une scène est définis comme un ensemble de \gls{pl} faisant figurer les mêmes personnages, dans les mêmes lieux, autours des mêmes actions et sujets. Notion surtout utilisée dans le domaine cinématographique, mais également applicable à toute \gls{imgani}}
-}
-
-\newglossaryentry{pl}{
-	name={plan},
-	description={Dans le milieu de l'\gls{imgani}, désigne une prise de vue simple, qui peut être fixe ou en mouvement, faisant figurer des personnes et/ou des lieux et des actions. Elle se compose de plusieurs images, et peuvent être plus ou moins courts en fonction des choix de réalisation. C'est l'unité la plus petites d'une \gls{imgani}. Chaque changement d'angle entraînant une nouvelle prise de vue amène un nouveau plan.}
-}
-
-\newglossaryentry{table}{
-	name={table},
-	description={La table constitue la structure de base d'une base de données SQL. Constituée de colonne et de ligne, elles permet de contenir des ensemble de données struturées. On parle d'enregistrement pour la donnée située sur la ligne, et d'attribus pour les colonnes. \newline Dans l'application SkinSoft, une table correspond à une unité thématiques de stockage de données. On parle par exemple de la \guillemet{table des archives}, car c'est dans cette partie de l'applicaiton que nous stockons les objets de collections que sont les archives. Ces tables sont rattachées à des index \gls{ES}, c'est à dire une struture de données particulières dédiée à l'objet concernés par la table.}
-}
-
-\newglossaryentry{grdr}{
-	name={grille de recherche},
-	description={Notion propre à l'application SkinSoft. La \gls{grdr} constitue un moyen simple d'afficher les données souhaitées des objets recherchés au sein de l'application. Hautement modifiable, l'utilisateur choisir quelle donnée il souhaite visualiser.}
-}
-
-\newglossaryentry{rush}{
-	name={\textit{rush}},
-	sort={rush},
-	description={Dans le milieu de l'\gls{imgani}, désigne les \gls{pl} qui sont enregistrer au moment de leurs prises de vues. Les \textit{rush} sont par définition bruts, sans modification effectuées en post production.}
-}
-
-\newglossaryentry{thesaurus}{
-	name={thésaurus},
-	description={Les thésaurus sont des hiérarchies de terme représentant des concepts rattachés à des domaines. De cette manière, ils constituent des listes de vocabulaires contrôlés fixant ainsi la terminologie utilisable pour décrire certains domaine. Particulièrement utilisé dans le monde patrimonial et les \gls{sgc} afin fixer la terminologie utilisée dans l'indexation.}
-}
-
-\newglossaryentry{mmlts}{
-	name={modèles multimodaux},
-	description={Modèles d'\gls{IA} permettant d'associer plusieurs domaines de traitement au sein d'un même outil afin de traiter plusieurs types de données. Ils associent généralement un \gls{LLM} à un encodeur dédié à un autre type de données. Ils permettent notamment d'analyser des vidéos ou des sons et de générer à partir de là, le plus fréquemment, des analyses textuelles.}
-}
-
-\newglossaryentry{man}{
-	name={manifestation},
-	description={Niveaux \gls{WEMI} qui désigne toute forme concrète prise par \gls{exp}. Une manifestation correspond à une matérialité bien définie, que l'on peu daté au moins sur une pério de production, obéissant à des critères strictes tels que la durée, le nombre de page, le lieux de production, la maison d'éditions, le réalisateurs, etc.}
-}
-
-\newglossaryentry{it}{
-	name={item},
-	description={Niveaux \gls{WEMI} le plus petit, il désigne l'exemplaire physique que l'on conserve au sein d'une institution ou que l'on détient. Il a des caractéristiques propres à sa vie en tant qu'objet indépendant du reste de son \gls{WEMI}.}
-}
-
-\newglossaryentry{exp}{
-	name={expression},
-	description={Niveaux \gls{WEMI} qui désigne une réalisation concrète d'un concept exprimé au niveau \gls{oe}. Sans avoir encore de forme physique très définies, ici on définis une forme intellectuelle qui incarne l'idée intellectuelle exprimée plus tôt.}
-}
-
-\newglossaryentry{oe}{
-	name={\oe{uvre}},
-	sort={oeuvre},
-	description={Niveaux \gls{WEMI} le plus haut, il désigne une idée artistique et intellectuelle que l'on réalise par la suite dans une \gls{exp}, une \gls{man} et un \gls{it} qui est le témoins de sa production. C'est le niveau le plus conceptuel, qui, en dehors du modèle adopté par la \gls{FIAF}, n'a pas de matérialité physique.}
-}
-
-\newglossaryentry{hist}{
-	name={histogramme},
-	description={La définition accordé à ce terme ici est celle de l'histogramme d'une bande vidéo. Désigne le graphique destiné à représenter la distribution de la lumière, de l'ombre et des tons au sein d'une image notamment une \gls{imgani}. Permet d'analyser la composition lumineuse d'une image.}
-}
-
-\newglossaryentry{ft}{
-	name={\textit{fine-tuning}},
-	sort={fine-tuning},
-	description={Technique en \gls{IA} qui consiste au réentrainement d'un modèle, comme un \gls{LLM}, sur un nouveaux jeux de données. Cela afin de le spécialiser sur une tâche précise, pour laquelle il ne l'est pas à l'origine. En l'entraînant sur un nouveau jeu de données, le modèle réajuste ces paramètres afin de se spécialiser sur le jeux de données en question. Un \gls{ft} trop poussé peu conduire à une sur-spécialisation du modèle, devenant efficace uniquement sur le jeux de données en question.}
-}
-
-\newglossaryentry{CNN}{
-	name={réseau de neuronnes convultifs},
-	first={réseau de neuronnes convultifs},
-	text={CNN},
-	description={C'est un type de réseaux de neuronnes créer pour l'analyse d'image et de vidéos. Chaque couche de réseaux de neuronnes applique un traitement particulié à l'image ou à la bande vidéo traitée. Chaque couche est dédiée à un traitement, qui s'effectuent de manière successive. Nous avons généralement trois couches : la couche dite de \guillemet{convultion} qui déconstruit l'image en zone et en extrait des motifs simples d'abord et complexes ensuite. La couche de regroupement qui sert à compresser les données afin d'accélérer et simplifier le traitement. La couche de connexion qui détermine le résultat final. Ces modèles permettent de faire de la \gls{cl}, de la \gls{seg} et de la \gls{do}.}
-}
-
-\newglossaryentry{CLIP}{
-	name={CLIP},
-	description={Développé par Open-AI, il s'agit d'un \gls{mmlts} capable de comprendre une image dans son sens global et de la décrire avec des mots. Ce modèles est aujourd'hui utilisé dans la plus part des \gls{VLM} afin de faciliter le traitement des images et \gls{imgani}.}
-}
-
-\newglossaryentry{ops}{
-	name={\textit{open-source}},
-	sort={open-source},
-	description={Désigne un mouvement informatique de mise à disposition du public le code informatique d'un logiciel. Cela permet donc de récupérer ces logiciels ou \gls{mod} d'\gls{IA}, de les modifier et de les utiliser au sein de \textit{pipelines} ou d'autre logiciel. Ce mouvement s'oppose aux logiciels dit propriétaire, gardant le code logiciel secret et ne permettant pas de le modifier. Cependant, \gls{ops} ne signifie pas gratuité et liberté absolue. Les logiciels appartenants à ce mouvement sont encadrés par des licences, réglementant leurs usages et distributions et peuvent être payants.}
-}
-
-\newglossaryentry{autat}{
-	name={auto-attention},
-	description={Méthode courante du \gls{NLP} permettant à une \gls{IA} d'évaluer l'importance de mots au sein d'une phrase. Cette méthode permet de dépasser le cadre grammatical afin de comprendre les relations conceptuels entre les mots et le contexte d'une phrase, permettant ainsi de déterminé quel mot est plus déterminant qu'un autre.}
-}
-
-\newglossaryentry{GPU}{
-	name={processeur graphique},
-	description={Composant informatique spécialisé sur le traitement des images et dédiés aux calculs à effectuer de les afficher.}
-}
-
-\newglossaryentry{zsht}{
-	name={\textit{zero-shot}},
-	sort={zero-shot},
-	description={En \gls{IA} désigne la capacité d'un \gls{mod} à reconnaître et traiter un objet ou une données sur laquelle il n'a pas été entraîné dès la première tentative. Pour cela, le \gls{mod} mobilise toutes ces connaissances afin de déterminer une méthode de traitement adapté, la mettre en place et la sauvegardé pour des traitements futurs.}
-}
-
-\newglossaryentry{diaz}{
-	name={diarisation},
-	description={Processus informatique basé sur de l'\gls{IA} consistant à pouvoir détecter au sein d'une \gls{imgani} qui parle et quand. De cette manière, on peut associer un dialogue au bon personnage.\footnote{Pour plus d'information, consulter : \url{https://sonix.ai/resources/fr/diarisation-des-locuteurs/}}}
-}
-
-\newglossaryentry{CPU}{
-	name={processeur},
-	description={Composant informatique agissant comme le centre de calcul de l'ordinateur. Il est chargé de réalisé tous les calcul nécessaire afin de lancer les applications, exécuter du code ou encore mobiliser des ressources comme la \gls{RAM} de manière intelligente pour des besoins précis. Il se compose de plusieurs caractéristiques essentielles : les c\oe{urs}, qui sont des composants physiques permettant de paralléliser les tâches, les threads, composant virtuels permettant la même chose, et la fréquence qui détermine la vitesse d'exécutions des calculs. }
-}
-
-\newglossaryentry{ALM}{
-	name={\textit{Audio Large Language Model}},
-	first={\textit{Audio Large Language Model}},
-	text={ALM},
-	sort={audio large language model},
-	description={Sous typoligie des \gls{mmlts}, elle est spécialisée sur le traitement du texte et des bandes sons. Elle permet d'analyser, transcrire, décrire une bande son.}
-}
-
-\newglossaryentry{mmn}{
-	name={multimodalité native},
-	plural={multimodalités natives},
-	description={Dans l'\gls{IA}, désigne un système conçu pour traiter tout type de données en entrée et créer tout type de donnée en sortie. Plus précisément, ce système doit être capable de traiter des données vidéos, sonores et textuelles en même temps, de la même manière et en conservant les liens les unissants si tel est le cas afin d'améliorer sa capacité d'analyse et de compréhension. Ce principe souhaite révolutionner les \gls{mmlts} actuels, ne prenant en charge qu'un seul type de données en entrée et en sortie. Cela pourrait révolutionner la compréhension de documents composites et complexe commes les \gls{imgani}}
-}
-
-\newglossaryentry{NVM}{
-	name={\textit{native multimodal modeling}},
-	sort={native multimodal modeling},
-	description={Désigne les modèles d'\gls{IA} correspondants aux principes de \gls{mmn}. Ils couvrent des modalités et typologies de modèles différentes, obéissant aux mêmes grandes logiques de traitement tout en divergeant un peu les uns des autres. \footnote{Pour plus d'information, voir : \pageref{revNVM} et \footcite{anNativeMultimodalModeling2026}}}
-}
-
-\newglossaryentry{sgc}{
-	name={système de gestion des collections},
-	plural={systèmes de gestion des collections},
-	description={Logiciels particulièrement utilisé dans le monde patrimonial permettant de gérer des collections d'objets patrimoniaux de manière informatiques. Ces fonctions principales sont : le catalogage, le suivis, la gestion de l'inventaire et la description des collections numériques et physiques. Ce sont des logiciels aujourd'hui très complexes et complets se comportant que de véritable outils de gestion et de prise de décision stratégique sur la gestion des collections patrimoniales. Ils constituent le c\oe{ur} des processus de traitement des collections patrimoniales et sont au centre des pratiques et enjeux métiers. Pour plus d'informations, voir \fullref{SGC?}}
-}
-
-\newglossaryentry{IAG}{
-	name={intelligence artificielle générative},
-	first={intelligence artificielle générative},
-	text={IA générative},
-	plural={intelligences artificielles génératives},
-	description={Typologie de modèle d'\gls{IA}, généralement des \gls{LLM}, capable de générer, à partir d'une requête, du texte, des images, des vidéos ou du sons. Ils ne se contentent pas d'analyser des données, mais de générer quelques choses qu'on lui a demandé à partir de ces analyses. Ces modèles sont aujourd'hui extrêment répandus et utilisé dans plein de domaine. Les \gls{ac} publics comme ChatGPT, Mistral et Claude sont des \glspl{IAG}}
-}
-
-\newglossaryentry{coref}{
-	name={coréférence},
-	description={Méthode de traitement propre au \gls{NLP} permettant d'associer un mot, une entité, à toutes ses références au sein d'une phrase ou d'un texte entier.}
-}
-
-\newglossaryentry{OM}{
-	name={\textit{opinion mining}},
-	sort={opinion mining},
-	description={Méthode de traitement propre au \gls{NLP} avec pour objectif d'identifier, extraire et analyser les sentiments, émotions et prises de positions exprimées au sein d'un texte. Permet l'analyse de texte dans le contenu intellectuel, notamment solicité dans l'analyse de discours.}
-}
-
-\newglossaryentry{seg}{
-	name={segmentation},
-	description={Dans le domaine de la \gls{CV} désigne la capacité d'une \gls{IA} de diviser l'image en fonctions des objets et entités qu'elle y trouve. Sans les identifier précisément, la segmentation permet d'isoler les objets et entités présentent les unes des autres et donc de resituer la composition d'une image.}
-}
-
-\newglossaryentry{do}{
-	name={détection d'objet},
-	description={Dans le domaine de la \gls{CV}, désigne la capacité d'une \gls{IA} de repérer et identifier un objet précis, pour lequel elle a été entraîné, au sein d'une image. On confonds souvent \gls{seg} et \gls{do}. Contrairement à la \gls{seg}, il ne s'agit pas de reconnaître tout les objets et toutes les entités au sein d'une image.}
-}
-
-\newglossaryentry{cl}{
-	name={classification},
-	description={Dans le domaine de la \gls{CV}, désigne la capacité d'une \gls{IA} à analyser une image et de lui attribuer une étiquette agissant comme une identité globale. Elle rattache des images à des groupements déjà prédéfinis selon des caractéristiques prédéfinies également. De cette manière, un \gls{mod} peut faire la distinction entre une photo, une peinture et une gravure par exemple.}
-}
-
-\newglossaryentry{mod}{
-	name={modèle},
-	description={Désigne tout programme informatique basée sur de l'\gls{IA} afin d'apprendre et réaliser des tâches, des prédictions ou bien des décisions à partir de données issus d'une requête. Le \gls{mod} constitue l'outil de base en ingénierie d'\gls{IA}.}
-}
-
-\newglossaryentry{RAM}{
-	name={mémoire vive},
-	description={Composant informatique qui définis la puissance de calcul et la rapidité de leurs exécution. Plus elle est importantes, plus il sera possible de réaliser un grand nombre de calcul plus rapidement et donc de traiter plus de données.}
-}
-
-\newglossaryentry{VRAM}{
-	name={mémoire vidéo},
-	description={Liée aux \gls{GPU}, c'est à dire que ces derniers en déterminent la quantité et disponibilité, elle définis la puissance de calcul dédiées aux traitements des images, vidéos et objets 3D disponibles. Plus il y a de mémoire vidéo, plus le nombre de calcul réalisable dans court délais appliqué à des images, vidéos et objet 3D augmente. Elle peut aussi être utilisée pour traiters d'autres catégories données, bien que ce ne soit pas son utilisation première et privilégiée.}
-}
-
-\newglossaryentry{2ES}{
-	name={\textit{Text-to-ElasticSearch}},
-	sort={text to elastisearch},
-	description={Processus similaire aux \gls{2SQL} et \gls{2NSQL} qui permet d'associer des outils d'\gls{IA} à \gls{ES} afin d'améliorer le système de recherche de ce dernier. Approche encore expérimentale, elle hybride les processus innovants \gls{2SQL} à la sécurité et robustesse de logiciel largement implémenter que sont les \gls{SRI}}
-}
-
-\newglossaryentry{ES}{
-	name={ElasticSearch},
-	description={ElasticSearch est un logiciel appartenant à la famille des \gls{SRI}. Il permet de stocker, analyser et redistribuer de la donnée textuelle sur de grands volums de données grâce à son système d'index en document \J. C'est une solution \gls{ops} et hautement scalable avec laquelle il est possible d'interragir par des APIs.}
-}
-
-\newglossaryentry{fctcall}{
-	name={\textit{function-calling}},
-	sort={function-calling},
-	description={Désigne la capacité accorder à un processus informatique de réutiliser un même bloc code afin d'effectuer une tâche définis, souvent répétitives. Dans l'\gls{IA}, le \gls{fctcall} amène aussi des notions de reconnaissance contextuelle et de prise de décisions de la part du \gls{mod} : il doit comprendre dans quel cas d'usage il est et appliqué le traitement approprié.}
-}
-
-\newglossaryentry{DAM}{
-	name={DAM},
-	sort={dam},
-	description={}
-}
-
-\newglossaryentry{RGPD}{
-	name={RGPD},
-	sort={rgpd},
-	description={}
-}
 
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
@@ -679,13 +166,13 @@
 
 \newcommand{\J}{JSON } %commande créée pour simplifier l'écriture de ce terme
 
-\newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. 
+\newcommand{\guillemet}[1]{\guillemetleft {#1} \guillemetright} %Commande permettant de mettre entre guillemet un mot très rapidement. Au lieux de repéter pour chaque mot \guillemetleft mot \guillemetright et \space, car le mot suivant était toujours collé à cela, j'ai créer cette commande pour aller plus vite. Je n'ai pas réussi à faire fonctionner les commandes \fg \og, c'est donc une alternative. 
 
-\newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre et \pageref{label} pour citer une page de référence. 
+\newcommand{\fullref}[1]{\textit{Chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}}} %Commande me permettant d'associer \ref{label}, faisant référence à un numéro de chapitre, à \nameref{label}, permettant d'utiliser le nom du chapitre et \pageref{label} pour citer une page de référence. Me permet d'effectuer des renvoies vers des chapitres du mémoire très facilement.
 
 \newcommand{\textref}[1]{chapitre~\ref{#1} «~\nameref{#1}~» page \pageref{#1}} %Variante de la commande précédente pour citation dans le corps de texte. L'italique ne s'y prête pas.
 
-\newcommand{\coeur}{c\oe{ur} } %Commande me permettant d'écrire plus rapidement le mot coeur en m'évitant de taper la commande \oe qui peut être pénible à placer.
+\newcommand{\coeur}{c\oe{ur} } %Commande me permettant d'écrire plus rapidement le mot coeur en m'évitant de taper la commande \oe qui peut être pénible à placer et à relire.
 
 
  %%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE
@@ -797,35 +284,28 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 	\part{La gestion numérique de collections composites dans le monde patrimonial et le secteur privé. }
 	
-\chapter{Système de gestion de collection et suite SkinSoft}
-%\input{exemple_section1.tex} %Input: importer un fichier
+\chapter[\Gls{sgc} et SkinSoft]{\Gls{sgc} et logiciel SkinSoft}
 
-\section{Qu’est ce qu’un système de gestion de collections à l’heure des collections doublement hétérogènes }
+
+\section[\Gls{sgc} : définition]{Le \gls{sgc} à l’heure des collections doublement hétérogènes}
 
 \input{./Chapitres/P1_C1_1.tex}
 
 \newpage
 
-\section{Défis et difficultées que doit relever un système de gestion des collections aujourd’hui : Bigdata et harmonisation des données }
+\section[Défis et enjeux actuels]{Défis et difficultés actuelles : \gls{bgdt} et \gls{intero} }
 
 \input{./Chapitres/P1_C1_2.tex}
 
 \newpage
 
-\section{Présentation de la solution SkinSoft }
+\section[Présentation du logiciel SkinSoft]{Présentation du logiciel SkinSoft }
 
 \input{./Chapitres/P1_C1_3.tex}
 
-%etc
-%Ou bien: ne pas mettre chapter, et importer le chapitre complet:
-%\input{mon_chapitre_1.tex}
-%\input{mon_chapitre_2.tex}	
-%etc
 
 
-
-
-\chapter{L'\glsfirst{IA} dans la gestion des collections}
+\chapter[\gls{IA} et gestion des collections]{L'\glsfirst{IA} dans la gestion des collections}
 
 \section{Réalités de l'\gls{IA} dans le domaine patrimonial}
 \label{1.2.1}
@@ -846,17 +326,17 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 
 
-	\part{Implémenter l’\glsfirst{IA} dans un \gls{sgc} : étude de cas SkinSoft.}
+	\part{Implémenter l’\glsfirst{IA} dans un \gls{sgc} : étude du cas SkinSoft.}
 	
-\chapter{Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}
+\chapter[\gls{NLP} et \gls{sgc}]{Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}
 
-\section{La recherche et l’utilisation de la solution dans le logiciel SkinSoft }
+\section[Recherche et usage : constat d'origine]{La recherche et l’utilisation de la solution dans le logiciel SkinSoft }
 
 \input{./Chapitres/P2_C1_1.tex}
 	
 \newpage
 	
-\section{Recherche augmentée et \gls{chatbot}/\gls{AGIA} : état de l'art.}
+\section{Recherche augmentée et \gls{chatbot} : états de l'art.}
 
 \input{./Chapitres/P2_C1_2.tex}
 
@@ -880,7 +360,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 \newpage
 
-\section[Enjeux utilisateurs]{Enjeux utilisateurs : comment implémenter cette fonctionnalité en respectant l’utilisateur dans son usage de l’application et son rapport avec l’intelligence artificielle ?}
+\section[Enjeu utilisateur et d'implémentation]{Enjeux utilisateurs : comment implémenter cette fonctionnalité en respectant l’utilisateur dans son usage de l’application et son rapport avec l’intelligence artificielle ?}
 
 \input{./Chapitres/P2_C2_3.tex}
 
@@ -906,7 +386,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 	%etc.
 	
 	
-	\part*{Conclusion}
+\part*{Conclusion}
 	\input{./Chapitres/conclusion.tex}
 	\addcontentsline{toc}{chapter}{Conclusion}
 	
