@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  10 SEP 2026 12:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  10 SEP 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,6 +1610,13 @@ n[]\TU/lmr/m/n/12 ​
 [5
 
 ]
+Overfull \hbox (19.7565pt too wide) in paragraph at lines 270--270
+[][][]\TU/lmr/m/sc/12 Awad[]\TU/lmr/m/n/12 ​ (George), []\TU/lmr/m/sc/12 Diduch
+[]\TU/lmr/m/n/12 ​ (Lukas), []\TU/lmr/m/sc/12 Graham[]\TU/lmr/m/n/12 ​ (Yvette)
+, []\TU/lmr/m/sc/12 Quenot[]\TU/lmr/m/n/12 ​ (Georges) et []\TU/lmr/m/sc/12 Que
+not[]\TU/lmr/m/n/12 ​ (Georges),
+ []
+
 Missing character: There is no ‎ (U+200E) in font [lmroman12-italic]:mapping=te
 x-text;!
 Missing character: There is no ‎ (U+200E) in font [lmroman12-italic]:mapping=te
@@ -1625,6 +1632,44 @@ ex-text;!
 [8]
 
 [9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+Overfull \hbox (12.4589pt too wide) in paragraph at lines 270--270
+[][][]\TU/lmr/m/sc/12 MPEG[]\TU/lmr/m/n/12 ​, \TU/lmr/m/it/12 Standards – MPEG\
+TU/lmr/m/n/12 , \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[] [] [] [] []  [] [] [
+] [] [] []  [] [] [] [] []  [] [] [] []  [] [] [] [] [] [] [] [] [] [] []$[] (v
+isité le 15/05/2026). 
+ []
+
+Missing character: There is no 袁 (U+8881) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 粒 (U+7C92) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 课 (U+8BFE) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 题 (U+9898) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 组 (U+7EC4) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 北 (U+5317) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 大 (U+5927) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 深 (U+6DF1) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 研 (U+7814) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 院 (U+9662) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 Overfull \hbox (14.92871pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 Poibeau[]\TU/lmr/m/n/12 ​ (Thierry), «  Le traitement aut
 omatique des langues pour les sciences sociales :Quelques
@@ -1632,7 +1677,11 @@ omatique des langues pour les sciences sociales :Quelques
 
 
 
-[10]
+[15]
+
+[16]
+
+[17]
 Overfull \hbox (0.74863pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 Stutzmann[]\TU/lmr/m/n/12 ​ (Dominique), []\TU/lmr/m/sc/1
 2 Moufflet[]\TU/lmr/m/n/12 ​ (Jean-François) et []\TU/lmr/m/sc/12 Hamel[]\TU/lm
@@ -1640,14 +1689,14 @@ r/m/n/12 ​ (Sébastien), «  La recherche
  []
 
 
-
-[11]
 Overfull \hbox (16.06882pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/n/12 Universal bibliographic control and international MARC pro
 gramme[]​ et []Fédération internationale
  []
 
 
+
+[18]
 Overfull \hbox (17.96452pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
@@ -1657,60 +1706,58 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
 
 
 
-[12]
-
-[13]
-
-[14
-
-] (./Chapitres/introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-
-[18]
-
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+[20] (./Chapitres/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+
+[24]
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 )
 
-[20]
+[26]
 
 [1
 
@@ -1846,11 +1893,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 Chapitre 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 309.
+(hyperref)                removing `\gls' on input line 308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 311.
+(hyperref)                removing `\gls' on input line 310.
 
 (./Chapitres/P1_C2_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -1915,7 +1962,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 )
 
-[21] (./Chapitres/P1_C2_2.tex
+[21]
+
+[22] (./Chapitres/P1_C2_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1932,35 +1981,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 )
 
-[25] (./Chapitres/P1_C2_3.tex
+[26] (./Chapitres/P1_C2_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
 
-[26]
+[27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 23.
@@ -1972,32 +2021,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 )
 
-[27]
+[28]
 
-[28
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsfirst' on input line 329.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 329.
+
+
+
+[29
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsfirst' on input line 330.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 330.
-
-
-
-[29]
 
 [30]
 Chapitre 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 332.
+(hyperref)                removing `\gls' on input line 331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 332.
+(hyperref)                removing `\gls' on input line 331.
 
 (./Chapitres/P2_C1_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -2068,7 +2115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 [38]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 340.
+(hyperref)                removing `\gls' on input line 339.
 
 (./Chapitres/P2_C1_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -2224,13 +2271,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--342
  []
 
 
+
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-
-[48]
 Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
@@ -2255,12 +2302,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 )
 
 [50]
-Overfull \hbox (9.4479pt too wide) in paragraph at lines 346--346
+Overfull \hbox (9.4479pt too wide) in paragraph at lines 345--345
 []\TU/lmr/bx/n/17.28 Enjeux utilisateurs : comment implémenter ces fonc-
  []
 
 
-Overfull \hbox (7.0568pt too wide) in paragraph at lines 346--346
+Overfull \hbox (7.0568pt too wide) in paragraph at lines 345--345
 \TU/lmr/bx/n/17.28 tionnalités en respectant l’utilisateur dans son usage
  []
 
@@ -2320,7 +2367,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Chapitre 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 350.
+(hyperref)                removing `\gls' on input line 349.
 
 (./Chapitres/P2_C2_1.tex
 
@@ -2450,7 +2497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 )
 
 [64]
-Overfull \hbox (39.8024pt too wide) in paragraph at lines 358--358
+Overfull \hbox (39.8024pt too wide) in paragraph at lines 357--357
 []\TU/lmr/bx/n/17.28 Les différentes réalités de l’indexation semi-automatisée 
 :
  []
@@ -2556,13 +2603,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
 
 [73]
+
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-
-[74]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -2590,7 +2637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
  []
 
 
-Underfull \vbox (badness 2197) has occurred while \output is active []
+Underfull \vbox (badness 1603) has occurred while \output is active []
 
 
 
@@ -2621,13 +2668,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-
-[78]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
@@ -2665,23 +2715,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
  []
 
 
+
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[81]
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 )
 
-[82] (./Chapitres/P2_C2_3.tex
+[82]
+
+[83] (./Chapitres/P2_C2_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2698,9 +2747,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 
 
-[83]
-
 [84]
+
+[85]
 Overfull \hbox (6.56958pt too wide) in paragraph at lines 28--29
 []\TU/lmr/m/n/12 Mais différents éléments relevant des logiques d’implémentatio
 ns et des questions d’usages
@@ -2713,19 +2762,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
 )
 
-[85]
+[86]
 
-[86
+[87
 
 ]
-
-[87]
 
 [88]
 Chapitre 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 371.
+(hyperref)                removing `\gls' on input line 370.
 
 (./Chapitres/P3_C1.tex
 
@@ -3276,7 +3323,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.66978pt}.
 
 [115])
-Underfull \hbox (badness 10000) in paragraph at lines 157--380
+Underfull \hbox (badness 10000) in paragraph at lines 157--379
 
  []
 
@@ -3416,10 +3463,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 
-LaTeX Warning: Reference `chatbot' on page 130 undefined on input line 47.
+LaTeX Warning: Reference `chatbot' on page 130 undefined on input line 45.
 
 
-Overfull \hbox (0.77545pt too wide) in paragraph at lines 71--73
+Overfull \hbox (0.77545pt too wide) in paragraph at lines 69--71
 []\TU/lmr/m/n/12 La \TU/lmr/m/it/12 computer vision\TU/lmr/m/n/12 , ou vision p
 ar ordinateur en français, est sous-domaine
  []
@@ -3438,7 +3485,7 @@ ar ordinateur en français, est sous-domaine
 
 [135]
 
-Package biblatex Warning: Nested notes on input line 310.
+Package biblatex Warning: Nested notes on input line 309.
 
 
 
@@ -3446,21 +3493,15 @@ Package biblatex Warning: Nested notes on input line 310.
 
 [137]
 
-Package biblatex Warning: Nested notes on input line 413.
+Package biblatex Warning: Nested notes on input line 407.
 
 
 
 [138]
-Overfull \hbox (0.1248pt too wide) in paragraph at lines 464--473
-\TU/lmr/m/n/12 trimonial permettant de gérer des collections d’objets patrimoni
-aux de manière informa-
- []
-
-
 
 [139]
 
-Package biblatex Warning: Nested notes on input line 502.
+Package biblatex Warning: Nested notes on input line 492.
 
 
 
@@ -3510,12 +3551,12 @@ Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50010 strings out of 468389
- 1043774 string characters out of 5440619
- 2044035 words of memory out of 5000000
- 77813 multiletter control sequences out of 15000+600000
+ 50433 strings out of 468389
+ 1063910 string characters out of 5440619
+ 2238977 words of memory out of 5000000
+ 78236 multiletter control sequences out of 15000+600000
  633389 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,117p,3045b,6654s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,117p,3045b,6661s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (169 pages).
+Output written on document_maitre.pdf (175 pages).

@@ -20,7 +20,7 @@
 \usepackage{csquotes} % les guillemets français
 \usepackage{lettrine} %faire une lettrine (pas obligatoire)
 
-\usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
+\usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc).
 \counterwithout{footnote}{chapter}
 \addbibresource{./biblio/memoire.bib} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
 %\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
@@ -152,7 +152,7 @@
 \makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
 
-\loadglsentries{./Chapitres/glossaire.tex} %permet de faire le lien avec mon document de glossaire et de l'utiliser.
+\loadglsentries{./Chapitres/glossaire} %permet de faire le lien avec mon document de glossaire et de l'utiliser.
 
 
 
@@ -266,8 +266,8 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
 
-%\nocite{*} % permet d'afficher la bibliographie exhaustive, y compris les références non citées. A commenter afin de faire la marche inverse.
-\printbibliography[title={Bibliographie exhaustive}]
+\nocite{*} % permet d'afficher la bibliographie exhaustive, y compris les références non citées. A commenter afin de faire la marche inverse.
+\printbibliography[title={Bibliographie exhaustive}] % pour certaines entrées, je n'ai pas d'auteur car il s'agit de blog ou article web anonyme. Malgré plusieurs recherches, aucun nom d'auteur est accessible.
 
 \chapter{Introduction}	
 
@@ -282,7 +282,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 	
 
-	\part{La gestion numérique de collections composites dans le monde patrimonial et le secteur privé. }
+	\part{La gestion numérique de collections composites dans le monde patrimonial et le secteur privé.}
 	
 \chapter[\Gls{sgc} et SkinSoft]{\Gls{sgc} et logiciel SkinSoft}
 
@@ -293,7 +293,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 \newpage
 
-\section[Défis et enjeux actuels]{Défis et difficultés actuelles : \gls{bgdt} et \gls{intero} }
+\section[Défis et enjeux actuels]{Défis et difficultés actuelles : \gls{bgdt} et \gls{intero}}
 
 \input{./Chapitres/P1_C1_2.tex}
 
@@ -330,13 +330,13 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 	
 \chapter[\gls{NLP} et \gls{sgc}]{Le traitement du langage naturel : faciliter l’usage et fiabiliser la recherche}
 
-\section[Recherche et usage : constat d'origine]{La recherche et l’utilisation de la solution dans le logiciel SkinSoft }
+\section[Recherche et usage : constat d'origine]{La recherche et l’utilisation de la solution dans le logiciel SkinSoft}
 
 \input{./Chapitres/P2_C1_1.tex}
 	
 \newpage
 	
-\section{Recherche augmentée et \gls{chatbot} : états de l'art.}
+\section{Recherche augmentée et \gls{chatbot} : état de l'art.}
 
 \input{./Chapitres/P2_C1_2.tex}
 
@@ -346,15 +346,15 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 \input{./Chapitres/P2_C1_3.tex}
 
-\chapter[Traitement et indexation de l'\gls{imgani}]{Faciliter l’indexation par sa semi-automatisation : le cas de l’image animée}
+\chapter[Traitement et indexation de l'\gls{imgani}]{Faciliter l’indexation par sa semi-automatisation : le cas de l’\gls{imgani}}
 
-\section[Dans le logiciel Skinsoft]{La gestion de l’image animée dans le logiciel SkinSoft}
+\section[Dans le logiciel Skinsoft]{La gestion de l’\gls{imgani} dans le logiciel SkinSoft}
 
 \input{./Chapitres/P2_C2_1.tex}
 
 \newpage
 
-\section[Outils et réalité technique]{Les différentes réalités de l’indexation semi-automatisée : focus sur l’image animées, un objet documentaire particulier.}
+\section[Outils et réalité technique]{Les différentes réalités de l’indexation semi-automatisée : focus sur l’\gls{imgani}, un objet documentaire particulier.}
 
 \input{./Chapitres/P2_C2_2.tex}
 
@@ -367,7 +367,7 @@ Je souhaite également adresser des remerciements à mon entourage proche, et no
 
 	\part{Solutions élaborées et résultats obtenus}
 	
-\chapter{ Recherche Augmentée et \gls{chatbot} : conception technique, conception utilisateur et résultat.}
+\chapter{Recherche Augmentée et \gls{chatbot} : conception technique, conception utilisateur et résultat.}
 
 \input{./Chapitres/P3_C1.tex}
 
