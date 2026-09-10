@@ -24,7 +24,7 @@ La combinaison de ces trois éléments permet de créer la recherche intelligent
 \centering
 \begin{tikzpicture}[
 node distance=1.2cm,
-% Définition directe des styles à l'intérieur de l'environnement tikzpicture
+% Définition  styles des noeuds et flèches
 stepbox/.style={
 rectangle,
 draw=blue!80!black,
@@ -44,11 +44,10 @@ draw=blue!80!black
 }
 ]
 
-% --- 1. LES SOURCES ---
+% Création des noeuds 
 \node (sources) [font=\sffamily\small, align=center, text=gray!80!black] 
 {Sources de données : \textit{(PDF, Base de données, ...)}};
 
-% --- 2. LES 4 ÉTAPES CLÉS ---
 \node (e1) [stepbox, below=0.8cm of sources] {
 \textbf{1. Connexion à la source de données}\\
 \small Connecte l'outil aux données stockées.
@@ -69,7 +68,7 @@ draw=blue!80!black
 \gls{vcs} calculés à partir des données indexées.
 };
 
-% --- 3. FLÈCHES DE LIAISON ---
+% Création des flèches pour lier les noeuds
 \draw [arrow] (sources) -- (e1);
 \draw [arrow] (e1) -- (e2);
 \draw [arrow] (e2) -- (e3);
@@ -90,7 +89,7 @@ L'envoi d'une requête utilisateur formulée en langage naturel déclenche une n
 \centering
 \begin{tikzpicture}[
 node distance=1cm,
-% Style des blocs standards
+% Définitions du style des blocs et flèches
 box/.style={
 rectangle,
 draw=blue!80!black,
@@ -102,7 +101,7 @@ minimum height=1.1cm,
 align=center,
 font=\sffamily\small
 },
-% Style des flèches
+
 arrow/.style={
 ->,
 >=Stealth,
@@ -111,7 +110,7 @@ draw=blue!80!black
 }
 ]
 
-% --- LES ÉTAPES DU FLUX ACTIF ---
+% Définition des noeuds
 
 \node (e1) [box] {
 \textbf{1. Réception de la requête}\\
@@ -138,7 +137,7 @@ draw=blue!80!black
 \small Tri et affichage des réponses les plus pertinentes
 };
 
-% --- FLÈCHES DE LIAISON ---
+% Définition des flèches pour lier les noeuds
 \draw [arrow] (e1) -- (e2);
 \draw [arrow] (e2) -- (e3);
 \draw [arrow] (e3) -- (e4);
