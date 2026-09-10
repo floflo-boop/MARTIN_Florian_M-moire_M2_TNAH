@@ -1,2 +1,4 @@
-# MARTIN_Florian_M-moire_M2_TNAH
-Repo de rendu du mémoire de deuxième année du Master TNAH 
+# MARTIN_Florian_Mémoire_M2_TNAH
+
+Voici mon mémoire de M2 Technologies Numériques Appliquées à l'Histoire pour examen de Latex. 
+
