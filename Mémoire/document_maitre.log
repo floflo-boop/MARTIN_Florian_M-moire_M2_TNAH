@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  10 SEP 2026 16:59
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.16)  10 SEP 2026 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2130,14 +2130,14 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
 
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
@@ -2146,16 +2146,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--256
 [42]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 267.
+(hyperref)                removing `\gls' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 267.
+(hyperref)                removing `\gls' on input line 265.
 
 
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
@@ -2165,137 +2165,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 File: ./Schema/Text-to-SQL.png Graphic file (type bmp)
 <./Schema/Text-to-SQL.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Recherche séman-
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 323--323
+Underfull \hbox (badness 2080) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Hallucinations, opa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Fiabilité des ré-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 sultats, prises en
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 323--323
+Underfull \hbox (badness 5985) in paragraph at lines 321--321
 \TU/lmr/m/it/10.95 definition language[]\TU/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 323--323
+Underfull \hbox (badness 1466) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 requêtes vites com-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 323--323
+Underfull \hbox (badness 5077) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 plexes et sclabilité
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Traduction de re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 quête en langage
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 323--323
+Underfull \hbox (badness 2837) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 naturel en [][]pipeline
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 323--323
+Underfull \hbox (badness 4108) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Souplesse face aux
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 323--323
+Underfull \hbox (badness 1721) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 structures des don-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 []|\TU/lmr/m/n/10.95 Fonctionne sur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 échantillonnage,
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 323--323
+Underfull \hbox (badness 3302) in paragraph at lines 321--321
 \TU/lmr/m/n/10.95 absence de schéma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
 
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
